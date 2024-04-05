@@ -9,7 +9,7 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 // Enable CORS for all routes
-// app.use(cors());
+app.use(cors());
 app.get('/api/images/:imageName', async (req, res) => {
     const { imageName } = req.params;
     const widthStr = req.query.width;
