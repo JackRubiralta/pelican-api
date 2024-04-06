@@ -1,84 +1,56 @@
 {
-    "new": [
+  
+  "new": [
+    {
+      "id": "69324",
+      "title": {
+        "text": "Local Start-Up Aims to Revolutionize Recycling Across the City",
+        "size": "big"
+      },
+      "summary": {
+        "content": "An innovative new company is making waves with its advanced AI technology for managing recyclable materials, setting a new standard for sustainability and efficiency.",
+        "show": true
+      },
+      "image": {
+        "source": "/images/recycling-startup.jpg",
+        "position": "bottom",
+        "caption": "The innovative AI technology employed by the start-up is set to transform recycling processes.",
+        "show": true
+      },
+      "date": "2024-03-27",
+      "author": "John Doe",
+      "length": 7,
+      "content": [
         {
-            "id": "69324",
-            "title": {
-                "text": "Local Start-Up Aims to Revolutionize Recycling Across the City",
-                "size": "big"
-            },
-            "summary": {
-                "content": "An innovative new company is making waves with its advanced AI technology for managing recyclable materials, setting a new standard for sustainability and efficiency.",
-                "show": true
-            },
-            "image": {
-                "source": "/images/recycling-startup.jpg",
-                "position": "bottom",
-                "caption": "The innovative AI technology employed by the start-up is set to transform recycling processes.",
-                "show": true
-            },
-            "date": "2024-03-27",
-            "author": "John Doe",
-            "length": 7,
-            "content": [
-                {
-                    "type": "paragraph",
-                    "text": "In an effort to combat the growing crisis of the planet and promote better place, a local start-up has emerged with a new solution for managing recyclable materials. Utilizing cutting edge artificial intelligence technology, the company aims to revolutionize recycling practices across the city."
-                },
-                {
-                    "type": "image",
-                    "source": "/images/new-recycling.jpg",
-                    "caption": "The innovative AI technology employed by the start-up is set to transform recycling processes."
-                },
-                {
-                    "type": "paragraph",
-                    "text": "The start-up's AI-powered system is designed to streamline the recycling process, making it more efficient and cost-effective. By automatically sorting and categorizing recyclable materials, the technology significantly reduces the need for manual labor, ultimately increasing recycling rates and minimizing waste."
-                },
-                {
-                    "type": "paragraph",
-                    "text": "Moreover, the system is equipped with advanced machine learning algorithms that continuously improve its performance over time. This ensures that the recycling process remains optimized and adaptable to changing circumstances, further enhancing its sustainability impact."
-                },
-                {
-                    "type": "paragraph",
-                    "text": "John Smith, CEO of the start-up, expressed his enthusiasm for the potential of their technology to make a meaningful difference in the community. 'We believe that effective waste management is crucial for building a more sustainable future,' he stated. 'By harnessing the power of AI, we can transform recycling into a more efficient and environmentally friendly process.'"
-                },
-                {
-                    "type": "image",
-                    "source": "/images/city-council.jpg",
-                    "caption": "The innovative AI technology employed by the start-up is set to transform recycling processes."
-                },
-                {
-                    "type": "paragraph",
-                    "text": "The company's ambitious vision has already attracted significant attention from investors and environmental organizations alike. With plans to expand their operations city-wide, the start-up is poised to lead the way in revolutionizing recycling practices and promoting a greener, more sustainable urban environment."
-                }
-            ]
+          "type": "paragraph",
+          "text": "In an effort to combat the growing crisis of the planet and promote better place, a local start-up has emerged with a new solution for managing recyclable materials. Utilizing cutting edge artificial intelligence technology, the company aims to revolutionize recycling practices across the city."
         },
         {
-            "id": "1000",
-            "title": {
-                "text": "Test",
-                "size": "medium"
-            },
-            "summary": {
-                "content": "Testing article for testing the pelican-cli",
-                "show": true
-            },
-            "image": {
-                "source": "",
-                "position": "",
-                "caption": "",
-                "show": false
-            },
-            "date": "2024-03-13",
-            "author": "Jack Rubiralta",
-            "length": 2,
-            "content": [
-                {
-                    "type": "paragraph",
-                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                }
-            ]
+          "type": "image",
+          "source": "/images/new-recycling.jpg",
+          "caption": "The innovative AI technology employed by the start-up is set to transform recycling processes."
+        },
+        {
+          "type": "paragraph",
+          "text": "The start-up's AI-powered system is designed to streamline the recycling process, making it more efficient and cost-effective. By automatically sorting and categorizing recyclable materials, the technology significantly reduces the need for manual labor, ultimately increasing recycling rates and minimizing waste."
+        },
+        {
+          "type": "paragraph",
+          "text": "Moreover, the system is equipped with advanced machine learning algorithms that continuously improve its performance over time. This ensures that the recycling process remains optimized and adaptable to changing circumstances, further enhancing its sustainability impact."
+        },
+        {
+          "type": "paragraph",
+          "text": "John Smith, CEO of the start-up, expressed his enthusiasm for the potential of their technology to make a meaningful difference in the community. 'We believe that effective waste management is crucial for building a more sustainable future,' he stated. 'By harnessing the power of AI, we can transform recycling into a more efficient and environmentally friendly process.'"
+        },
+        {
+          "type": "image",
+          "source": "/images/city-council.jpg",
+          "caption": "The innovative AI technology employed by the start-up is set to transform recycling processes."
+        },
+        {
+          "type": "paragraph",
+          "text": "The company's ambitious vision has already attracted significant attention from investors and environmental organizations alike. With plans to expand their operations city-wide, the start-up is poised to lead the way in revolutionizing recycling practices and promoting a greener, more sustainable urban environment."
         }
-<<<<<<< HEAD
       ]
     },    
     {
@@ -678,8 +650,4 @@
       "content": []
     }
   ]
-=======
-    ],
-    "athletics": []
->>>>>>> 04172ba610fdf2c3bfefcf8963471eabdcbade72
 }
