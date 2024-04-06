@@ -18,7 +18,7 @@ app.get('/api/images/:imageName', async (req, res) => {
       width = 500; // Default width
     }
   
-    const imagePath = path.join(__dirname, 'images', imageName);
+    const imagePath = path.join(__dirname, 'data/articles/images', imageName);
   
     try {
       if (fs.existsSync(imagePath)) {
@@ -40,7 +40,7 @@ app.get('/api/images/:imageName', async (req, res) => {
 app.use(morgan('combined'));
 
 // Read the data file
-const dataPath = path.join(__dirname, 'data.json');
+const dataPath = path.join(__dirname, 'data/articles/articles.json');
 let articlesData = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
 
 app.use(express.json());
@@ -92,6 +92,29 @@ app.get('/api/search', (req, res) => {
 });
 
 
+// API endpoint to get crossword puzzle
+app.get('/api/crossword', (req, res) => {
+    // Define the path to the crossword JSON file
+    const crosswordPath = path.join(__dirname, 'data/crosswords/crossword1.json');
+  
+    try {
+      // Check if the crossword file exists
+      if (fs.existsSync(crosswordPath)) {
+        // Read the content of the crossword JSON file
+        const crosswordData = JSON.parse(fs.readFileSync(crosswordPath, 'utf8'));
+        // Send the crossword data as JSON
+        res.json(crosswordData);
+      } else {
+        // If the crossword file does not exist, send a 404 response
+        res.status(404).send('Crossword not found');
+      }
+    } catch (error) {
+      console.error(error);
+      // In case of any server error, send a 500 response
+      res.status(500).send('Server error');
+    }
+});
+
 // API endpoint to get an article by ID without specifying a category
 app.get('/api/articles/:id', (req, res) => {
     const { id } = req.params;
@@ -109,56 +132,6 @@ app.get('/api/articles/:id', (req, res) => {
         res.status(404).send('Article not found');
     }
 });
-
-/*
-app.post('/api/addArticle', (req, res) => {
-    const { category, article } = req.body; // Expect category and article in the body
-
-    if (!category || !article) {
-        return res.status(400).send('Category and article data are required');
-    }
-
-    if (!['new', 'athletics'].includes(category)) {
-        return res.status(400).send('Invalid category');
-    }
-
-    // Generate a unique ID for the new article
-    const newId = Date.now().toString(); // Example ID generation strategy
-    const newArticle = { id: newId, ...article };
-
-    articlesData[category].push(newArticle);
-
-    // Write the updated articlesData back to data.json
-    fs.writeFileSync(dataPath, JSON.stringify(articlesData, null, 2));
-
-    res.status(201).send('Article added successfully');
-});
-
-const formidable = require('formidable');
-const fs = require('fs');
-const path = require('path');
-
-app.post('/api/uploadImage', (req, res) => {
-    const form = new formidable.IncomingForm();
-    form.uploadDir = path.join(__dirname, 'images');
-    form.keepExtensions = true;
-
-    form.parse(req, (err, fields, files) => {
-        if (err) {
-            return res.status(500).send('Server error during image upload');
-        }
-
-        const oldPath = files.image.filepath;
-        const newPath = path.join(form.uploadDir, files.image.originalFilename);
-
-        fs.rename(oldPath, newPath, (err) => {
-            if (err) return res.status(500).send('Server error during file saving');
-
-            res.status(200).send('Image uploaded successfully');
-        });
-    });
-});
-*/
 
 app.listen(PORT, () => {
     console.log(`Server running on ${PORT}`);
