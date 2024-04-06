@@ -110,6 +110,55 @@ app.get('/api/articles/:id', (req, res) => {
     }
 });
 
+/*
+app.post('/api/addArticle', (req, res) => {
+    const { category, article } = req.body; // Expect category and article in the body
+
+    if (!category || !article) {
+        return res.status(400).send('Category and article data are required');
+    }
+
+    if (!['new', 'athletics'].includes(category)) {
+        return res.status(400).send('Invalid category');
+    }
+
+    // Generate a unique ID for the new article
+    const newId = Date.now().toString(); // Example ID generation strategy
+    const newArticle = { id: newId, ...article };
+
+    articlesData[category].push(newArticle);
+
+    // Write the updated articlesData back to data.json
+    fs.writeFileSync(dataPath, JSON.stringify(articlesData, null, 2));
+
+    res.status(201).send('Article added successfully');
+});
+
+const formidable = require('formidable');
+const fs = require('fs');
+const path = require('path');
+
+app.post('/api/uploadImage', (req, res) => {
+    const form = new formidable.IncomingForm();
+    form.uploadDir = path.join(__dirname, 'images');
+    form.keepExtensions = true;
+
+    form.parse(req, (err, fields, files) => {
+        if (err) {
+            return res.status(500).send('Server error during image upload');
+        }
+
+        const oldPath = files.image.filepath;
+        const newPath = path.join(form.uploadDir, files.image.originalFilename);
+
+        fs.rename(oldPath, newPath, (err) => {
+            if (err) return res.status(500).send('Server error during file saving');
+
+            res.status(200).send('Image uploaded successfully');
+        });
+    });
+});
+*/
 
 app.listen(PORT, () => {
     console.log(`Server running on ${PORT}`);
