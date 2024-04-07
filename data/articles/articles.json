@@ -603,6 +603,64 @@
                 "show": false,
                 "position": "bottom"
             }
+        },
+        {
+            "id": "xPkippswwj",
+            "title": {
+                "text": "What's New about the Digital SAT?",
+                "size": "big"
+            },
+            "summary": {
+                "content": "",
+                "show": false
+            },
+            "author": "Lucas Miller",
+            "date": "2024-04-05",
+            "length": 3,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "March break revives the stamina of the SPS community, giving students, faculty and staff a well-deserved rest. On the other side of break lies spring term with its warm sunny days, Spikeball on Chapel Lawn, and afternoons at the Boat Docks. But spring term brings another, less alluring period: standardized testing season. Following October\u2019s PSAT, March, April and May are prime time for a shot at the real deal. 2024 launches a new SAT: it will be all-digital starting on March 9 and continuing in perpetuity. "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "The paper-and-pencil SAT, which consisted of 154 questions and lasted roughly three hours, has long been a ubiquitous source of stress among high schoolers. The College Board\u2019s replacement, the digital SAT (dSAT), lasts two hours and 14 minutes, whcih the College Board says will reduce stress. Additionally, the long-winded paper and pencil passages and accompanying questions have been replaced with 54 one-paragraph-length passages matched one-to-one with each question."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "The dSAT\u2019s two math sections are now fully calculator-active, a change from past years in which one section was calculator-inactive. Complete with an infrastructure suite of Desmos, a built-in timer, and annotation software, the College Board has geared its changes toward creating a more comfortable student experience."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Perhaps the most significant change to the test\u2019s structure, apart from being fully digital, is the dSAT\u2019s new adaptive format. Using what the College Board calls a \u201cmultistage adaptive design\u201d with little additional elaboration on the details, the second module of each section (Reading and Writing, Math) adapts separately to each student\u2019s test performance. "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Students who answer a certain number of questions correctly on the first module of each section will be routed to the more difficult section module, allowing them to score up to a maximum of 800 points. Conversely, those who fail to meet the correct answer threshold will be routed to an easier second section, with their possible section scores capped at a certain number depending on the particular iteration of the SAT."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "This reporter took the digital SAT on March 9, the first digital test day offered. The test day experience was similar to the College Board\u2019s descriptions. "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "The adaptive nature of the test proved surprising. The first module of each section felt manageable, but the second module was significantly more difficult; the questions were more time-consuming than expected, and time nearly ran out."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Some SPS students who have recently taken the Digital SAT sing its praises. \u201cI thought that the digital was so much better,\" says March SAT taker Olivia Blanchard \u201825. \"Desmos saved me so much time. It was so helpful to have a timer above the problems.\u201d"
+                },
+                {
+                    "type": "paragraph",
+                    "text": "The SAT\u2019s new format is not likely to be for everyone. But whether or not one likes it, it is likely here to stay. "
+                }
+            ],
+            "image": {
+                "source": "",
+                "caption": "",
+                "show": false,
+                "position": "bottom"
+            }
         }
     ],
     "athletics": [
