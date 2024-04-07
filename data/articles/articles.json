@@ -495,6 +495,44 @@
                 "show": true,
                 "position": "bottom"
             }
+        },
+        {
+            "id": "OcJMBcegYk",
+            "title": {
+                "text": "How to Prepare for APs at a Non-AP School",
+                "size": "medium"
+            },
+            "summary": {
+                "content": "",
+                "show": false
+            },
+            "author": "Elle Ruminski",
+            "date": "2024-04-05",
+            "length": 2,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "As high school students, we are no strangers to APs and their academic rigor. For many high school students, APs serve as benchmarks for a student\u2019s success in their respective advanced classes or to gauge a student\u2019s strength in specific subjects. Around the world, many schools offer distinct AP-titled courses or classes for students to take, which will prepare them for one of the AP exams. While St. Paul\u2019s School doesn\u2019t provide specific AP-focused classes, many advanced classes prepare students for the AP exams. If a student\u2019s class prepares them for the exam, the college office encourages students to take the AP exam in May."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "If you are currently signed up to take an AP exam in the spring, SPS offers ample resources to help you prepare for your exam. If you are enrolled in an advanced class, especially in math or science, your course has already been preparing you throughout the year with material that will be covered on the exam. Timothy Pratt, Dean of College Advising, says the college office \u201cencourages Fifth Formers to consider taking the AP English Literature and Composition exam, as strong Humanities students often score well. Many students in the 4 Honors level of our modern languages are prepared for the AP as well.\u201d "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Many advanced classes align with AP exams, and you can always discuss the exam with your teacher and ask for guidance about preparing or practicing resources. As for specific resources, the College Office recommends students access free instructional videos and practice tests through Khan Academy. In addition to teachers, the college office is a great resource for guidance with APs; Pratt says the college office is \u201ceager to help students prepare if they are in the corresponding courses.\u201d"
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Students at SPS typically perform well on their AP exams and have strong scores across the board in all subjects. \u201cLast year, SPS students sat for 306 AP exams in 29 subjects, with an average score of 4.22,\u201d says Pratt. \u201cSeventy-nine percent of scores were four or five. Those are strong results.\u201d "
+                }
+            ],
+            "image": {
+                "source": "/images/RbgggMHFcyKKYjs.jpg",
+                "caption": "",
+                "show": false,
+                "position": "bottom"
+            }
         }
     ],
     "athletics": [
