@@ -625,6 +625,52 @@
                 "show": false,
                 "position": "bottom"
             }
+        },
+        {
+            "id": "cScMtcNuBE",
+            "title": {
+                "text": "2020 Presidential Candidate Visits SPS",
+                "size": "big"
+            },
+            "summary": {
+                "content": "",
+                "show": false
+            },
+            "author": "Lucas Miller",
+            "date": "2024-01-31",
+            "length": 2,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "On Jan. 19, entrepreneur and 2020 Presidential candidate Andrew Yang visited St. Paul\u2019s School as part of his campaign for Democratic primary challenger and United States House Representative Dean Phillips."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Yang\u2019s event, which came at the precipice of Tuesday\u2019s \u201cfirst in the nation\u201d New Hampshire primary, was popular with students, who filled up reserved spots quickly despite the visit only being announced the day before. In a packed Lindsay 131, Yang, who spent his high school years at Phillips Exeter Academy, discussed his journey from boarding school student to millionaire to nationally recognized politician. Yang maintained a lighthearted tone and showed willingness to discuss political questions with students."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "The visit elicited a positive response from some students, who were pleased with his willingness to talk to and answer students\u2019 questions. Brewster Smyers \u201824, who posed a question during the open forum section of Yang\u2019s visit, was pleased with Yang\u2019s response. \u201cHe answered my question very well,\u201d Smyers said. Additionally, Yang pleased some attendees with his relaxed demeanor and tone. \u201cMr. Yang was very well-spoken and got the crowd laughing a little bit. I enjoyed what he had to say, and I think I learned a lot,\u201d Smyers added."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Ultimately, Yang\u2019s visit to St. Paul\u2019s seemed designed as a hybrid address centered around his journey to national renown and as a campaign stop for Phillips. While some, like Smyers, felt the address positively impacted their view of Yang, others felt his talk, interspersed with the occasional curse word, left something to be desired.\u201cThe swearing was a little bit much,\u201d said Sebastian Brigham \u201824. \u201cIt\u2019s hard to get a point across when you\u2019re doing that.\u201d"
+                },
+                {
+                    "type": "paragraph",
+                    "text": "What was Yang\u2019s event lacking? The answer for Brigham was detailed policy. \u201cIt was kind of a bummer not to hear more about Phillips\u2019s campaign, about what he stands and doesn\u2019t stand for. Yang\u2019s speech didn\u2019t really answer the question of policies; it was more of a question about who I want to be the face of the country. Now, that\u2019s an important part of the job\u2013 but there\u2019s so much more to it.\u201d"
+                },
+                {
+                    "type": "paragraph",
+                    "text": "New Hampshire has held the nation\u2019s first primary every election cycle since 1920, until this year, when the Democratic National Committee moved its first primary to South Carolina. Regardless of students\u2019 varying opinions of Yang\u2019s speech, in a year full of primary and general elections, the event provided students with insights into the campaign and election process in New Hamp"
+                }
+            ],
+            "image": {
+                "source": "/images/gKeGKDJgwcmVvST.jpg",
+                "caption": "",
+                "show": true,
+                "position": "bottom"
+            }
         }
     ],
     "athletics": [
