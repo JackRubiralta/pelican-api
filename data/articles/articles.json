@@ -457,6 +457,44 @@
                 "show": true,
                 "position": "bottom"
             }
+        },
+        {
+            "id": "phSQOIjHNk",
+            "title": {
+                "text": "Best TV Shows to Watch on a Break",
+                "size": "medium"
+            },
+            "summary": {
+                "content": "",
+                "show": false
+            },
+            "author": "Helen Berger",
+            "date": "2024-04-05",
+            "length": 2,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "Imagine this: School\u2019s out, and you finally get back in bed or on the couch. The first thing I\u2019m doing is sleeping for 12-18 hours, but right after that, I\u2019m turning on Season 28 of one of my favorite shows, \u201cThe Bachelor.\u201d You may think that after this many seasons and a 4% success rate over the whole BachelorNation, \u201cThe Bachelor\u201d would be canceled, but alas, they keep going and I\u2019m so thankful they do. The weekly updates from Joey and the women on the show are possibly the only things that kept me going throughout the winter term. My roommate and I look forward to Tuesday nights solely due to our Bachelor addiction, even trying our best to spread out the episode over two nights, to savor the drama. Personally, I\u2019m Team Daisy, Maria, or Jenn, and if you tell me you liked Sydney or Lea, I will be judging you."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Another show I\u2019ve binge-watched is \u201cGrey\u2019s Anatomy,\u201d probably the most basic show on this list. The classic drama-filled surgeon show will always have a place in my heart, but if you can keep watching after Derek dies (sorry for the spoilers), then kudos to you. The first ten seasons will always be iconic to me; however, some shows go on too long and just need to be canceled. #SorryGreys."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "The third one of Helen\u2019s picks, hands down, is a nature documentary. Go to Netflix, find \u201cLife in Color with David Attenborough,\u201d \u201cPredators,\u201d or another Nature Channel-esque movie, and get invested. Late at night? Nature documentary. Background noise for homework? Nature documentary. They aren\u2019t the most exciting thing in the world, but there is truly nothing better than watching slow-motion animals running over a desert."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "The last one of my picks is not a specific show but a person: Michael Schur. The writer/director/producer is, perhaps, the greatest comedic genius of our time. He has written and produced shows like \u201cThe Good Place,\u201d \u201cBrooklyn 99,\u201d \u201cThe Office\u201d and \u201cParks and Rec.\u201d It\u2019s a very specific type of humor, but his shows contain various topics and jokes that will meet your binge-worthy needs. "
+                }
+            ],
+            "image": {
+                "source": "/images/IOObHQfkEUaqRHE.jpg",
+                "caption": "",
+                "show": true,
+                "position": "bottom"
+            }
         }
     ],
     "athletics": [
