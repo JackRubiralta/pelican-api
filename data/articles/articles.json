@@ -391,6 +391,72 @@
                 "show": true,
                 "position": "bottom"
             }
+        },
+        {
+            "id": "sVQJqPauBA",
+            "title": {
+                "text": "Teacher of the Issue: Mrs. Edwards",
+                "size": "big"
+            },
+            "summary": {
+                "content": "",
+                "show": false
+            },
+            "author": "Kyle Gump",
+            "date": "2024-02-26",
+            "length": 2,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "Students at St. Paul's School are fortunate enough to not only live with but also learn from many passionate and dedicated teachers. Ms. Abbey Edwards, a teacher in the Humanities department, is one of many. With a career spanning over two decades, Edwards has dedicated herself to the education and advancement of young minds. Originally from the outskirts of Boston, Edwards graduated from Middlebury College and immediately began her teaching career."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "In 2019, Edwards moved to Concord, New Hampshire to teach at SPS. Now officially in her 23rd year of teaching, with five of those years at SPS, she brings a wealth of experience and unique perspectives to her classroom. Edwards appreciates the integrated approach in the humanities curriculum at SPS, which is unlike her own high school curriculum. "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "\u201cIt really helps students develop analytical thinking and writing skills,\u201d she says. "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Thad Lucentini \u201825, a student in her Humanities V class, states that she teaches with \u201cengagement and passion.\u201d "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "In addition to Humanities V, Edwards teaches \u2018American Government\u2019, \u2018The United States in the 21st Century,\u2019 and \u2018American Politics.\u2019"
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Her passion for the humanities began early on during her childhood. On the weekends, her father frequently took her on visits to various historical sites, and as a young student, she often enjoyed reading various presidential biographies. "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "\u201cI loved learning about stories of the past and what shaped American history,\u201d says Edwards. "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "When asked what advice she would give to Third Formers, Edwards said \u201cDon\u2019t be afraid to speak up in class.\u201d"
+                },
+                {
+                    "type": "paragraph",
+                    "text": "She believes in the significance of student participation and encourages new students to actively engage in class discussions and share their ideas bravely. \u201cIf you have an idea but are not confident, share it anyway.\u201d"
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Edwards believes that the study of humanities is critical for all students, including those who are focused on pursuing a career in math and science. She believes the humanities help students attain important critical and analytical skills, which are also beneficial for students inclined toward a STEM-based career. In her view, understanding the broader context and implications of advancements such as artificial intelligence is impossible without a humanities background. A humanities education, she says, \u201chelps students understand and navigate the complexities of our world today.\u201d "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Among her favorite books are those by John Irving including The Cider House Rules and A Prayer for Owen Meany. Inside the SPS community, Edwards especially enjoys the Christmas carol sing-along chapel, a tradition that celebrates the spirit and joy of the holiday season."
+                }
+            ],
+            "image": {
+                "source": "/images/GeAteBSQdOqJreM.jpg",
+                "caption": "",
+                "show": true,
+                "position": "bottom"
+            }
         }
     ],
     "athletics": [
