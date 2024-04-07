@@ -419,6 +419,52 @@
                 "show": false,
                 "position": "bottom"
             }
+        },
+        {
+            "id": "IUTUYFzitW",
+            "title": {
+                "text": "Welcoming Prospective Students on Spring Visit Days",
+                "size": "big"
+            },
+            "summary": {
+                "content": "SPS's Spring Visit Day showcases campus life and opportunities, featuring an Academics Fair, classes, and food trucks, helping prospective students envision their future at the school.",
+                "show": true
+            },
+            "author": "Lulu Mangriotis",
+            "date": "2024-04-07",
+            "length": 2,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "When you opened your acceptance letter to SPS, joy filled the room. However, you were probably waiting for the monumental moment to persuade you to choose SPS: Spring Visit Day. If you applied in the post-COVID era, Spring Visit Day likely played a huge role in your decision to join our community. "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "As a student at SPS, being on the other side of Spring Visit Day is just as much fun. Most students in Third and Fourth Form get paired up with a prospective student to show them around SPS for the day. Other students play an equally important role in helping prospective students and showing them the real SPS. "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Every Spring Visit Day, energy and fun circulate the campus as SPS puts forward its best foot to impress the future members of our community."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Spring Visit Day has a special schedule for the students of SPS. After checking in on campus, students attend the Academics and Activities Fair held in the Form of \u201852 Gym of the AFC. "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "\u201cThe Academics and Activities Fair is my favorite part of the day,\u201d says Dean of Admission and Financial Aid Dana Anselmi. \u201cIt is a way to showcase so many of the excellent opportunities at St. Paul\u2019s.\u201d After the fair, families go to Chapel, attend classes, see a panel of students, and round out their day with food trucks at the AFC and then attending afternoon activities."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "The Admissions team spends countless hours preparing Spring Visit Day. They make sure to carefully curate pairings between students and prospective students to create the perfect experience for the future members of our community. "
+                }
+            ],
+            "image": {
+                "source": "https://raw.githubusercontent.com/JackRubiralta/pelican-api/master/data/articles/images/TbAfsMvKUNvmaRZ.jpg",
+                "caption": "Photo by Temi Johnson '24",
+                "show": true,
+                "position": "bottom"
+            }
         }
     ],
     "athletics": [
