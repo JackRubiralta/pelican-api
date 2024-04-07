@@ -671,6 +671,60 @@
                 "show": true,
                 "position": "bottom"
             }
+        },
+        {
+            "id": "TCcwWGsNxj",
+            "title": {
+                "text": "Songs of Innocence Debuts in Chapel",
+                "size": "big"
+            },
+            "summary": {
+                "content": "",
+                "show": false
+            },
+            "author": "Edie Jones",
+            "date": "2024-02-13",
+            "length": 3,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "On Jan. 26, the first performance of \u201cSongs of Innocence\u201d took place in the Chapel of St. Peter and St. Paul. The hour-long musical work, composed and conducted by Director of Chapel Music Nicholas White, consisted of William Blake\u2019s nineteen poems, \u201cSongs of Innocence,\u201d set to music. The performance featured the Chapel Choir, guest musicians and the Ballet Company, and was White\u2019s second major musical work to be performed in the Chapel alongside the Ballet Company. \u201cThe Fire and the Rose\u201d was performed in 2021, and its success laid the groundwork for another collaboration. This performance drew an audience from the St. Paul\u2019s community as well as from the wider Concord community."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "One of the challenges for White was making each song a reasonable length and to achieve balance throughout the piece. \u201cYou have to think about your audience,\u201d he says. \u201cFor me, I don\u2019t create the music and say, \u2018This is what I\u2019ve created, now listen to it.\u2019 I think as I\u2019m creating it, \u2018what would pique my interest?\u2019\u201d"
+                },
+                {
+                    "type": "paragraph",
+                    "text": "White recorded the finished work in summer 2021 with an eleven-person group, but there were no performances at the time due to COVID restrictions. In the years between that recording and the first performance, White only made minor changes, namely the addition of the choir. \u201cI don\u2019t think I lost enthusiasm for the piece at all. It sat dormant for probably a year after we recorded it,\u201d White says. \u201cSometimes it\u2019s nice for pieces to sit for a while and then be resurrected.\u201d "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "As for the choreography, after the success of \u201cThe Fire and the Rose,\u201d White expressed an interest in collaborating with the Ballet Company again. \u201cI think it\u2019s wonderful to bring the energy of the dance into the sound,\u201d he says."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Cristina Baron \u201825 choreographed ballet pieces for ten members of the Ballet Company to accompany nine of the opera\u2019s songs that she selected for the performance. Though she says she was initially intimidated by the opportunity, as she had never choreographed anything before, she ultimately found the process very rewarding. \u201cIt was an unreal experience, having something that I had made being performed to such beautiful music by professional musicians.\u201d"
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Baron explains how the limitations of Chapel, including the hard tile floors and the narrow aisle, forced her to be more creative with her choreography. \u201cI couldn\u2019t have the dancers jump or do lifts or travel a lot, so I played a lot with the formations and the musicality. I had very intricate patterns of couples moving around each other and lines weaving through each other so that the dancing was stimulating to the audience even though the steps themselves were simpler.\u201d"
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Baron\u2019s choreography was a success. \u201cCristina is so musical, so the choreography was stunning,\u201d says Luna Huang \u201826."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "The dancers\u2019 rehearsal timeline was challenging. The piece was introduced in December, and dancers then experienced multiple interruptions, such as the winter break or the arrival of a guest choreographer. Nevertheless, everyone involved in the performance agrees that \u201cSongs of Innocence\u201d was a fulfilling and wonderful experience.  "
+                }
+            ],
+            "image": {
+                "source": "/images/ncBuUnaDndqIeBR.jpg",
+                "caption": "",
+                "show": true,
+                "position": "bottom"
+            }
         }
     ],
     "athletics": [
