@@ -325,6 +325,72 @@
                 "show": true,
                 "position": "bottom"
             }
+        },
+        {
+            "id": "FNgdiiBqLL",
+            "title": {
+                "text": "Campus Spotlight: Mr. Robarge",
+                "size": "medium"
+            },
+            "summary": {
+                "content": "",
+                "show": false
+            },
+            "author": "Wrenn Ragsdale",
+            "date": "2024-04-05",
+            "length": 3,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "In the heart of our school lies a hub of culinary activity and innovation: the St. Paul\u2019s School dining hall, affectionately known as the Upper. Under the stewardship of Director of Dining Services Paul Robarge, the Upper is more than just a place to eat; it's a testament to the culinary excellence and sustainability our FLIK Dining strives to achieve. "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Robarge, a seasoned food service professional from Pepperell, Massachusetts, brings over 30 years of experience to our school. His journey from a Catering Director and Executive Chef to his current role as St. Paul\u2019s showcases his passion for cooking, finance, and organization. A professed family man with three children and a small dog named Lily, Robarge says he uses his deep-rooted values to foster a warm, welcoming atmosphere in the dining hall."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "According to Robarge, the Upper operates with a robust team: \u201cWe employ over twenty folks in the front of the house,\u201d he says, \u201cwhose role it is to set-up, maintain, clean, organize, greet, and repeat. An additional fifteen plus team members are located in the back of the house \u2013 the kitchen \u2013 and these folks do all preparation, cooking, executing of meals, and end their day by cleaning as well.\u201d "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Robarge also manages the FLIK staffers who work out of the Upper. \u201cAn additional team of about five folks also produces all meals at the daily Grab & Go location, the nightly Kwok Caf\u00e9, and all catering operations on campus,\u201d he says. The management team handles crucial aspects like food safety, menu planning and staff management."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "During a recent in-person tour, Robarge highlighted the kitchen's exceptional safety standards, evident in their 99.5% sanitation rating. This commitment, he says, extends beyond cleanliness, encompassing rigorous food safety and hygiene practices."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Robarge explains that sustainability is a key focus of FLIK\u2019s planning with the kitchen staff, he says, meticulously measuring and strategizing to reduce food waste. The waste produced is converted into compost."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Looking ahead, Robarge says he is spearheading a project to revamp the Kwok Caf\u00e9 following spring break. This endeavor, he says, will introduce a new menu and a dedicated team to elevate the dining experience further. "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Robarge says he cherishes interactions with students and staff, enjoying their feedback and appreciation. His enjoyment of working with the culinary team is palpable when discussing menu authenticity, flavor, execution and efficiencies. "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "The Flik food philosophy, Robarge says, \u201cfocuses on origins, authenticity, and seasonality, which guides menu planning. This philosophy ensures that meals are both delicious and aligned with broader principles of quality and sustainability.\u201d"
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Robarge explains that his typical day is dynamic, reflecting the varied needs of the dining hall\u2019s operation. With a flexible schedule, he says he actively participates in all areas: one day he might work as a baker or a dishwasher, while on other days he might be a server or janitor. \u201cMost days\u201d he says, \u201cI am focused on collaborating with everyone to achieve their goals, and also to ensure that all teams within our location are functioning well.\u201d "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Throughout The Pelican\u2019s visit to the Upper and interview, it is evident that Robarge and his team's dedication transcends meal preparation. It's about creating a dining experience that nourishes, delights, and brings the school community together. "
+                }
+            ],
+            "image": {
+                "source": "/images/FpzcVxzjVTPKXvd.jpg",
+                "caption": "Photo by Temi Johnson '24",
+                "show": true,
+                "position": "bottom"
+            }
         }
     ],
     "athletics": [
