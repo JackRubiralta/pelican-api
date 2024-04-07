@@ -511,6 +511,48 @@
                 "show": true,
                 "position": "bottom"
             }
+        },
+        {
+            "id": "BGBFZNtsKs",
+            "title": {
+                "text": "Politics Update: Trump, Biden, and Dozens of Others Secure Party Nominations on Super Tuesday",
+                "size": "medium"
+            },
+            "summary": {
+                "content": "",
+                "show": false
+            },
+            "author": "Nel Peter",
+            "date": "2024-04-07",
+            "length": 3,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "On March 5, over 12 states participated in Super Tuesday, a pivotal collection of primary elections and caucuses for both Republicans and Democrats. As each party seeks to finalize its official nominees for the presidency, as well as for Senate and House of Representatives seats, Super Tuesday has consistently served as a reliable predictor for these nominations. More than a third of the total delegates for each party were up for grabs in this year\u2019s Super Tuesday."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "For the Republicans, Trump clinched 14 of the 15 states who voted, adding up to 801 delegates, while Nikki Haley put up just 51, having just won Vermont. Haley quickly resigned the following day, but notably did not endorse Trump as other former GOP nomination contenders (eg. Ramaswamy, DeSantis, Christie) immediately did."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "For the Democrats, while Biden swept all 15 states, many Democrat voters chose the \u201cuncommitted\u201d option to protest Biden\u2019s policies on the ongoing conflict in Gaza. The number of voters choosing this reflects Biden\u2019s lack of popularity from within his party. It was most prominent in Minnesota where 19% of Democrat voters went uncommitted with another 7.8% of the vote going to unlikely challenger and MN Congressman Dean Phillips. As a result, a large number of Nel Peter '25 delegates will show up to the Democratic National Convention not committed to a particular candidate. However, Trump and Biden managed to secure the delegates required to become their respective party\u2019s nominee."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Ohio\u2019s Senate race will be interesting to watch: Trump-endorsed Bernie Moreno (R) will face off against incumbent Sherrod Brown (D), who has held the seat since 2007. Additionally, Americans will watch the North Carolina Governor\u2019s race as Josh Stein (D) faces off against right-wing extremist Mark Robinson (R)."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "While it certainly seems like Trump and Biden\u2019s nominations are set in stone, there are still 7 months before the November 5th general election. Trump currently struggles with a $454 million bond due to his past business fraudulence\u2014potentially putting a large dent in his campaign bank and putting him at risk for the seizing of his assets. On the other side of the aisle, Biden\u2019s approval rating has been dropping and this Super Tuesday's high non-committed voter turnout is nothing but evidence of that. The nation and the world wait to see the evolution of this constantly developing election landscape."
+                }
+            ],
+            "image": {
+                "source": "",
+                "caption": "",
+                "show": false,
+                "position": "bottom"
+            }
         }
     ],
     "athletics": [
