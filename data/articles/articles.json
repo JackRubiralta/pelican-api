@@ -661,6 +661,48 @@
                 "show": false,
                 "position": "bottom"
             }
+        },
+        {
+            "id": "HGaDCKxZEq",
+            "title": {
+                "text": "March Madness Coverage",
+                "size": "medium"
+            },
+            "summary": {
+                "content": "",
+                "show": false
+            },
+            "author": "Alexi Mangriotis",
+            "date": "2024-04-05",
+            "length": 2,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "Every spring, millions of sports fans turn their attention to the Men\u2019s NCAA March Madness Tournament. The 67-game single-elimination tournament offers a showdown of the most elite men\u2019s college basketball teams over three weeks. The games are played nationwide, and Arizona will host the Final Four this year. "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Although the NBA is more popular than college basketball, March Madness ropes in double the viewers of the NBA playoffs. Every single game is packed with excitement, leaving fans on the edge of their seats. The tournament is unpredictable and exciting, from huge upsets to incredible comebacks. Strategically placed in the middle of March, shouldered between the winter NFL season and the spring MLB season, the NCAA faces little viewership competition from other significant sports events."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "But most importantly, March Madness is so famous because of the March Madness Bracket Challenge. Much like Fantasy Football, the bracket engages viewers because there is something staked on the games. According to the NCAA, between 60 and 100 million brackets are filled out each year. A lot of people just fill out the brackets for fun. Still, some are dedicated beyond common comprehension, spending months preparing for their shot at achieving the highly illustrious, perfect March Madness Bracket."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "At the surface level, this achievement seems somewhat impressive. After all, 100 million brackets are filled out every year, and surely, one may think, there are some winners every once in a while. In actuality, though, a perfect March Madness bracket has never been accomplished. The odds of winning vary on how much basketball you know, but an average fan has a 1 in a 120 billion shot of a perfect bracket. The odds are so stacked against having a perfect bracket that Warren Buffett offered $1 billion to anyone in his firm to achieve it. Although skill can play a factor in how well your bracket does, there is no way really to predict every upset without blatant luck. So, don\u2019t feel bad if your bracket flopped in the first game."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "So whether you think it's all luck or all skill, the March Madness bracket brings people together from all over the country as America becomes enthralled with a relentless slate of college basketball games. "
+                }
+            ],
+            "image": {
+                "source": "https://raw.githubusercontent.com/JackRubiralta/pelican-api/master/data/articles/images/BWAMaujbeLayVTO.jpg",
+                "caption": "Graphic by Cole Hamilton '24",
+                "show": true,
+                "position": "bottom"
+            }
         }
     ],
     "athletics": [
