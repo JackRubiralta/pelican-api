@@ -465,6 +465,52 @@
                 "show": true,
                 "position": "bottom"
             }
+        },
+        {
+            "id": "wRutCIdPzZ",
+            "title": {
+                "text": "Hallowed Spring Traditions at SPS",
+                "size": "big"
+            },
+            "summary": {
+                "content": "SPS's spring ushers in cherished traditions: MISH, a unique holiday with dancing and a day off; the Hugh Camp Cup for public speakers; the return of seated meals; and gatherings at Lower School Pond, highlighting community spirit and outdoor enjoyment.",
+                "show": true
+            },
+            "author": "Thaddeus Lucentini",
+            "date": "2024-04-05",
+            "length": 3,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "The end of the Winter Term and setting our sights on spring brings much to look forward to. Scenes of longer days, warmer sunshine, and a campus covered with beautiful flowers and green grass may drift through the minds of SPS students. Outside the classrooms and off the fields, there will also be a number of campus traditions."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "One of the School\u2019s most beloved spring traditions is MISH. For new students who have not experienced a MISH holiday before, picture a better version of Cricket. Once MISH is announced, all students receive extended check so that they can attend a fun, themed dance. There\u2019s no reason to go to bed early that night because classes are canceled the following day. Students enjoy a much-needed sleep-in, followed by a Sunday-style brunch and all-day town hours. Of all the surprise holidays, MISH is the most creative and fun, which gives the whole school something to look forward to in the weeks ahead."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "For public speaking enthusiasts, the Hugh Camp Cup competition is the year's biggest event. Every spring, students write a speech on a topic of their choice and present it to their Humanities class. For the bravest and most passionate students, there is the opportunity to deliver the speech in front of the entire School in a competition whose winner is decided by a popular vote. The Hugh Camp Cup is one of the best opportunities at school to hear the stories of people you might never have spoken to and even to tell your own."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Although they are not specific to the Spring Term, seated meals are a longstanding tradition at St. Paul\u2019s that we are lucky to have. Despite taking an unexpected break due to COVID-19, seated meals have returned to the School and hopefully are here to stay. \u201cSeeing the faces of my peers as they delve into conversation is one of my favorite parts of SPS community life,\u201d says Michael Nechipurenko \u201824."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Trips to the Lower School Pond docks are a unique spring tradition. \"I like to take advantage of the opportunity to spend time outdoors,\u201d says Cora Partridge \u201824. Many people enjoy swimming at the docks when the weather is nice, but for the Form of 2024, the Lower School Pond docks are often a unique opportunity to spend time together as a form. Anyone who has been to the boathouse on a warm sunny day knows how crowded the docks can get."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Hopefully, everyone will find some tradition this spring that they will enjoy. Our School\u2019s history and customs make it a special school, and the Spring Term is the perfect time to take advantage of everything this school offers."
+                }
+            ],
+            "image": {
+                "source": "https://raw.githubusercontent.com/JackRubiralta/pelican-api/master/data/articles/images/PhAgeetgcvrktAL.jpg",
+                "caption": "Photo by Vin Chutijirawong '25",
+                "show": true,
+                "position": "bottom"
+            }
         }
     ],
     "athletics": [
