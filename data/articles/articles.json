@@ -533,6 +533,52 @@
                 "show": false,
                 "position": "bottom"
             }
+        },
+        {
+            "id": "QLdhaLWCZJ",
+            "title": {
+                "text": "Service Learning Program Spotlight",
+                "size": "small"
+            },
+            "summary": {
+                "content": "",
+                "show": false
+            },
+            "author": "Danielle Choi",
+            "date": "2024-04-05",
+            "length": 2,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "St. Paul\u2019s students are constantly inundated with academics, sports, music, and clubs. Making time to give back to the community can be challenging. However, \u201cbearing the burdens of others,\u201d as our school prayer says, remains a pivotal aspect of our school\u2019s core values. "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Service can be emotionally rewarding when completed sincerely. The Service Learning Program at SPS, which consists of volunteering at the Manchester Food Bank and the Rundlett Middle School, allows students to explore and participate in community service. According to Associate Dean of Students Robb Arndt, the coordinator of the Service Learning Program, \u201cFor SPS students, I think these opportunities enable us to broaden our perspectives and provide some clarity to what it means to lead a purposeful life in service to the greater good.\u201d"
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Participants in the service learning program at Rundlett Middle School travel to the school every Monday, Thursday and Friday afternoon to participate in the program called 21C, where they hang out with the kids, play games and activities, and get to know them on a personal level, serving as mentors for these students going into high school."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "\u201cBeing at St. Paul\u2019s, we are in a bubble,\u201d says Bella Perry \u201825. \u201cWe are so lucky and so privileged here that sometimes it's hard to think about the struggles that are happening in our own town. Being with the kids was super enlightening.\u201d This program provides an outlet to step into the real world and engage in volunteer work that genuinely impacts our larger community, even though that influence may be small."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "At the food bank, students organize and clean the food pantries and connect and communicate with customers\u2019 needs. In addition to the physical service, students say they garner in-depth insights about wealth inequality in New Hampshire."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "\u201cIt inspired me, in my own city of San Francisco, which has a lot of homelessness problems, to start volunteering at shelters there and try to help organizations that are working to solve these crises, which has been very rewarding,\u201d says Liv MacMillan \u201825. \u201cIt\u2019s important to make sure that you\u2019re getting the most out of the experience instead of focusing on getting the credit.\u201d"
+                }
+            ],
+            "image": {
+                "source": "",
+                "caption": "",
+                "show": false,
+                "position": "bottom"
+            }
         }
     ],
     "athletics": [
