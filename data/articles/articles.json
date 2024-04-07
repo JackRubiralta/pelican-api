@@ -460,7 +460,7 @@
                 }
             ],
             "image": {
-                "source": "https://raw.githubusercontent.com/JackRubiralta/pelican-api/master/data/articles/images/TbAfsMvKUNvmaRZ.jpg",
+                "source": "/images/TbAfsMvKUNvmaRZ.jpg",
                 "caption": "Photo by Temi Johnson '24",
                 "show": true,
                 "position": "bottom"
