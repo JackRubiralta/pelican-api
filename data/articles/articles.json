@@ -393,35 +393,8 @@
             "author": "Ava Kim",
             "length": 5,
             "content": []
-        },
-        {
-            "id": "nDmdmPJmLD",
-            "title": {
-                "text": "Testing Updater",
-                "size": "big"
-            },
-            "summary": {
-                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "show": true
-            },
-            "author": "Jack",
-            "date": "2000-02-02",
-            "length": 2,
-            "content": [
-                {
-                    "type": "paragraph",
-                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                },
-                {
-                    "type": "paragraph",
-                    "text": "Dictumst quisque sagittis purus sit. Ut placerat orci nulla pellentesque. At risus viverra adipiscing at in tellus integer. Ipsum suspendisse ultrices gravida dictum. Integer malesuada nunc vel risus commodo viverra maecenas. Nulla pharetra diam sit amet. Malesuada fames ac turpis egestas sed tempus urna. Scelerisque fermentum dui faucibus in ornare quam viverra. Blandit volutpat maecenas volutpat blandit aliquam etiam erat. Tellus pellentesque eu tincidunt tortor aliquam nulla. Metus dictum at tempor commodo ullamcorper a lacus vestibulum. Et netus et malesuada fames ac. Turpis nunc eget lorem dolor sed viverra. Integer quis auctor elit sed vulputate mi sit amet. Non arcu risus quis varius. Lectus proin nibh nisl condimentum id venenatis a condimentum. Sed vulputate mi sit amet mauris commodo quis imperdiet. Urna porttitor rhoncus dolor purus non enim."
-                },
-                {
-                    "type": "paragraph",
-                    "text": "Aenean et tortor at risus viverra adipiscing at. Tristique magna sit amet purus gravida quis blandit. A scelerisque purus semper eget duis at tellus at. Urna neque viverra justo nec. Vel facilisis volutpat est velit egestas. Felis eget nunc lobortis mattis aliquam faucibus purus in. Risus at ultrices mi tempus imperdiet nulla. Facilisis magna etiam tempor orci eu lobortis elementum nibh tellus. Nulla malesuada pellentesque elit eget gravida cum sociis. Vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor. Lacinia quis vel eros donec ac odio tempor orci dapibus. Enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra."
-                }
-            ]
         }
+        
     ],
     "athletics": [
         {
