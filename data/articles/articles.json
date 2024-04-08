@@ -1255,6 +1255,48 @@
                 "show": true,
                 "position": "bottom"
             }
+        },
+        {
+            "id": "yonyczMzSm",
+            "title": {
+                "text": "The Best Type of Chapel Program",
+                "size": "medium"
+            },
+            "summary": {
+                "content": "",
+                "show": false
+            },
+            "author": "Bella Perry",
+            "date": "2024-02-26",
+            "length": 2,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "Chapel is so prevalent in our lives. Does its frequency diminish its value or has its consistency become a staple in our day-to-day life? Chapel meets four times a week, naturally creating a more casual atmosphere than the typical Sunday church affair. However, its ability to bring faculty and students together is something the majority of us will never experience again after St. Paul\u2019s."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Notably, Chapel gets us ready for the day. From the hymn to the program to the prayer and finally the announcements, Chapel provides us with a moment of reflection before a long and busy day. What a wonderful thing to be able to congregate in such a beautiful place, to stand up and sing with all your Chapel buddies, to listen to your friends, and to cheer for announcements about sports, clubs, dances, days off and battles between bizarre bug species. We are lucky, to say the least. "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "I look forward to student Chapel talks the most. There is always excitement and curiosity in the pews when a student\u2019s name is listed in the chapel program. You never know what someone might talk about. Whether it\u2019s about an unknown aspect of their life or a look deeper into a well-established passion, student Chapel talks are a sneak peek into what makes the students of SPS unique. "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Student talks arguably keep everyone the most engaged. And that\u2019s not to downplay other Chapel programs, but student talks are a reflection of why we are here at SPS: to teach and learn from each other. During these talks, everyone is on the edge of their seats, curious about what their peers might have to say. Whether a good friend or an acquaintance, I think we can all agree that getting up to the lectern and pouring out a piece of your identity takes guts. "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "No matter the quality of the speech, the eloquence, or the topic, we all rally, (somewhat controversially) stand and applaud our peers. We care about each other so much that we are proud to cheer on those brave enough to share something meaningful and be vulnerable in front of 600 people. I think we often forget how intimidating it can be up there at the lectern. Student Chapel talks are a rite of passage, a privilege and an element unique to St. Paul\u2019s. The authenticity of these talks and the courage of the speaker make student talk talks my favorite Chapel program."
+                }
+            ],
+            "image": {
+                "source": "",
+                "caption": "",
+                "show": false,
+                "position": ""
+            }
         }
     ],
     "athletics": [
