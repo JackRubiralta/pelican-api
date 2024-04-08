@@ -875,6 +875,56 @@
                 "show": false,
                 "position": "bottom"
             }
+        },
+        {
+            "id": "GghiZEZdpa",
+            "title": {
+                "text": "Teacher of the Issue: Ms. Ryder",
+                "size": "medium"
+            },
+            "summary": {
+                "content": "",
+                "show": false
+            },
+            "author": "Harry Elworth",
+            "date": "2024-01-24",
+            "length": 2,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "Beloved chemistry teacher Tori Ryder brings warmth and joy to everyone in Lindsay's classrooms. As the Pelican staff and the student body at large fondly remember her fourth form classes, Ryder has been named our first \u201cTeacher of the Issue.\u201d "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "With 42 years of teaching, 31 at St. Paul\u2019s, Ryder is incredibly experienced in both education and science. Throughout her career she taught various chemistry courses and even geomorphology at her previous school. Both her parents and great aunt were teachers, which she says allowed her to familiarize herself with teaching. \"I had education in my family, so it wasn't an unknown profession,\u201d Ryder explains. "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "She says that attending the Taft School in Connecticut as a student only added to her love of teaching. Being a student at boarding school showed her that working at another boarding school would reward her with a similar experience through teaching, coaching and advising, all in one job. "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "One of her most paramount beliefs, Ryder says, is that the student always comes first and that their well-being is above all else, whether in the chemistry classroom, the field, or the dorm. \u201cTo be the best teacher one can be,\u201d she says, \u201cone needs to have a sense of humor, to admit mistakes, and to be consistent with every student.\u201d "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Two of her current Chemistry students, Asher Gupta \u201826 and Harry Eichelberger \u201826, believe her warmth makes it easy for students to ask questions or make mistakes in learning. \u201cShe not only explains complex topics well, but also works hard to make sure each and every student has a good grasp of the material,\u201d Gupta explains."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Ryder welcomes her students to class each day with a smile, asks them about their day and tries her best to understand the challenges they might be going through. She always makes an effort to reach a student who is struggling in her class, making sure no one is left behind. Ryder\u2019s warmth, passion, and care for her students have left an unforgettable mark on everyone she has taught. \u201cThe most important part of my job, and what brings me back every year, is the students,\u201d says Ryder. \u201cNo two classes are the same because of the students. Their constant energy and inquisitiveness keep me going every day.\u201d"
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Ryder holds the Frederic C. Hamilton Chair in Energy and Resource Studies for science teaching, has been a recipient of the Form of the 1973 Mentor Fellowship, and is currently a co-adviser to the Gay/Straight Alliance. "
+                }
+            ],
+            "image": {
+                "source": "/images/RqocIaNXuhqHQpN.jpg",
+                "caption": "",
+                "show": true,
+                "position": "bottom"
+            }
         }
     ],
     "athletics": [
