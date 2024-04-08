@@ -1343,6 +1343,56 @@
                 "show": false,
                 "position": "bottom"
             }
+        },
+        {
+            "id": "dXXGUfpREL",
+            "title": {
+                "text": "The Guide to a Productive and Relaxing Sunday at SPS",
+                "size": "small"
+            },
+            "summary": {
+                "content": "",
+                "show": false
+            },
+            "author": "Wilson Xie",
+            "date": "2024-02-26",
+            "length": 2,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "Have you ever noticed a sense of unfulfillment on Sunday night from either not resting and playing enough or not studying and catching up on all your schoolwork? Here is a guide to having a relaxing and productive Sunday. "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Whether you wake up at eight or noon, having a balanced brunch is the first step to a productive and relaxing day. Get your proteins in with an omelet or scramble with all your favorite ingredients. Have some bread, potatoes, and pasta for those carbohydrates. Although there are no smoothies, make yourself a nice yogurt and fruit plate for vitamins and minerals. And then end your brunch journey with some nuts in a cup and some tea or coffee. Now, having absorbed all sorts of essences, you can start your productive and relaxing day with a full stomach."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "For those who woke up early, a quick afternoon nap may be refreshing. On the other hand, for those who woke up late, finding a spot in either one of the rooms in the lower level of Friedman or the lower level of the library can also refresh your souls from that long hibernation. "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "If you are as lazy as me, your dorm\u2019s common room can be a great study spot. Simply try your best to stay away from your bed and your phone. After getting some work in, a study break is needed for your overtaxed brain. I recommend getting some bagels and coffee from Friedman and calling some of your friends to play ping-pong or pool. A small-scale competition could help you wake up and get excited. One hour will probably be enough, as ping pong and pool get boring eventually."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "A short walk through campus and perhaps to the boat house could also be a relaxing study break, and, of course, going to the AFC is also a great option."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "For efficiency, when you return to your schoolwork I recommend finishing everything for one course before taking a break or doing something else. Divide the work for the chunkier courses into the parts of the day where you feel that you have the longest duration of concentration or without interruptions. This could be between brunch and the afternoon study break or after dinner. "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Lastly, try going to bed before ten, and you will feel enlightened the next day. Suppose you were to fully use all your time on a Sunday, which means not going for hours on YouTube, TikTok, games, and social media. In that case, a Sunday will automatically be relaxing and productive because there is so much time. Following these quick tips will make you feel fulfilled by balancing relaxation and work."
+                }
+            ],
+            "image": {
+                "source": "",
+                "caption": "",
+                "show": false,
+                "position": ""
+            }
         }
     ],
     "athletics": [
