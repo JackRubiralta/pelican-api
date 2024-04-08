@@ -1297,6 +1297,52 @@
                 "show": false,
                 "position": ""
             }
+        },
+        {
+            "id": "PxgoVWsALg",
+            "title": {
+                "text": "Introducing the Knitting Club",
+                "size": "medium"
+            },
+            "summary": {
+                "content": "",
+                "show": false
+            },
+            "author": "Olivia Blanchard",
+            "date": "2024-02-26",
+            "length": 2,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "If you are a frequent Sunday night library goer, you may have noticed the large group of people in the library knitting together. No, this is not Concord's local bingo-playing, cat-loving, tea-drinking club. This lively group composed of your classmates is the Knitting Club of SPS. "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "The Knitting Club is one of the most active clubs on campus, meeting every Sunday at 7 pm, though this hasn\u2019t always been the case. The club kicked off its first meeting in Fall 2022, shortly after the annual St. Paul's Club Bazaar. Without a list full of names and enthusiastic members saying, \u201cI\u2019ll be there,\u201d founder Sebastian Brigham \u201824 was left to make a compelling Chapel announcement, extending an invitation to the first meeting. "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Brigham\u2019s opening statement, \u201cAre you cold?\u201d drew in roughly 20 students, but the number slowly trickled down to five at its subsequent meetings. The club was \u201cslow to get on its feet,\u201d Brigham says, \u201cbut the group just stuck at it. It was tough to get people to know and get excited about the club. It\u2019s not really common for a high school student to knit.\u201d The club grew from the enthusiasm spread around campus by its members, often recruiting friends to join. One cannot simply knit without yarn-ing to tell someone about it."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Support didn\u2019t just come from the attendees but also included Leslie Fleischner, the grandmother of Caroline Fleischner \u201823. Fleischner donated many supplies for the club, all of which were put to good use. Each member was sent home for the summer with yarn and needles to knit hats to be donated to the Concord Coalition to end Homelessness. This past fall, the club\u2019s members returned with a total of 28 hats, which Brigham and Club Adviser Elizabeth Campbell then brought to the Coalition. The donation \u201cmay not be the biggest contribution, but it\u2019s something. It shows that people care,\u201d says Brigham."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "The club is looking forward to using their large and recently-received donation of yarn to knit hats for chemotherapy patients, thanks to a flyer at a local knitting store that encouraged the public to donate. "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Although learning a new hobby may initially seem daunting, Brigham says knitting is \u201cmeditative\u201d once you get the hang of it. The Knitting Club meets on Sundays at 7 pm in room 205 of the Library. No experience or yarn is necessary."
+                }
+            ],
+            "image": {
+                "source": "/images/dqhjhaEUPMmLTIN.jpg",
+                "caption": "",
+                "show": false,
+                "position": "bottom"
+            }
         }
     ],
     "athletics": [
