@@ -7,6 +7,41 @@ const sharp = require('sharp'); //
 
 const app = express();
 const PORT = process.env.PORT || 3001;
+function weightedRandomIndex(weights, totalWeight) {
+  let threshold = Math.random() * totalWeight;
+  for (let i = 0, sum = 0; i < weights.length; i++) {
+    sum += weights[i];
+    if (sum >= threshold) {
+      return i;
+    }
+  }
+  return -1; // Should not be reached if weights and totalWeight are calculated correctly
+}
+function shuffleWithRecencyPreference(articles) {
+  // Clone the articles array to avoid mutating the original data
+  let articlesCopy = [...articles];
+
+  // Sort articles by date to ensure recency
+  articlesCopy.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+  let shuffledArticles = [];
+  while (articlesCopy.length) {
+    // Calculate weights, giving higher weight to more recent articles
+    let totalWeight = 0;
+    const weights = articlesCopy.map((_, index) => {
+      const weight = Math.pow((articlesCopy.length - index) / articlesCopy.length, 2);
+      totalWeight += weight;
+      return weight;
+    });
+
+    // Select an article based on weights
+    let randomIndex = weightedRandomIndex(weights, totalWeight);
+    shuffledArticles.push(articlesCopy[randomIndex]);
+    articlesCopy.splice(randomIndex, 1);
+  }
+
+  return shuffledArticles;
+}
 
 // Enable CORS for all routes
 app.use(cors());
@@ -47,14 +82,14 @@ app.use(express.json());
 
 // API endpoint to get recent articles from 'new'
 app.get('/api/recent', (req, res) => {
-    const sortedArticles = articlesData.new.sort((a, b) => new Date(b.date) - new Date(a.date));
+    const sortedArticles = shuffleWithRecencyPreference(articlesData.new);
     const recentArticles = sortedArticles.slice(0, 20);
     res.json(recentArticles);
 });
 
 // API endpoint to get recent articles from 'athletics'
 app.get('/api/sports', (req, res) => {
-    const sortedArticles = articlesData.athletics.sort((a, b) => new Date(b.date) - new Date(a.date));
+    const sortedArticles = shuffleWithRecencyPreference(articlesData.athletics);
     const recentArticles = sortedArticles.slice(0, 20);
     res.json(recentArticles);
 });
