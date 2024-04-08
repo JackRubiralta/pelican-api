@@ -925,6 +925,48 @@
                 "show": true,
                 "position": "bottom"
             }
+        },
+        {
+            "id": "LkPuvvLIVl",
+            "title": {
+                "text": "Edwin's Amazing Omelets",
+                "size": "medium"
+            },
+            "summary": {
+                "content": "",
+                "show": false
+            },
+            "author": "Mathis Riff",
+            "date": "2024-04-05",
+            "length": 2,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "When I visited St. Paul's for the first time last year, I could not have heard enough about the omelet bar. Based on what my tour guide and other students were telling me, the delicious, made-to-order omelets were a highlight of campus. I was so intrigued that at my first breakfast here, I decided to test out one of Edwin\u2019s creations for myself. I was blown away and, like most of us, immediately hooked. Even during my busiest weeks, I have made indulging in an omelet a priority at least once a week."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "So, you may be wondering, what makes these omelets so special? You must supply Edwin with the perfect assortment of ingredients for him to cook to perfection. With all the options, how do you choose? First off, I put spinach in my bowl. It's a healthy choice that adds a little texture to the omelet. Then I add onions. A lot of them. When grilled to perfection, the onions add a nice crunch. Next comes a small scoop of broccoli to balance out the flavor. As a fan of spice, I love to add a little kick to my morning with some juicy jalapenos. I cannot stand mushrooms. I also dislike the slimy texture of tomatoes, so I leave both out of my omelet. With the veggies out of the way, my bowl is usually about three-fourths of the way full."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Now, it is time for the meat. You can choose between ham and sausage or take both, which I usually do. Ham adds a rich texture and flavor to the omelet, as well as a good amount of protein for a well-nourished day. I take a liberal helping until the bowl is full. Next comes sausage. Sausage serves a similar purpose to ham but with a more interesting flavor profile. Once the bowl is just slightly overflowing, I know it is time to hand my ingredients off to Edwin and let him work his magic."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "There are a variety of preparation options to choose from. The best, by far, is a double omelet without cheese! The double omelet packs twice the punch of your standard omelet. It acts as a meal in and of itself\u2013 a filling start to the day. I have nothing against cheese, but I never ask for it on my omelet because it steals too much attention from the rich flavors of the other toppings. Although I have yet to try a scramble, I hear they are quite tasty as well, especially the double scrambles. Before I dig into my double omelet, I never forget to add a splash of Cholula hot sauce for some spice."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "It takes time to prepare an omelet correctly. Edwin has the patience to cook each egg to perfection, slowly but surely preparing all of the toppings inside. What makes Edwin\u2019s omelets truly magical is that he knows my name, as well as the names of all of his other regular customers. Edwin is truly passionate about his job, and his omelets are just exquisite."
+                }
+            ],
+            "image": {
+                "source": "",
+                "caption": "",
+                "show": false,
+                "position": ""
+            }
         }
     ],
     "athletics": [
