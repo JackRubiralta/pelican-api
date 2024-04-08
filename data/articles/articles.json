@@ -725,6 +725,64 @@
                 "show": true,
                 "position": "bottom"
             }
+        },
+        {
+            "id": "utAejLHQbd",
+            "title": {
+                "text": "Students Attend Nikki Haley Ralley",
+                "size": "medium"
+            },
+            "summary": {
+                "content": "",
+                "show": false
+            },
+            "author": "Edie Jones",
+            "date": "2024-01-31",
+            "length": 3,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "On Jan. 19, twelve students, along with Head of the Humanities Department Chris Carter, traveled to Manchester to attend a rally for republican presidential candidate Nikki Haley. The rally, which was one of Haley\u2019s last voter outreach events in preparation for New Hampshire\u2019s Jan. 23 primaries, was packed with supporters and a few political celebrities, most notably satirical presidential candidate Vermin Supreme. Also at the rally were international and local reporters, and most of the St. Paul\u2019s group was interviewed at the event, with Eliza Tse \u201824 and Kitty Diamond \u201825 making an appearance on C-SPAN."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "The rally started off with an enthusiastic introduction from New Hampshire Governor Chris Sununu, who Haley described as having had \u201cway too many Red Bulls today.\u201d Haley went on to give a 35-minute overview of her policies, and the speech was filled with one-liners that drew cheers and clapping from the audience. "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "She spoke about standard issues such as education (\u201cWe have got to get our kids reading again\u201d), the military (\u201cWe can\u2019t just love our men and women when they\u2019re gone \u2013 we\u2019ve gotta love them when they come back home, too\u201d), national security (\u201cChina, Russia, and Iran are bound together through a hatred of freedom, of democracy, and above all things, the United States of America\u201d), and Congress (\u201cDon\u2019t you think it\u2019s finally time we had term limits in DC?\u201d)."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Some topics were more controversial for the crowd, though, like her hope for the United States to become \u201cenergy dominant.\u201d "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "\u201cWe\u2019ll pull back the Environmental Protection Agency \u2013 they care more about sagebrush lizards than they do about whether we can afford our utility bill,\u201d said Haley. She also lost some audience enthusiasm on immigration, when she discussed how she would pass tough laws on immigration as president, just like she did as governor of South Carolina. \u201cInstead of catch and release, we\u2019re gonna go to catch and deport, and let\u2019s defund sanctuary cities once and for all,\u201d said Haley."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Student consensus was that the rally itself was a great experience, with Declan Schweizer \u201824 describing it as \u201ccivilized and orderly,\u201d and others agreeing that it was positive. \u201cIt made me optimistic about New Hampshire,\u201d said Madison Andree \u201824. \u201cMy only idea of what a political rally is is a Trump rally, so I thought people would be cheering at everything she said, but it was clear some people disagreed with her.\u201d Michaela Hope \u201824 agreed. \u201cIt was nice to see that people weren\u2019t following her blindly.\u201d"
+                },
+                {
+                    "type": "paragraph",
+                    "text": "However, the group had mixed reactions about Haley herself. Schweizer said he felt positive about her overall. \u201cI think she had good things to say, and she said them well and confidently,\u201d he said."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Tse agreed that Haley had lots of positive characteristics and seemed genuine, even though she didn\u2019t agree with Haley on everything. \u201cThe rally kind of made me sad because she\u2019s probably not going to win. It feels almost like a waste if I vote for her, even though I respect her a lot,\u201d said Tse."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Andree said the rally made her like Haley less than she did before, saying that she knew Haley was a Trump alternative, but she thought Haley would be a little more moderate. \u201cHearing her speak so passionately about deporting people and the way that she talked about certain things just rubbed me the wrong way. And I wasn\u2019t prepared for people around me to be so enthusiastic about those policies. And I thought her foreign policy felt like fear-mongering. I think China and Russia and Iran are problems, but I don\u2019t think they\u2019re as scary as she made them out to be,\u201d said Andree."
+                }
+            ],
+            "image": {
+                "source": "/images/ZsCRWoWTmeHXuUq.jpg",
+                "caption": "",
+                "show": true,
+                "position": "bottom"
+            }
         }
     ],
     "athletics": [
