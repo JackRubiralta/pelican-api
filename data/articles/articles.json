@@ -783,6 +783,52 @@
                 "show": true,
                 "position": "bottom"
             }
+        },
+        {
+            "id": "HErHzhWyhk",
+            "title": {
+                "text": "Recent News with the Princess of Wales",
+                "size": "small"
+            },
+            "summary": {
+                "content": "",
+                "show": false
+            },
+            "author": "Carly Bigelow",
+            "date": "2024-04-05",
+            "length": 2,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "On March 22 Princess Catherine of Wales, otherwise known as Kate Middleton, announced to the public that she has been diagnosed with cancer. Over the past several months there had been speculation about the Princess, as gossip columns and news media hunted for traces of information."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Middleton\u2019s last official public appearance was on Jan. 16 when she was admitted to a London hospital for an undisclosed type of abdominal surgery. Between hospital discharges and Prince William\u2019s unforeseen absences from certain royal duties, the world has been asking, \u201cWhere is Princess Kate?\u201d "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "A message sent to the public on the United Kingdom's Mother\u2019s Day prompted conversation about the mother of three\u2019s whereabouts to a new level of concern. On March 10, Middleton shared a photo of her with her children wishing everyone a happy Mother\u2019s Day. Shortly thereafter, the public noticed evidence of Photoshop alterations. The editing mishap caused greater speculation, sparking conspiracies that went as far as saying the princess was in a coma, or a personal body double was involved. "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Middleton finally announced on March 22, that she did in fact have the successful abdominal surgery for which she had been admitted to the hospital. She explained that her condition was \u201cthought to be non cancerous\u201d until tests came back to show that cancer was present. "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "These results come just a month after King Charles III announced his own cancer diagnosis. The Princess\u2019s type of cancer has not been disclosed to the public, but she did clarify that her chemotherapy treatment is preventative and that she is undergoing the early stages. "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Beyond the royal family\u2019s personal matters, they have undergone extreme turmoil in the past several months, with social media fueling false rumors. Middleton assured the public that her duties serving the U.K. bring her great joy, and that she is thankful for the support she has received. What the royal family asks now is for the public to grant them time and space to effectively deal with the new challenges they face. "
+                }
+            ],
+            "image": {
+                "source": "/images/MAlrNLIpKlDgkCl.jpg",
+                "caption": "",
+                "show": false,
+                "position": "bottom"
+            }
         }
     ],
     "athletics": [
