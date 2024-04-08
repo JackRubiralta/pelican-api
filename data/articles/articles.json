@@ -1159,6 +1159,48 @@
                 "show": false,
                 "position": "bottom"
             }
+        },
+        {
+            "id": "pbZCeuArXf",
+            "title": {
+                "text": "Behind the Scenes of SNL",
+                "size": "medium"
+            },
+            "summary": {
+                "content": "",
+                "show": false
+            },
+            "author": "Kevin Wu",
+            "date": "2024-02-26",
+            "length": 2,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "Behind every Saturday night dance, feed, open mic and any other grand event stands a group of people orchestrating a complex operation. Meet the dedicated team behind the scenes at St. Paul's Saturday Night Life, or SNL. They're the unsung heroes, tirelessly working to ensure every detail is flawless and every moment unforgettable. "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "With meticulous planning and unwavering dedication, they transform the ordinary into the extraordinary, making every event a spectacle of entertainment. But who, exactly, is on this impactful committee? "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "\u201cWe have a very diverse collection of members,\u201d says Sarah Ernst \u201824. \u201cSome individuals from every friend group on campus.\u201d Mighty Associate Dean of Students Kyle Losardo leads the charge and commands the entire operation. This group meets in the publications room every Monday at 7:30 pm to discuss their plans. \u201cMr. Losardo often comes up with the initial idea,\u201d says Ernst, \u201cand we add comments based on what the student body wants. This process always ensures an excellent event.\u201d "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "However, the ball is sometimes taken out of students\u2019 hands when it comes to the specific logistics of events. \u201cWe can help come up with the general event, but when it comes to the logistics, it\u2019s a push and pull,\u201d says Lucas Conrod \u201825. \u201cSometimes, we get denied, so we need to compromise.\u201d At the end of the day, the Dean of Students office ultimately has the final say in large community events. "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "The members of SNL always have great fun organizing these events for the community. Conrod says his favorite SNL event was \u201cthe Red, White, and Blue dance,\u201d which was \u201ca huge success. Everyone contributed, everyone helped, and everyone created an awesome experience.\u201d Ernst adds that \u201cPink Bash was a BASH TO REMEMBER.\u201d"
+                }
+            ],
+            "image": {
+                "source": "/images/EdFJaSdSOjPxntC.jpg",
+                "caption": "",
+                "show": false,
+                "position": "bottom"
+            }
         }
     ],
     "athletics": [
