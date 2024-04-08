@@ -280,7 +280,7 @@
             "image": {
                 "source": "/images/BWAMaujbeLayVTO.jpg",
                 "caption": "Graphic by Cole Hamilton '24",
-                "show": true,
+                "show": false,
                 "position": "bottom"
             }
         },
@@ -492,7 +492,7 @@
             "image": {
                 "source": "/images/IOObHQfkEUaqRHE.jpg",
                 "caption": "",
-                "show": true,
+                "show": false,
                 "position": "bottom"
             }
         },
