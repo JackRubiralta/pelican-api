@@ -829,6 +829,52 @@
                 "show": false,
                 "position": "bottom"
             }
+        },
+        {
+            "id": "TNIqSBbbpf",
+            "title": {
+                "text": "Letter from the Editors: Issue 11",
+                "size": "small"
+            },
+            "summary": {
+                "content": "",
+                "show": false
+            },
+            "author": "Cole Hamilton",
+            "date": "2024-04-05",
+            "length": 2,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "Dear reader, "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Can you believe it? We made it out of the tundra (but let\u2019s be honest, it wasn't much of a tundra at the end \u2014 thank you, global warming)!!!!! Everything is better for those of you who have never experienced spring at St. Paul\u2019s. In the past, we have mentioned how much our school changes with each season, and there\u2019s no better explanation than the transition from winter to spring. Instead of a dark, stormy dungeon, the campus slowly returns to the fairy tale magic scenery that it had during those opening days of the fall term."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "But we need to make a significant distinction between spring and fall. Spring is special because we ease into more warmth, happiness, flowers, and green on campus. During the fall, we had to savor every bit because we knew that each day only meant we were closer to winter. This all goes to show that Spring is the best season on campus. And even though it\u2019s not the epitome of spring now, just know that we have something to look forward to every day."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "To put it simply, nothing feels like a force anymore. Those treacherous walks to the upper and the academic quad suddenly feel enjoyable\u2026 Many people who hibernate during the winter, never leaving the dorm unless absolutely necessary, return to society again \u2014 and it\u2019s refreshing. Rather than spending your Sundays locked in your room, in the library, or on a numbing ~nature walk~, you can finally go out and enjoy activities like hanging out on the chapel lawn or going to the docks. Most importantly, social hours no longer need to be spent in the Friedman Community Center; spread your wings and fly to Chapel Lawn. It's time to bid farewell to the parkas and pull out the spike ball!"
+                },
+                {
+                    "type": "paragraph",
+                    "text": "This is an important reminder: just because it\u2019s no longer depressing and gray does not mean you can completely take your foot off the gas\u2026 As tempting as it is to become a full-time member of Camp SPS, you can\u2019t forget your duties as a student. So, set your priorities straight! Find that happy medium between chapel lawn games and finishing your Vth form capstone. Where there\u2019s a will, there\u2019s a way! "
+                },
+                {
+                    "type": "paragraph",
+                    "text": "As our last term as editors, we want to deliver to our readers and make the most of our last months with The Pelican. Please come to us with any suggestions or ideas, and we will do our best to implement them."
+                }
+            ],
+            "image": {
+                "source": "/images/wvHJeWIPDVGfUNs.jpg",
+                "caption": "",
+                "show": false,
+                "position": "bottom"
+            }
         }
     ],
     "athletics": [
