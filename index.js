@@ -102,34 +102,36 @@ app.get('/api/spelling/', (req, res) => {
 
 
 app.get('/api/search', (req, res) => {
-    // Retrieve the search query parameter
-    const { query } = req.query;
+  // Retrieve the search query parameter
+  const { query } = req.query;
 
-    // Check if the query parameter is provided
-    if (!query) {
-        return res.status(400).send('Search query is required');
-    }
+  // Check if the query parameter is provided
+  if (!query) {
+      return res.status(400).send('Search query is required');
+  }
 
-    // Combine articles from 'new' and 'athletics' into a single array
-    const allArticles = [...articlesData.new, ...articlesData.athletics];
+  // Combine articles from 'new' and 'athletics' into a single array
+  const allArticles = [...articlesData.new, ...articlesData.athletics];
 
-    // Log to see if allArticles is populated correctly
-    console.log("allArticles Length:", allArticles.length);
+  // Log to see if allArticles is populated correctly
+  console.log("allArticles Length:", allArticles.length);
 
-    // Filter articles by checking if the title or summary contains the search query
-    // Note: This is case-insensitive search with added safety checks
-    const filteredArticles = allArticles.filter(article => {
-      const titleText = article.title?.text?.toLowerCase() || ""; // Safely access title.text
-      // Ensure summary is a string before converting to lowercase
-      const summaryText = typeof article.summary === 'string' ? article.summary.toLowerCase() : ""; 
-      const queryLower = query.toLowerCase();
-  
-      return titleText.includes(queryLower) || summaryText.includes(queryLower);
+  // Filter articles by checking if the title, summary, or author contains the search query
+  // Note: This is case-insensitive search with added safety checks
+  const filteredArticles = allArticles.filter(article => {
+    const titleText = article.title?.text?.toLowerCase() || ""; // Safely access title.text
+    const summaryText = typeof article.summary === 'string' ? article.summary.toLowerCase() : ""; 
+    // Safely access the author's name, assuming it's under `article.author` and is a string
+    const authorName = typeof article.author === 'string' ? article.author.toLowerCase() : "";
+    const queryLower = query.toLowerCase();
+
+    return titleText.includes(queryLower) || summaryText.includes(queryLower) || authorName.includes(queryLower);
   });
 
-    // Return the filtered articles as JSON
-    res.json(filteredArticles);
+  // Return the filtered articles as JSON
+  res.json(filteredArticles);
 });
+
 
 
 // API endpoint to get crossword puzzle
