@@ -94,6 +94,11 @@ app.get('/api/sports', (req, res) => {
     res.json(recentArticles);
 });
 
+const spellingDataPath = path.join(__dirname, 'data/spelling/spelling.json');
+
+app.get('/api/spelling/', (req, res) => {
+  res.json(spellingDataPath);
+});
 
 
 app.get('/api/search', (req, res) => {
