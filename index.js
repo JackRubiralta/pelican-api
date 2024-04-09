@@ -135,7 +135,7 @@ app.get('/api/search', (req, res) => {
 // API endpoint to get crossword puzzle
 app.get('/api/crossword', (req, res) => {
     // Define the path to the crossword JSON file
-    const crosswordPath = path.join(__dirname, 'data/crosswords/crossword1.json');
+    const crosswordPath = path.join(__dirname, 'data/crosswords/crossword.json');
   
     try {
       // Check if the crossword file exists
