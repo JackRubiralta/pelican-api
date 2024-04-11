@@ -74,18 +74,8 @@ app.get('/api/images/:imageName', async (req, res) => {
 // Use morgan for logging
 app.use(morgan('combined'));
 
-// Read the data file
-const dataPath = path.join(__dirname, 'data/articles/articles.json');
-let articlesData = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
-
 app.use(express.json());
 
-// API endpoint to get recent articles from 'new'
-app.get('/api/recent', (req, res) => {
-    const sortedArticles = shuffleWithRecencyPreference(articlesData.new);
-    const recentArticles = sortedArticles.slice(0, 20);
-    res.json(recentArticles);
-});
 
 
 // Add this block to your existing code
@@ -122,14 +112,13 @@ app.get('/api/issues/issue_10', (req, res) => {
 
 // API endpoint to get recent articles from 'athletics'
 app.get('/api/sports', (req, res) => {
-    const sortedArticles = shuffleWithRecencyPreference(articlesData.athletics);
-    const recentArticles = sortedArticles.slice(0, 20);
-    res.json(recentArticles);
+   
 });
 
-const spellingDataPath = path.join(__dirname, 'data/spelling/spelling.json');
 
 app.get('/api/spelling/', (req, res) => {
+  const spellingDataPath = path.join(__dirname, 'data/spelling/spelling.json');
+
   res.json(spellingDataPath);
 });
 
@@ -216,17 +205,7 @@ app.get('/api/articles/:id', (req, res) => {
     const { id } = req.params;
 
     // Search for the article in both 'new' and 'athletics' categories
-    let article = null;
-    for (const category of ['new', 'athletics']) {
-        article = articlesData[category].find(article => article.id === id);
-        if (article) break; // If found, break out of the loop
-    }
-
-    if (article) {
-        res.json(article);
-    } else {
-        res.status(404).send('Article not found');
-    }
+   
 });
 
 app.listen(PORT, () => {

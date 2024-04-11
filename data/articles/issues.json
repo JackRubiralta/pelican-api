@@ -15,7 +15,7 @@
               "date": "2024-02-28",
               "length": 3,
               "image": {
-                  "source": "/images/s.jpg",
+                  "source": "s.jpg",
                   "caption": "Super Bowl livestream at Raffini // Photographed by Jason Lee",
                   "show": true,
                   "position": "bottom"
@@ -57,7 +57,7 @@
               "date": "2024-02-28",
               "length": 3,
               "image": {
-                  "source": "/images/h.jpg",
+                  "source": "h.jpg",
                   "caption": "Photographed by Vin Chutijirawong '25",
                   "show": true,
                   "position": "bottom"
@@ -80,7 +80,7 @@
               "date": "2024-02-28",
               "length": 3,
               "image": {
-                  "source": "/images/1.jpg",
+                  "source": "1.jpg",
                   "caption": "Photographed by Temi Johnson",
                   "show": true,
                   "position": "bottom"
@@ -126,7 +126,7 @@
               "date": "2024-02-28",
               "length": 2,
               "image": {
-                  "source": "/images/ssa.jpg",
+                  "source": "ssa.jpg",
                   "caption": " Photo by Blue Han",
                   "show": true,
                   "position": "bottom"
@@ -191,7 +191,7 @@
               "date": "2024-02-28",
               "length": 2,
               "image": {
-                  "source": "/images/snead.jpg",
+                  "source": "snead.jpg",
                   "caption": "Photographed by Temi Johnson",
                   "show": true,
                   "position": "top"
@@ -214,7 +214,7 @@
               "date": "2024-02-28",
               "length": 2,
               "image": {
-                  "source": "/images/duo.jpg",
+                  "source": "duo.jpg",
                   "caption": "",
                   "show": true,
                   "position": ""
