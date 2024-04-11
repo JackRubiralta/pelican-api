@@ -327,6 +327,60 @@
                     "show": false,
                     "position": "bottom"
                 }
+            },
+            {
+                "id": "rgOMuKgFwQ",
+                "title": {
+                    "text": "Sam \"Safety Sam\" Keach",
+                    "size": "medium"
+                },
+                "summary": {
+                    "content": "Keeping the SPS campus and students safe",
+                    "show": true
+                },
+                "author": "Sebastian Brigham",
+                "date": "2024-02-26",
+                "length": 2,
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "text": "You may know the familiar hum of the St. Paul\u2019s Safety vans that patrol campus day and night. On weekday mornings, as students rush to Chapel, Lead Campus Safety Officer Sam Keach climbs into an SPS Safety van and begins his shift. \u201cIt doesn\u2019t get old, like when Chapel starts in the morning and you see kids just start sprinting,\u201d he says. \u201cNo two days are ever the same.\u201d"
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Growing up in Concord with an SPS alumna mother, Keach always felt a connection to St. Paul\u2019s School. After graduating from Concord High School, he attended Fairfield University, earning a degree in Sociology and Anthropology. While at Fairfield, he got a job as a dispatcher in the safety office, and says he found that he really enjoyed this type of work. So, when a position opened up at SPS almost nine years ago, he jumped on the opportunity."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "When Keach started working for the SPS Safety Department, he covered the night shift. While he says midnight to eight wasn\u2019t his favorite shift, he stuck with it, fueled by a genuine love of his work. \u201cBesides,\u201d he says, \u201cthere\u2019s something cool about being the only person awake at three in the morning.\u201d"
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "As Keach drives around campus, he says he works to update building access, tend to student and faculty needs, keep an eye out for abnormalities and more. Between tasks, he often listens to the radio: \u201cI listen to everything: hip-hop, country, EDM, you name it.\u201d"
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "When he isn\u2019t on call, Keach says he likes to spend time with friends and family and explore St. Paul\u2019s beautiful campus on the bike. \u201cThere\u2019s over two thousand acres,\u201d he says. \u201cGoing through the woods, it never gets old.\u201d"
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "In 2023, Keach received the Benjamin Rush Toland award. The award is in honor of Ben Toland \u201838, who was \u201ckilled in action, serving beyond the call of duty, in an assault on Iwo Jima in World War II.\u201d Each year, SPS honors staff members who display the \u201csame gallant spirit and a true commitment to the school.\u201d"
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "As he approaches year ten at SPS, Keach says his love for the school fuels his plans to continue working here. \u201cI love the community, I love the people, and I love being that 24/7 resource that you guys can always call if you need.\u201d"
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "In closing, Keach offers a short word of advice to SPS students: \u201cBe patient, be positive, work hard,\u201d and most importantly, \u201cbe kind.\u201d"
+                    }
+                ],
+                "image": {
+                    "source": "GGKcBpAQkVHCvjH.jpg",
+                    "caption": "Photo by Temi Johnson",
+                    "show": false,
+                    "position": "bottom"
+                }
             }
         ],
         "guides": [],
