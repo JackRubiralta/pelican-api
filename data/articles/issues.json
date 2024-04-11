@@ -266,7 +266,7 @@
                 "id": "XFlhLGoFHC",
                 "title": {
                     "text": "Teacher of the Issue: Mrs. Edwards",
-                    "size": "big"
+                    "size": "medium"
                 },
                 "summary": {
                     "content": "Humanities teacher brings wealth of experience, engagement and",
@@ -324,7 +324,7 @@
                 "image": {
                     "source": "oIcICfnIEOudteD.jpg",
                     "caption": "Photo by Vin Chutijirawong",
-                    "show": true,
+                    "show": false,
                     "position": "bottom"
                 }
             }
