@@ -149,31 +149,32 @@ app.get('/api/search', async (req, res) => {
     if (fs.existsSync(issuesPath)) {
       // Read the content of the issues JSON file
       const issuesData = JSON.parse(fs.readFileSync(issuesPath, 'utf8'));
-      let allSections = [];
+      let allArticles = [];
 
-      // Iterate through each issue in the issues JSON
-      for (const key in issuesData) {
-        if (issuesData.hasOwnProperty(key) && issuesData[key].sections) {
-          // Flatten sections into a single array for easier searching
-          allSections.push(...issuesData[key].sections);
+      // Iterate through each issue
+      for (const issueKey in issuesData) {
+        // Iterate through each section within the issue
+        for (const sectionKey in issuesData[issueKey]) {
+          const articles = issuesData[issueKey][sectionKey]; // Assuming each section is an array of articles
+          allArticles.push(...articles);
         }
       }
 
-      // Log to see if allSections is populated correctly
-      console.log("allSections Length:", allSections.length);
+      // Log to see if allArticles is populated correctly
+      console.log("allArticles Length:", allArticles.length);
 
-      // Filter sections by checking if the title, summary, or other fields contain the search query
-      const filteredSections = allSections.filter(section => {
-        const titleText = section.title?.toLowerCase() || ""; // Safely access title
-        const summaryText = section.summary?.toLowerCase() || ""; // Safely access summary
-        const contentText = section.content?.toLowerCase() || ""; // Safely access content if applicable
+      // Filter articles by checking if the title, summary, or author contains the search query
+      const filteredArticles = allArticles.filter(article => {
+        const titleText = article.title?.text?.toLowerCase() || ""; // Safely access title.text
+        const summaryContent = article.summary?.content?.toLowerCase() || ""; 
+        const authorName = article.author?.toLowerCase() || ""; // Safely access the author's name
         const queryLower = query.toLowerCase();
 
-        return titleText.includes(queryLower) || summaryText.includes(queryLower) || contentText.includes(queryLower);
+        return titleText.includes(queryLower) || summaryContent.includes(queryLower) || authorName.includes(queryLower);
       });
 
-      // Return the filtered sections as JSON
-      res.json(filteredSections);
+      // Return the filtered articles as JSON
+      res.json(filteredArticles);
     } else {
       // If the issues file does not exist, send a 404 response
       res.status(404).send('Issues file not found');
