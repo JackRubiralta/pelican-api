@@ -134,7 +134,7 @@ app.get('/api/spelling/', (req, res) => {
 });
 
 
-app.get('/api/search', (req, res) => {
+app.get('/api/search', async (req, res) => {
   // Retrieve the search query parameter
   const { query } = req.query;
 
@@ -143,26 +143,45 @@ app.get('/api/search', (req, res) => {
       return res.status(400).send('Search query is required');
   }
 
-  // Combine articles from 'new' and 'athletics' into a single array
-  const allArticles = [...articlesData.new, ...articlesData.athletics];
+  // Define the path to the issues JSON file
+  const issuesPath = path.join(__dirname, 'data/articles/issues.json');
 
-  // Log to see if allArticles is populated correctly
-  console.log("allArticles Length:", allArticles.length);
+  try {
+    if (fs.existsSync(issuesPath)) {
+      // Read the content of the issues JSON file
+      const issuesData = JSON.parse(fs.readFileSync(issuesPath, 'utf8'));
+      let allIssues = [];
 
-  // Filter articles by checking if the title, summary, or author contains the search query
-  // Note: This is case-insensitive search with added safety checks
-  const filteredArticles = allArticles.filter(article => {
-    const titleText = article.title?.text?.toLowerCase() || ""; // Safely access title.text
-    const summaryText = typeof article.summary === 'string' ? article.summary.toLowerCase() : ""; 
-    // Safely access the author's name, assuming it's under `article.author` and is a string
-    const authorName = typeof article.author === 'string' ? article.author.toLowerCase() : "";
-    const queryLower = query.toLowerCase();
+      // Iterate through each issue in the issues JSON
+      for (const key in issuesData) {
+        if (issuesData.hasOwnProperty(key)) {
+          allIssues.push(issuesData[key]);
+        }
+      }
 
-    return titleText.includes(queryLower) || summaryText.includes(queryLower) || authorName.includes(queryLower);
-  });
+      // Log to see if allIssues is populated correctly
+      console.log("allIssues Length:", allIssues.length);
 
-  // Return the filtered articles as JSON
-  res.json(filteredArticles);
+      // Filter issues by checking if the title or summary contains the search query
+      const filteredIssues = allIssues.filter(issue => {
+        const titleText = issue.title?.toLowerCase() || ""; // Safely access title
+        const summaryText = issue.summary?.toLowerCase() || ""; // Safely access summary
+        const queryLower = query.toLowerCase();
+
+        return titleText.includes(queryLower) || summaryText.includes(queryLower);
+      });
+
+      // Return the filtered issues as JSON
+      res.json(filteredIssues);
+    } else {
+      // If the issues file does not exist, send a 404 response
+      res.status(404).send('Issues file not found');
+    }
+  } catch (error) {
+    console.error(error);
+    // In case of any server error, send a 500 response
+    res.status(500).send('Server error');
+  }
 });
 
 
