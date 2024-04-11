@@ -81,7 +81,7 @@ app.use(express.json());
 // Add this block to your existing code
 
 // API endpoint to get the data for "issue_10" from issues.json
-app.get('/api/issues/issue_10', (req, res) => {
+app.get('/api/issues/current_issue', (req, res) => {
   // Define the path to the issues JSON file
   const issuesPath = path.join(__dirname, 'data/articles/issues.json');
 
@@ -90,13 +90,21 @@ app.get('/api/issues/issue_10', (req, res) => {
     if (fs.existsSync(issuesPath)) {
       // Read the content of the issues JSON file
       const issuesData = JSON.parse(fs.readFileSync(issuesPath, 'utf8'));
-      // Check if "issue_10" exists in the data
-      if (issuesData.hasOwnProperty('issue_10')) {
-        // Send the "issue_10" data as JSON
-        res.json(issuesData['issue_10']);
+
+      // Find the issue with the highest number
+      const issueNumbers = Object.keys(issuesData)
+        .map(key => key.match(/^issue(\d+)$/)) // Extract numbers from keys like 'issue10', 'issue20', etc.
+        .filter(result => result !== null) // Remove any keys that do not match
+        .map(result => parseInt(result[1])) // Convert the numbers to integers
+        .sort((a, b) => b - a); // Sort the numbers in descending order
+
+      if (issueNumbers.length > 0) {
+        const currentIssueKey = `issue${issueNumbers[0]}`; // Construct the key for the most recent issue
+        // Send the most recent issue data as JSON
+        res.json(issuesData[currentIssueKey]);
       } else {
-        // If "issue_10" is not found in the data, send a 404 response
-        res.status(404).send('"issue_10" not found');
+        // If no issues are found in the data, send a 404 response
+        res.status(404).send('No issues found');
       }
     } else {
       // If the issues file does not exist, send a 404 response
