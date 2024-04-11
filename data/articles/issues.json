@@ -219,7 +219,50 @@
         "letters": [],
         "voices": [],
         "styles": [],
-        "people": [],
+        "people": [
+            {
+                "id": "fCZXMYEYVU",
+                "title": {
+                    "text": "Dynamic Duos: Parker Hanson and Lulu Mangriotis",
+                    "size": "big"
+                },
+                "summary": {
+                    "content": "",
+                    "show": false
+                },
+                "author": "Nel Peter",
+                "date": "2024-02-26",
+                "length": 2,
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "text": "For this week's dynamic duo, we have a pair of roommates who have launched into stardom through their \u201cnano-influencer\u201d TikTok account: @punden.lolivia. Who are these mini trendsetters, you may ask? Their names are Lulu Mangriotis \u201825 and Parker Hanson \u201825 of Ford House."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Aside from dancing across the stage for the SPS Ballet Company or fiercely facing off on the lacrosse and field hockey fields, Mangriotis and Hanson generate content including but not limited to outfit checks, day in the lifes, cooking videos, and mukbangs. While their platform wields 53 followers and 328 likes, the real notable statistic is their view count. Their most recent video, captioned \u201cBreaking back into our influencer status with some Dessert Bowls,\u201d climbed to over 3,300 views. The secret to their success might be their trendy hashtags like #RingPopVows and #ValentinesDay. With just seven videos out, @punden.lolivia is projected to reach microinfluencer status within the year:  an impressive feat for two full-time students."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Hanson and Mangriotis didn\u2019t intend for the account to blow up, at least until they woke up one morning to six hundred views with just one follower.\u201cOur first video was an accident, but it quickly reached a really large audience and we realized that we had something special with the potential to be big,\u201d says Mangriotis. Despite their ultimate goal of fame, the roommates claim that @punden.lolivia was \u201cfounded off of true roomie love for each other,\u201d and they are happy with the community of supporters that they have cultivated."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "@punden.lolivia has touched the lives of many SPS students who turn to the account for a chuckle or to watch an enjoyable video of their peers. Avid fan Brooks Fisher \u201825 holds the account in high esteem: \u201cPunden and Lolivia mean everything to me.\u201d Others appreciate the account for its genuinity and relatableness. Lily McKee \u201825 states that @punden.lolivia is, \u201cA way for me to see the wholesome lives of other students on campus.\u201d"
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Hanson and Mangriotis hope to follow in the footsteps of other SPS students (kudos to alum Denny Blake \u201823 boasting 53.9K followers on his own account) who have accrued large follower bases on social media."
+                    }
+                ],
+                "image": {
+                    "source": "XxWoUTWrmGrMyqI.jpg",
+                    "caption": "Photo courtesy of Lulu Mangriotis",
+                    "show": true,
+                    "position": "bottom"
+                }
+            }
+        ],
         "guides": [],
         "clubs": [],
         "misc": [],
