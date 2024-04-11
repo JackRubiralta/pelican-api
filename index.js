@@ -81,7 +81,7 @@ app.use(express.json());
 // Add this block to your existing code
 
 // API endpoint to get the data for "issue_10" from issues.json
-app.get('/api/issues/current_issue', (req, res) => {
+app.get('/api/current_issue', (req, res) => {
   // Define the path to the issues JSON file
   const issuesPath = path.join(__dirname, 'data/articles/issues.json');
 
