@@ -87,6 +87,39 @@ app.get('/api/recent', (req, res) => {
     res.json(recentArticles);
 });
 
+
+// Add this block to your existing code
+
+// API endpoint to get the data for "issue_10" from issues.json
+app.get('/api/issues/issue_10', (req, res) => {
+  // Define the path to the issues JSON file
+  const issuesPath = path.join(__dirname, 'data/articles/issues.json');
+
+  try {
+    // Check if the issues file exists
+    if (fs.existsSync(issuesPath)) {
+      // Read the content of the issues JSON file
+      const issuesData = JSON.parse(fs.readFileSync(issuesPath, 'utf8'));
+      // Check if "issue_10" exists in the data
+      if (issuesData.hasOwnProperty('issue_10')) {
+        // Send the "issue_10" data as JSON
+        res.json(issuesData['issue_10']);
+      } else {
+        // If "issue_10" is not found in the data, send a 404 response
+        res.status(404).send('"issue_10" not found');
+      }
+    } else {
+      // If the issues file does not exist, send a 404 response
+      res.status(404).send('Issues file not found');
+    }
+  } catch (error) {
+    console.error(error);
+    // In case of any server error, send a 500 response
+    res.status(500).send('Server error');
+  }
+});
+
+
 // API endpoint to get recent articles from 'athletics'
 app.get('/api/sports', (req, res) => {
     const sortedArticles = shuffleWithRecencyPreference(articlesData.athletics);
