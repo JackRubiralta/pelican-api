@@ -476,6 +476,57 @@
                     "show": false,
                     "position": ""
                 }
+            },
+            {
+                "id": "mbArZFnDxe",
+                "title": {
+                    "text": "Some Favorite SPS Trails",
+                    "size": "medium"
+                },
+                "summary": {
+                    "content": "",
+                    "show": false
+                },
+                "author": "Helen Berger",
+                "date": "2024-02-26",
+                "length": 2,
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "text": "Welcome to another one of my areas of expertise, the SPS Trails. Before coming to St. Paul\u2019s, I had no major interest in nature walks (or even hiking, for that matter). This school\u2019s scenery ignited my love for the outdoors and taught me to appreciate each season for what it brings. "
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "While spending two hours outdoors might not be everyone's cup of tea, winter walks have brought me so much joy these recent months, and I highly recommend getting your hands on a sled while the snow lasts or grabbing some friends and heading out to the woods."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "If you\u2019re looking for a shorter, 15-20 minute stroll, (A) on the map is perfect for you. This path begins at the Armour entrance of the woods and takes you out behind the Upper. The way of this path is easy; just keep turning left until you make it around the Lower School Pond. You get lovely water views and a relatively easy walk with little to no mud or obstacles. The latter half of this path takes you by the moon rock, which is not much of a landmark but something worth visiting once. "
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Two longer paths around the SPS woods are the path to the Meadow (White-Red-Yellow) and the \u201cLong Way\u201d (G), as I call it, to the Boat Docks. The path I take to the Meadow also usually begins at the Armour entrance to the woods, and it is a sixty- to ninety-minute hike at a leisurely pace without stopping. The views of Turkey Pond at the edge of the Meadow are stunning, but at this time of year, you have to trek through a path of deep mud to get there, which is a deterrent to most. "
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "The \u201cLong Way\u201d to the boat docks can be muddy and requires crossing slightly sinking wooden walkways, but it is a fun way to hike. The path may get a little confusing sometimes, but as long as you keep the water on your right, you will make it to the boat docks just fine. "
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Another excellent resource for SPS students is the NH Audubon Society, which is accessible right off Silk Farm Road. The NH Audubon Society has many of its own trails. They have their own trail map, and a bonus about The Audubon Society\u2019s trail web is that none of the trails are over two miles if you're not one to spend hours on a hike, and they\u2019re all leisurely and beautiful."
+                    },
+                    {
+                        "type": "image",
+                        "source": "/images/WlXUuKFXtRnXOAW.jpg",
+                        "caption": "Photo courtesy of Helen Berger"
+                    }
+                ],
+                "image": {
+                    "source": "",
+                    "caption": "",
+                    "show": false,
+                    "position": ""
+                }
             }
         ],
         "clubs": [],
