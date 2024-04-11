@@ -433,6 +433,49 @@
                     "show": false,
                     "position": ""
                 }
+            },
+            {
+                "id": "CjRUZHHKbT",
+                "title": {
+                    "text": "A Guide to Creating Outfits for SPS Dances",
+                    "size": "medium"
+                },
+                "summary": {
+                    "content": "",
+                    "show": false
+                },
+                "author": "Lucas Conrod",
+                "date": "2024-02-26",
+                "length": 2,
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "text": "I live for dances. In the middle of a dark, test-filled week, knowing there's a dance on Saturday night is often one of the only things that keep me going. Many may cite getting ready with friends, taking pictures, or the dance itself as their favorite part of the experience. However, when a well-themed dance comes along, creating the outfit is my personal favorite. I'm a proud member of SNL, and a huge perk of being a part of the planning process is knowing the theme weeks before everyone else. I always get a head start on finding something to wear. "
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "There are two main dance categories: dances run by StudCo, like Winter or Fall formal, and dances run by SNL, like the Halloween dance. For StudCo dances, it's a lot easier to find something to wear when you're under the constraints of formalwear and a simple theme like \u201cBlack Tie.\u201d However, with SNL dances, themes require a little more thinking. My process for concocting outfits for those is a little bit more complex. "
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "To start, I like to choose the centerpiece of the outfit and build from there. For the patriotic dance this fall, I started by knowing I'd wear an American flag-print boxing robe. From there, I searched for inspiration on Pinterest and eventually decided upon eagle wings and a Nicki Minaj flag tied around my neck like a cape. Casual, I know. I also like to use the app \u201cShuffles\u201d to make something of a vision board for my outfits. That's where I add the accessories and something incorporating my signature star. I triple-check to ensure everything will arrive on time to avoid a crisis and send it around for approval. "
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "I'm not saying anyone should do what I do to make a dance outfit. It's extra. In fact, some of my best outfits have been those where I've used things just from my closet. Everyone is capable of being fabulously on theme; you don't have to do the most."
+                    },
+                    {
+                        "type": "image",
+                        "source": "/images/VoyfrNIcXhDCDSF.jpg",
+                        "caption": "Graphic by Lucas Conrod"
+                    }
+                ],
+                "image": {
+                    "source": "",
+                    "caption": "",
+                    "show": false,
+                    "position": ""
+                }
             }
         ],
         "clubs": [],
