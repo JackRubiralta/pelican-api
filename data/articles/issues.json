@@ -176,7 +176,46 @@
                 }
             }
         ],
-        "spotlight": [],
+        "spotlight": [
+            {
+                "id": "cYILNRozCu",
+                "title": {
+                    "text": "Two SPS Debaters Qualify for Worlds",
+                    "size": "big"
+                },
+                "summary": {
+                    "content": "",
+                    "show": false
+                },
+                "author": "Theo Christoffersen",
+                "date": "2024-02-26",
+                "length": 2,
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "text": "This winter, the SPS debate team has been hard at work. Not only has the team placed well in their tournaments, but two debaters have received the chance to attend the World Individual Debating and Public Speaking Championships. The two debaters selected were Annabella Bernhardt \u201824 and Lucas Miller \u201825, both of whom started debate only last year. Annabella won the best speaker award at Loomis Chaffee, giving her an immediate invitation to Worlds. The following week at Choate, Lucas competed in three rounds of parliamentary debate, placing second overall. The winner had previously received a Worlds invitation, so the invite was extended to Lucas."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Lucas started debate to try and find his voice and confidence. \u201cI was a shy kid,\u201d he recounted, \u201cI realized I needed to be more outgoing, so I looked into debate and public speaking as a way to build confidence.\u201d In his two years on the SPS team, he has gone from a novice debater to a seasoned pro with the help of Dr. Camden, Mr. Duncan, and Mr. Gile. Not only has debate helped Lucas in arguments, but it has also helped him in other aspects of his life. \u201cDebate has helped me be more articulate in class and class and working with other people.\u201d"
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Annabella started debate the same year as Lucas, \u201cI joined because of the excitement and to get the chance to debate something and someone new every day. I also love to argue, so that helped me to stay engaged.\u201d Along with Lucas, Annabella also thinks that now, she is better at thinking on her feet and can construct better arguments. "
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Both are thrilled to have received the chance to represent St. Paul\u2019s at the international level. When Annabella first received the news that she qualified for Worlds, she was so shocked that she thought it was meant for another person. Taking place in April, \u201cWorlds provides an opportunity to meet intriguing people with differing opinions from across the globe,\u201d says Lucas. In addition to the competition, both are going to be on the lookout to see a koala and a kangaroo. As we approach the spring term, wish the two debaters luck as they set off across the globe."
+                    }
+                ],
+                "image": {
+                    "source": "XXmPffgAwlQJsds.jpg",
+                    "caption": "Photo by Temi Johnson",
+                    "show": true,
+                    "position": "top"
+                }
+            }
+        ],
         "letters": [],
         "voices": [],
         "styles": [],
