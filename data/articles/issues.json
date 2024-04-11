@@ -62,6 +62,56 @@
                     "show": true,
                     "position": "bottom"
                 }
+            },
+            {
+                "id": "SFEQuBKqiY",
+                "title": {
+                    "text": "SPS Students Celebrate the Lunar New Year",
+                    "size": "medium"
+                },
+                "summary": {
+                    "content": "",
+                    "show": false
+                },
+                "author": "Edie Jones",
+                "date": "2024-02-26",
+                "length": 3,
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "text": "St. Paul\u2019s students celebrated the Lunar New Year with a Saturday night celebration and a Lunar New Year chapel. Both of the festivities, which have been in the works since the middle of the fall term, were a collaboration between the students of the Chinese program and members of the Chinese Society. Head of the Languages Department Jenny Li says the vision for the Lunar New Year celebrations and the Chinese program as a whole is to bring together students who are learning Chinese with international students who are native speakers. \u201cI think the Chinese international students and students who are learning Chinese are both precious resources at SPS,\u201d says Li."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Saturday\u2019s event in Raffini kicked off with an enthusiastic countdown from a large audience, and the program went on to include performances from all of the Chinese classes, as well as performances from individuals in Chinese Society. Peter Ding \u201826, a member of the Chinese Society who performed Kung Fu with Chinese Society Head Hudson Stovall \u201824, says he volunteered to perform \u201cto spread awareness about our culture and to have people see more about our culture than what\u2019s commonly known.\u201d"
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "For the first time, the Lunar New Year celebration also included presentations from Korean Society, Japanese Society, and JSEA about other countries\u2019 New Year traditions. \u201cThe aim of Saturday night\u2019s event was to host an international and not a solely China-focused Lunar New Year celebration,\u201d said Teacher of Chinese Paul Murray. \u201cThis year\u2019s event marked a significant stride towards a more global and community-oriented event. I\u2019m inspired by the potential that this year showed for even greater festivities in the future.\u201d"
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "The food at the event was also a highlight, with the execution requiring hard work from many students. Chinese Seminar student Raen Kao \u201824 spent most of the day preparing bubble tea for the event, as bubble tea is a dessert their family regularly makes. \u201cI\u2019m the only Taiwanese student as far as I know, and bubble tea comes from Taiwan,\u201d says Kao. Many Chinese program students, including Kao, also participated in making dumplings at Sheldon."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "The Chapel performance required even more time from the students and faculty participating, with performances from Chinese program students, Chinese Society, and the orchestra. Li says that she had always hoped for a collaboration between the performing arts program and the Chinese program, and she was very grateful to Chinese Society Heads Jenny Qu \u201825 and Enoch Huang \u201825 for spearheading it. \u201cI appreciate all the students and Mr. Pandolfi in the orchestra, who did a beautiful job. This is taking us to the next level of togetherness,\u201d says Li. \u201cI know the Chinese kids felt happy about it, but I\u2019m also so grateful for the students not from Asia for celebrating with us.\u201d"
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Both events were filled with energy, with many students saying that the performance was their favorite Chapel program of the year. \u201cThe planning is a lot of work, but it\u2019s very exciting, because this is such a big celebration for us,\u201d says Qu."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Kao agrees that the time they contributed to the events was worth it. \u201cI\u2019m really happy with how Chinese New Year is celebrated here,\u201d Kao says. \u201cI think it\u2019s really sweet that the program does this for both its students and for the international kids. The amount of effort that Mrs. Li and Mr. Murray spent on organizing this has been incredible, and I\u2019m really thankful that we have this opportunity to celebrate.\u201d"
+                    }
+                ],
+                "image": {
+                    "source": "DQnbNyTACyfxCeM.jpg",
+                    "caption": "Photo by Vin Chutijirawong",
+                    "show": false,
+                    "position": "top"
+                }
             }
         ],
         "spotlight": [],
