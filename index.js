@@ -133,7 +133,6 @@ app.get('/api/spelling/', (req, res) => {
   res.json(spellingDataPath);
 });
 
-
 app.get('/api/search', async (req, res) => {
   // Retrieve the search query parameter
   const { query } = req.query;
@@ -150,29 +149,31 @@ app.get('/api/search', async (req, res) => {
     if (fs.existsSync(issuesPath)) {
       // Read the content of the issues JSON file
       const issuesData = JSON.parse(fs.readFileSync(issuesPath, 'utf8'));
-      let allIssues = [];
+      let allSections = [];
 
       // Iterate through each issue in the issues JSON
       for (const key in issuesData) {
-        if (issuesData.hasOwnProperty(key)) {
-          allIssues.push(issuesData[key]);
+        if (issuesData.hasOwnProperty(key) && issuesData[key].sections) {
+          // Flatten sections into a single array for easier searching
+          allSections.push(...issuesData[key].sections);
         }
       }
 
-      // Log to see if allIssues is populated correctly
-      console.log("allIssues Length:", allIssues.length);
+      // Log to see if allSections is populated correctly
+      console.log("allSections Length:", allSections.length);
 
-      // Filter issues by checking if the title or summary contains the search query
-      const filteredIssues = allIssues.filter(issue => {
-        const titleText = issue.title?.toLowerCase() || ""; // Safely access title
-        const summaryText = issue.summary?.toLowerCase() || ""; // Safely access summary
+      // Filter sections by checking if the title, summary, or other fields contain the search query
+      const filteredSections = allSections.filter(section => {
+        const titleText = section.title?.toLowerCase() || ""; // Safely access title
+        const summaryText = section.summary?.toLowerCase() || ""; // Safely access summary
+        const contentText = section.content?.toLowerCase() || ""; // Safely access content if applicable
         const queryLower = query.toLowerCase();
 
-        return titleText.includes(queryLower) || summaryText.includes(queryLower);
+        return titleText.includes(queryLower) || summaryText.includes(queryLower) || contentText.includes(queryLower);
       });
 
-      // Return the filtered issues as JSON
-      res.json(filteredIssues);
+      // Return the filtered sections as JSON
+      res.json(filteredSections);
     } else {
       // If the issues file does not exist, send a 404 response
       res.status(404).send('Issues file not found');
