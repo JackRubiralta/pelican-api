@@ -217,7 +217,50 @@
             }
         ],
         "letters": [],
-        "voices": [],
+        "voices": [
+            {
+                "id": "wYFxnAOfHu",
+                "title": {
+                    "text": "A Day in the Life: Two Days at Deerfield Academy",
+                    "size": "medium"
+                },
+                "summary": {
+                    "content": "",
+                    "show": false
+                },
+                "author": "Guest Writer",
+                "date": "2024-02-26",
+                "length": 3,
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "text": "Winter Monday: I usually wake up around 7:30 and go to breakfast with my friends. My first period class starts at 8:30 and ends at 10:00. After this we have community time, which is an hour of free time before the second period. Most days I have club or advisory meetings, but when I don\u2019t, I like to head to the Koch Cafe and meet my friends. Located in the Science and Math building, the Koch Cafe serves everything from their famous DA bagels (a bacon egg and cheese sandwich) to iced lattes."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Next I have another 90-minute class followed by a sit-down lunch. We have seven sit-down meals a week with tables that rotate every month or so. One of my favorite parts of the day is the ten minutes when the whole school waits in the foyer before lunch starts because I can catch up with friends and socialize a bit. After lunch, I have a final 90-minute class leading into flex time and basketball practice. In the winter, the basketball team has team dinner every night after practice. Being able to sit with my team for an hour is definitely a highlight of my winter term. "
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "As a junior, I have 9:45 check-in, meaning I can work in the library or anywhere else on campus until then, but I usually prefer to stay in my room. Something unique to Deerfield is that our primary social arena is the athletic center. When I finish work early, sometimes my friends and I bike to the gas station (which is probably a ten-minute walk but we prefer to bike) and buy snacks or hang out in the Greer, a part of our athletic center. After check-in, I hang out with my friends and see if the advisor on duty has a feed for our hall. In our dorm common rooms, we only have a sink and microwave so cooking is not in the cards, but we are always grateful when the advisor brings some delicious food. "
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Spring Friday: On Fridays I wake up at 6:45 and get ready to go to Shriv at 7:00. Shriving is a Deerfield tradition where we start the day by running into the river every Friday of fall and spring term. Some people only Shriv once a term or never at all, but there are a handful of people who go every single Friday. After Shriv, I head straight to the dining hall and then back to shower before class."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "My class day in the spring is just the same as winter except that I have a morning free period which means that every other day, I don\u2019t start class until 11:00! After classes, I have Track where I put my pole vaulting skills to the test every day. I have Big Brother Big Sister, our mentoring program, at 6:00 and get to play soccer with my Little. Each weekend we have evening activities, whether it be a dance, concert, optional trip or themed sports game. On days when my Little doesn\u2019t come, my friends and I like to take the Shuttle to Greenfield for dinner or eat at the Deerfield Inn. For upperclassmen, weekend check-in is at 11:00 on Friday and 11:30 on Saturday, so I usually spend that time in the Greer or where there is always something fun going on."
+                    }
+                ],
+                "image": {
+                    "source": "wYvlKhOquxDihXW.jpg",
+                    "caption": "Photo courtesy of Allegra Alfaro",
+                    "show": false,
+                    "position": "bottom"
+                }
+            }
+        ],
         "styles": [
             {
                 "id": "kLPziSWbmZ",
