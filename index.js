@@ -170,27 +170,6 @@ app.get('/api/search', async (req, res) => {
     res.status(500).send('Server error');
   }
 });
-const apiProxy = createProxyMiddleware({
-  target: 'https://athletics.sps.edu',
-  changeOrigin: true,
-  pathRewrite: {
-      '^/api/sports': '', // Rewrite URL path (remove /api if needed)
-  },
-  onProxyReq: function (proxyReq, req, res) {
-      // You can modify the outgoing request here
-  }
-});
-
-// Use the proxy to forward requests to /api to the actual API
-app.use('/api/sports', apiProxy);
-
-// API endpoint to get an article by ID without specifying a category
-app.get('/api/articles/:id', (req, res) => {
-    const { id } = req.params;
-
-    // Search for the article in both 'new' and 'athletics' categories
-   
-});
 
 app.listen(PORT, () => {
     console.log(`Server running on ${PORT}`);
