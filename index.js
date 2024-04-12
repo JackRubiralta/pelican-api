@@ -4,6 +4,7 @@ const path = require('path');
 const cors = require('cors');
 const morgan = require('morgan');
 const sharp = require('sharp'); //
+const { createProxyMiddleware } = require('http-proxy-middleware');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -117,19 +118,6 @@ app.get('/api/current_issue', (req, res) => {
   }
 });
 
-
-// API endpoint to get recent articles from 'athletics'
-app.get('/api/sports', (req, res) => {
-   
-});
-
-
-app.get('/api/spelling/', (req, res) => {
-  const spellingDataPath = path.join(__dirname, 'data/spelling/spelling.json');
-
-  res.json(spellingDataPath);
-});
-
 app.get('/api/search', async (req, res) => {
   // Retrieve the search query parameter
   const { query } = req.query;
@@ -182,31 +170,19 @@ app.get('/api/search', async (req, res) => {
     res.status(500).send('Server error');
   }
 });
-
-
-
-// API endpoint to get crossword puzzle
-app.get('/api/crossword', (req, res) => {
-    // Define the path to the crossword JSON file
-    const crosswordPath = path.join(__dirname, 'data/crosswords/crossword.json');
-  
-    try {
-      // Check if the crossword file exists
-      if (fs.existsSync(crosswordPath)) {
-        // Read the content of the crossword JSON file
-        const crosswordData = JSON.parse(fs.readFileSync(crosswordPath, 'utf8'));
-        // Send the crossword data as JSON
-        res.json(crosswordData);
-      } else {
-        // If the crossword file does not exist, send a 404 response
-        res.status(404).send('Crossword not found');
-      }
-    } catch (error) {
-      console.error(error);
-      // In case of any server error, send a 500 response
-      res.status(500).send('Server error');
-    }
+const apiProxy = createProxyMiddleware({
+  target: 'https://athletics.sps.edu',
+  changeOrigin: true,
+  pathRewrite: {
+      '^/api/sports': '', // Rewrite URL path (remove /api if needed)
+  },
+  onProxyReq: function (proxyReq, req, res) {
+      // You can modify the outgoing request here
+  }
 });
+
+// Use the proxy to forward requests to /api to the actual API
+app.use('/api/sports', apiProxy);
 
 // API endpoint to get an article by ID without specifying a category
 app.get('/api/articles/:id', (req, res) => {
