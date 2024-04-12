@@ -813,7 +813,158 @@
             }
         ],
         "clubs": [],
-        "teams": [],
+        "teams": [
+            {
+                "id": "hJscDFCRJV",
+                "title": {
+                    "text": "SPS Squash Team Heads to Nationals",
+                    "size": "big"
+                },
+                "summary": {
+                    "content": "",
+                    "show": false
+                },
+                "author": "Hunter Morton",
+                "date": "2024-02-26",
+                "length": 2,
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "text": "The United States High School Squash Championships, taking place from Feb. 23 to 25, is the biggest squash tournament of the season. It hosts the country's 16 top high school teams and takes place in Philadelphia at the Arlen Specter US Squash Center. The SPS Boys and Girls Squash teams are looking forward to their last and most important tournament of the season. "
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "St. Paul\u2019s squash teams have been successful at Nationals in the past, with both teams finishing in the top ten last year. The boys team, led by captains Nathan Rosenzweig \u201824, Jay Park \u201824 and Jerry Zhu \u201824, have had a great season so far, finishing with a 7-2 record. The boys had several injuries throughout the lineup which affected their result at the New England Tournament, placing eighth overall. "
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "The boys look to come back at full strength going into Nationals. \u201cLast year, we upset higher seed Andover in the first round 4-3,\u201d says Sam Du \u201825."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "The girls team, led by captains Angel Hu \u201824, Catherine Li \u201824, LeLe Gibbs \u201824, Tattie Gibbs \u201824 and Tori Thill \u201824, have had an unbelievable season so far with a fourth place at New Englands and a 9-1 regular season record. "
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "\u201cMy sophomore year, we came in as the sixteenth seed and placed eleventh,\u201d says LeLe Gibbs. \u201cLast year, we placed tenth, and this year, we are seeded 5-8, which is the best we have been seeded in the last decade.\u201d "
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "The Boys and Girls look forward to playing against some of the best High School teams in the country and are motivated to achieve their goals. \"The Specter Center is always wild,\u201d says Du. \u201cThey have about twenty courts and two glass courts. The atmosphere on the first day of Nationals is fine, but the second and third days are when it really gets loud. The Philadelphia schools, such as Haverford School and Episcopal Academy, have a lot of fans.\u201d"
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "\u201cBeing at the Specter Center is cool since the squash world is very small,\u201d says LeLe Gibbs, \u201cso you make many friends playing tournaments from around the country, and it\u2019s great to see them.\u201d "
+                    }
+                ],
+                "image": {
+                    "source": "",
+                    "caption": "",
+                    "show": false,
+                    "position": ""
+                }
+            },
+            {
+                "id": "NQwujhqlxO",
+                "title": {
+                    "text": "Team Highlight: Boys Varsity Basketball",
+                    "size": "medium"
+                },
+                "summary": {
+                    "content": "",
+                    "show": false
+                },
+                "author": "Elle Ruminski",
+                "date": "2024-02-26",
+                "length": 2,
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "text": "The St. Paul\u2019s School Boys Varsity Basketball team made history earlier this season. The team achieved their first win over the mighty Brewster Academy and earned a statement Class A victory over Dexter. Boys Varsity Basketball player Patrick Ricca \u201826 says the Brewster victory resulted from \u201cthe whole team just clicking. The atmosphere in the locker room after the game was especially fun.\u201d With these impressive wins and a connected team, the team now expects to compete for championships and be a solid opponent against other Class A schools. "
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "\u201cBeating Brewster was making history,\u201d says Head Coach Max Gordon, \u201cand being a part of a team that is making history is an unforgettable experience because the whole team focuses on one goal and supports each other.\u201d  "
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "While initially starting the season off 1-5, the varsity ballers have overcome this obstacle and have gone 10-5 in their last 15 games. \u201cWe\u2019ve been able to work stronger together and play better on both sides of the ball,\u201d says Ricca, \u201cand we keep improving every day in our practices, so the sky really is the limit.\u201d "
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "The squad this year is almost entirely new, and throughout the season, the team has grown together to be the robust team they are now through their dedication and undeniable hard work. \u201cIt is not all about wins and losses,\u201d says Gordon. \u201cI\u2019m proud we\u2019ve overcome this and realized how good we can be when we prepare and play the right way.\u201d "
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Players say the team environment is inclusive and welcoming. \u201cFrom the moment I met all the guys until now, I\u2019ve felt included and welcome,\u201d says Ricca. \u201cCoach Gordon and Coach Ricard definitely help cultivate and maintain our great culture as well.\u201d "
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Gordon believes that for his players to be the best players on the court and their best selves, they need a coach who gives them some freedom. \u201cI foster a team where players take ownership and where players have voices as leaders,\u201d he says. Gordon strives to elicit in his players the importance of trusting in their instincts to help them learn from successes and failures."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "The team endeavors to push for the Class A playoffs as an ending to their remarkable season. The players have proved time and time again that they have a roster full of players who are committed to the betterment of the team and willing to do the work necessary to win."
+                    }
+                ],
+                "image": {
+                    "source": "EgacKioIRWNhhZQ.jpg",
+                    "caption": "Photographed by Hal Johnson",
+                    "show": false,
+                    "position": "bottom"
+                }
+            },
+            {
+                "id": "mRIvKqIHjj",
+                "title": {
+                    "text": "Team Highlight: Girls Varsity Squash",
+                    "size": "medium"
+                },
+                "summary": {
+                    "content": "",
+                    "show": false
+                },
+                "author": "Melody Zhang",
+                "date": "2024-02-26",
+                "length": 2,
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "text": "In the heart of the winter season, the Girls Varsity Squash team is making waves on the court, showcasing their exceptional skill, teamwork, and dedication. With an impressive record and a roster of talented players, this team is proving that they are a force to be reckoned with. "
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "The team\u2019s recent successes have been nothing short of extraordinary. Team captain LeLe Gibbs \u201824 expressed the team\u2019s collective pride in their recent victory in the New Englands competition, securing 4th place overall, which is the highest they\u2019ve ever placed in the last decade. \u201cOur first match against Windsor was a huge success, and we beat them 5-2.\u201d "
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "\u201cIt was one of the biggest wins in the Gibbs family,\u201d said Tattie Gibbs \u201824, another one of the captains. \u201cI previously lost against my opponent three days before, but I was able to pull through and beat her at New Englands for the first time in 7 years.\u201d "
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "This season, girls varsity squash has been sweeping the courts clean with victories, only losing against Tabor. \u201cThe match against Tabor was very close,\u201d said LeLe Gibbs, \u201cand we unfortunately lost to them 4-3, but I have high hopes for beating them at Nationals.\u201d"
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "The team\u2019s success is not only attributed to their skill but also to the friendship among the players. Team members say they have a strong bond and a shared commitment to each other\u2019s success. \u201cEveryone supports each other. Everyone pushes each other to be the best they can be. One thing I love about the team is that we would always coach each other in between matches,\u201d said LeLe Gibbs. \u201cIf I wasn\u2019t on this team, I wouldn\u2019t have met a lot of the girls, and I\u2019m really happy now having met them. We always dress up and have Team Brek on days we have games, and we have fun bus rides there.\u201d"
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Looking ahead, the Girls Varsity Squash team is gearing up for the highly anticipated Nationals at Philadelphia. Preparation will be tough, filled with conditioning games, repetitive drills, and cardio training. This competition is not just a game, players say; it\u2019s a chance to further solidify the team\u2019s standing in the league and showcase their prowess. \u201cLast year, we were 10th at nationals, and this year, our goal is to be even better than that,\u201d says LeLe Gibbs. She adds that this might be the last time playing with the team for the five graduating seniors on the team. "
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "The team is not just focused on winning but also on promoting the spirit of sportsmanship and teamwork. As they continue to dominate the squash courts, the Girls Varsity Squash team is poised for continued success in their journey till the end of the season."
+                    }
+                ],
+                "image": {
+                    "source": "xyGpkqthREUmejN.jpg",
+                    "caption": "Photographed by Jason Lee",
+                    "show": false,
+                    "position": "bottom"
+                }
+            }
+        ],
         "archives": [
             {
                 "id": "LmpweFqLLG",
