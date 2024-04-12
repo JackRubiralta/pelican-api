@@ -846,6 +846,7 @@
                 }
             }
         ],
+        "activities": [], 
         "theater": [],
         "arts": [],
         "misc": [],
