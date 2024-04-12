@@ -16,32 +16,52 @@
                 "length": 3,
                 "content": [
                     {
+                        "type": "header",
+                        "text": "Preface:"
+                    },
+                    {
                         "type": "paragraph",
-                        "text": "Preface: There is a lot to unpack about Super Bowl Sunday 2024, but one thing is for certain: It was downright legendary. With the help of playbooks and even a few love stories, the game between the Kansas City Chiefs and the San Francisco Forty-Niners was recorded as the most-watched Super Bowl of all time. It was also the first Super Bowl to be held in Las Vegas, a fitting location given the game itself was projected to be a gamble between two evenly-matched teams. Indeed it was, as it became the second game in Super Bowl history to go into overtime with a playing time of 74 minutes and 57 seconds."
+                        "text": "There is a lot to unpack about Super Bowl Sunday 2024, but one thing is for certain: It was downright legendary. With the help of playbooks and even a few love stories, the game between the Kansas City Chiefs and the San Francisco Forty-Niners was recorded as the most-watched Super Bowl of all time. It was also the first Super Bowl to be held in Las Vegas, a fitting location given the game itself was projected to be a gamble between two evenly-matched teams. Indeed it was, as it became the second game in Super Bowl history to go into overtime with a playing time of 74 minutes and 57 seconds."
                     },
                     {
                         "type": "paragraph",
                         "text": "As students flocked into Raffini on Sunday, February 11th, excitement and uncertainty were in the air. Who was going to win Super Bowl LVIII? Is Justin Bieber going to be a part of Usher's halftime show? Is tonight going to be the night when we forget about the deadlines? Nevertheless, it was time. "
                     },
                     {
-                        "type": "paragraph",
-                        "text": "The First Half: At kickoff, students nestled into their seats with nachos, wings, and sundaes galore (The food for this event was HH+), as the 49ers received the ball first. Fan-favorite Brock Purdy\u2013\u2013selected as the last pick in the 2022 NFL Draft\u2013\u2013led the 49ers to this year's NFC Championship and Super Bowl as San Francisco\u2019s starting quarterback. Ready for Purdy's handoff, NFL Offensive Player of the Year Christian McCaffery started at running back, and with just over four minutes left in the first half, McCaffery received a pass at the 26-yard line to clench the first touchdown of the game, putting the 49ers up by 9."
+                        "type": "header",
+                        "text": "The First Half:"
                     },
                     {
                         "type": "paragraph",
-                        "text": "Halftime (ft. Usher, StudCo, The Dean of Students Office, and Mrs. Giles): Things started to heat up at halftime as 49ers fans began to feel confident, anticipation for a special announcement grew, and eight-time Grammy Awards winner Usher took the floor. Although Usher didn't perform the millennial classic \"DJ Got Us Fallin' in Love,\" he did not disappoint. The \"My Boo\" duet with Alicia Keys was a hit, though controversial, and the ambiance of the performance definitely made us all say Oh. My. Gosh."
+                        "text": "At kickoff, students nestled into their seats with nachos, wings, and sundaes galore (The food for this event was HH+), as the 49ers received the ball first. Fan-favorite Brock Purdy\u2013\u2013selected as the last pick in the 2022 NFL Draft\u2013\u2013led the 49ers to this year's NFC Championship and Super Bowl as San Francisco\u2019s starting quarterback. Ready for Purdy's handoff, NFL Offensive Player of the Year Christian McCaffery started at running back, and with just over four minutes left in the first half, McCaffery received a pass at the 26-yard line to clench the first touchdown of the game, putting the 49ers up by 9."
+                    },
+                    {
+                        "type": "header",
+                        "text": "Halftime (ft. Usher, StudCo, The Dean of Students Office, and Mrs. Giles):"
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Things started to heat up at halftime as 49ers fans began to feel confident, anticipation for a special announcement grew, and eight-time Grammy Awards winner Usher took the floor. Although Usher didn't perform the millennial classic \"DJ Got Us Fallin' in Love,\" he did not disappoint. The \"My Boo\" duet with Alicia Keys was a hit, though controversial, and the ambiance of the performance definitely made us all say Oh. My. Gosh."
                     },
                     {
                         "type": "paragraph",
                         "text": "Then came the groundbreaking, crafty, brilliantly executed proclamation to the student body. School was not yet \"Out for the Summer,\" but it was out for a winter Monday, and a feeling of gratitude rushed through the room. A late night in the common room would no longer be a place of reevaluating priorities but bonding and cheering on the Chiefs or Niners with dormmates."
                     },
                     {
-                        "type": "paragraph",
-                        "text": "The Second Half: The second half of the game was a roller coaster. The Chiefs got off to a shaky start, fumbling a pitch with Mahomes throwing an interception shortly after. It was back and forth in an exciting 4th quarter. The last few minutes provided some nail-biting moments (as the media teams captured in the skyboxes) when the 49ers kicked the go-ahead field goal to go up 19-16 with 1:53 to play in the game.  Mahomes and Kelce went to work and marched all the way to the 49ers' end of the field, setting up Harrison Butker\u2019s 29-yard field goal to tie the game up with 3 seconds left."
+                        "type": "header",
+                        "text": "The Second Half:"
                     },
                     {
                         "type": "paragraph",
-                        "text": "Endgame: The 49ers won the coin toss and chose to receive the ball first, which has provoked an ongoing dispute."
+                        "text": "The second half of the game was a roller coaster. The Chiefs got off to a shaky start, fumbling a pitch with Mahomes throwing an interception shortly after. It was back and forth in an exciting 4th quarter. The last few minutes provided some nail-biting moments (as the media teams captured in the skyboxes) when the 49ers kicked the go-ahead field goal to go up 19-16 with 1:53 to play in the game.  Mahomes and Kelce went to work and marched all the way to the 49ers' end of the field, setting up Harrison Butker\u2019s 29-yard field goal to tie the game up with 3 seconds left."
+                    },
+                    {
+                        "type": "header",
+                        "text": "Endgame:"
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "The 49ers won the coin toss and chose to receive the ball first, which has provoked an ongoing dispute."
                     },
                     {
                         "type": "paragraph",
