@@ -997,7 +997,50 @@
                 }
             }
         ],
-        "activities": [], 
+        "activities": [
+            {
+                "id": "HAzMCjPHUP",
+                "title": {
+                    "text": "Behind the Scenes of the SPSBC Winter Showcase",
+                    "size": "big"
+                },
+                "summary": {
+                    "content": "",
+                    "show": false
+                },
+                "author": "Grace Guang",
+                "date": "2024-02-26",
+                "length": 3,
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "text": "On February 23rd and 24th, the St. Paul\u2019s Ballet Company performed their Winter Showcase. The performance showcased the handwork the dancers have been doing in the winter term.  It features four student choreographers: Lauren Edouard \u201825, Matteo Lorenzo-Giguere \u201825, Lulu Mangriotis \u201825, and Olivia Van Stone \u201825. as well as two pieces from guest choreographer Danielle Diniz and Natiya Kezevadze. The performance was nothing short of spectacular. "
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "The SPSBC warmly welcomed Ms. Diniz earlier this term for two weeks to choreograph an upbeat and story-driven piece. With its fusion of many diverse styles, such as jazz, ballet, contemporary, and musical theatre, the choreography challenged the dancers to step out of their comfort zone. The dancers did a great job of capturing the lively atmosphere of the piece, and it was undoubtedly one of the highlights of the performance! "
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Just three weeks before the performance, Ms. Kezevadze from Complexions Contemporary Ballet set a piece on the dancers. Ms. Kezevadze is originally from Tbilisi, Georgia, and studied at V. Chabukiani State Ballet School and Vaganova Academy of Russian Ballet. She now performs with Complexions Contemporary Ballet as an Artist in Residence. She picked pieces choreographed by Dwight Rhoden, the founder of Complexions Contemporary Ballet, and set them on the SPSBC. Ms. Kezevadze said, \u201c[she] prepared coming here (\u2026) but after [she] arrived and saw [us], [she] scratched the plan and was inspired by the dancers and ended up going a completely different direction.\u201d The piece amalgamates many dynamic styles, moods, and music. It starts with a slow tempo and ends with the dramatic song \u201cI\u2019ll Take Care of You\u201d by Beth Hart and Joe Bonamassa. The dancers only had a week after Ms. Kezevadze left to clean the piece before the final showing, and they executed it amazingly!"
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Dancers in the SPSBC have the chance to choreograph their work in their Winter and Spring shows. Each of them brought their own approach to their choreography. Lauren Edouard \u201825 choreographed a piece that tells the story of a woman in Somalia digging for pearls on the roadside to provide for her family. Lauren explains that \u201cdespite the challenges of the burning sun and difficulty of the labor, [the woman] is determined to survive and persevere through the struggle.\u201d She brings this story to life through her choreography, which initially starts with an empowering and emotional mood, eventually transitioning to something hopeful and bright. Matteo Lorenzo-Giguere \u201825 set an exciting, bold piece that diverges from typical classical ballet. He wanted to \u201csubvert the St. Paul\u2019s community\u2019s expectations of what ballet could be\u201d and expose more styles of ballet to the people at St. Paul\u2019s. The hyperpop music inspired Matteo to choreograph his piece to match its powerful energy with fast and athletic steps. Another piece, by Lulu Mangriotis \u201825, is emotional and communicative between the dancers and with the audience. Lulu says preparation was essential in her choreographic process. She would create choreography in her room and \u201ctake it to the dancers and see how they took it,\u201d saying that \u201cshe ha[d] no idea what to expect and ended up with a wonderful piece.\u201d Olivia Van Stone \u201825 created a piece with a strong dynamic, varying in formations and pace. She describes the style as \u201csharp and brisk,\u201d and the piece's mood builds up from start to finish, complementing her music. The hard work of all our student choreographers made this Winter Performance possible. "
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "The Winter Performance was filled with mesmerizing choreography and artistry from all the dancers. Congratulations to all the dancers for their successful performances!"
+                    }
+                ],
+                "image": {
+                    "source": "DllZvajfjQRbAfQ.jpg",
+                    "caption": "Graphic by Julia Koema",
+                    "show": true,
+                    "position": "top"
+                }
+            }
+        ],
         "theater": [],
         "arts": [],
         "misc": [],
