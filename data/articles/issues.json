@@ -813,7 +813,58 @@
             }
         ],
         "clubs": [],
-        "teams": [],
+        "teams": [
+            {
+                "id": "hJscDFCRJV",
+                "title": {
+                    "text": "SPS Squash Team Heads to Nationals",
+                    "size": "big"
+                },
+                "summary": {
+                    "content": "",
+                    "show": false
+                },
+                "author": "Hunter Morton",
+                "date": "2024-02-26",
+                "length": 2,
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "text": "The United States High School Squash Championships, taking place from Feb. 23 to 25, is the biggest squash tournament of the season. It hosts the country's 16 top high school teams and takes place in Philadelphia at the Arlen Specter US Squash Center. The SPS Boys and Girls Squash teams are looking forward to their last and most important tournament of the season. "
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "St. Paul\u2019s squash teams have been successful at Nationals in the past, with both teams finishing in the top ten last year. The boys team, led by captains Nathan Rosenzweig \u201824, Jay Park \u201824 and Jerry Zhu \u201824, have had a great season so far, finishing with a 7-2 record. The boys had several injuries throughout the lineup which affected their result at the New England Tournament, placing eighth overall. "
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "The boys look to come back at full strength going into Nationals. \u201cLast year, we upset higher seed Andover in the first round 4-3,\u201d says Sam Du \u201825."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "The girls team, led by captains Angel Hu \u201824, Catherine Li \u201824, LeLe Gibbs \u201824, Tattie Gibbs \u201824 and Tori Thill \u201824, have had an unbelievable season so far with a fourth place at New Englands and a 9-1 regular season record. "
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "\u201cMy sophomore year, we came in as the sixteenth seed and placed eleventh,\u201d says LeLe Gibbs. \u201cLast year, we placed tenth, and this year, we are seeded 5-8, which is the best we have been seeded in the last decade.\u201d "
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "The Boys and Girls look forward to playing against some of the best High School teams in the country and are motivated to achieve their goals. \"The Specter Center is always wild,\u201d says Du. \u201cThey have about twenty courts and two glass courts. The atmosphere on the first day of Nationals is fine, but the second and third days are when it really gets loud. The Philadelphia schools, such as Haverford School and Episcopal Academy, have a lot of fans.\u201d"
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "\u201cBeing at the Specter Center is cool since the squash world is very small,\u201d says LeLe Gibbs, \u201cso you make many friends playing tournaments from around the country, and it\u2019s great to see them.\u201d "
+                    }
+                ],
+                "image": {
+                    "source": "",
+                    "caption": "",
+                    "show": false,
+                    "position": ""
+                }
+            }
+        ],
         "archives": [
             {
                 "id": "LmpweFqLLG",
