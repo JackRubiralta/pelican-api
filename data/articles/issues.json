@@ -813,7 +813,7 @@
             }
         ],
         "clubs": [],
-        "misc": [],
+        "teams": [],
         "archives": [
             {
                 "id": "LmpweFqLLG",
@@ -848,6 +848,7 @@
         ],
         "theater": [],
         "arts": [],
+        "misc": [],
         "letters": []
     }
 }
