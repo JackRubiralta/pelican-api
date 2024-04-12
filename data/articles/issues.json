@@ -263,15 +263,15 @@
                     },
                     {
                         "type": "header",
-                        "text": "\\\\*THE POST\\\\*"
+                        "text": "\\*THE POST\\*"
                     },
                     {
                         "type": "paragraph",
-                        "text": "\\\\*Location:\\\\* 58 N Main St. (Downtown Area). \\\\*Hours:\\\\* 7 am to 3 pm - Everyday. \\\\*Offerings:\\\\* Your typical brunch fare, offering nothing out of the ordinary. Options include both breakfast and lunch. According to their website, their \u201cPost Staples\u201d include Steak and Eggs, Country Fried Steak, \u201cAll Country\u201d (biscuits n\u2019 gravy, eggs, sausage, and a side), and the \u201cFarmers\u201d featuring three eggs, two pancakes, bacon, sausage, and breakfast side."
+                        "text": "\\*Location:\\* 58 N Main St. (Downtown Area). \\*Hours:\\* 7 am to 3 pm - Everyday. \\*Offerings:\\* Your typical brunch fare, offering nothing out of the ordinary. Options include both breakfast and lunch. According to their website, their \u201cPost Staples\u201d include Steak and Eggs, Country Fried Steak, \u201cAll Country\u201d (biscuits n\u2019 gravy, eggs, sausage, and a side), and the \u201cFarmers\u201d featuring three eggs, two pancakes, bacon, sausage, and breakfast side."
                     },
                     {
                         "type": "header",
-                        "text": "\\\\*Pros\\\\*"
+                        "text": "\\*Pros\\*"
                     },
                     {
                         "type": "list",
@@ -284,7 +284,7 @@
                     },
                     {
                         "type": "header",
-                        "text": "\\\\*Cons:\\\\*"
+                        "text": "\\*Cons:\\*"
                     },
                     {
                         "type": "list",
@@ -299,15 +299,15 @@
                     },
                     {
                         "type": "header",
-                        "text": "\\\\*TUCKER'S\\\\*"
+                        "text": "\\*TUCKER'S\\*"
                     },
                     {
                         "type": "paragraph",
-                        "text": "\\\\*Location:\\\\* 80 South Street (2.5 miles from campus). \\\\*Hours:\\\\* 7 am to 2 pm - Everyday. \\\\*Offerings:\\\\* The extensive menu includes breakfast and lunch options like burgers, pancakes, French toast, eggs benedict, breakfast burritos, omelets, and various seasonal specials. If you name it, they\u2019ve likely got it."
+                        "text": "\\*Location:\\* 80 South Street (2.5 miles from campus). \\*Hours:\\* 7 am to 2 pm - Everyday. \\*Offerings:\\* The extensive menu includes breakfast and lunch options like burgers, pancakes, French toast, eggs benedict, breakfast burritos, omelets, and various seasonal specials. If you name it, they\u2019ve likely got it."
                     },
                     {
                         "type": "header",
-                        "text": "\\\\*Pros\\\\*"
+                        "text": "\\*Pros\\*"
                     },
                     {
                         "type": "list",
@@ -320,7 +320,7 @@
                     },
                     {
                         "type": "header",
-                        "text": "\\\\*Cons\\\\*"
+                        "text": "\\*Cons\\*"
                     },
                     {
                         "type": "list",
