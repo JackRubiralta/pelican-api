@@ -216,7 +216,6 @@
                 }
             }
         ],
-        
         "voices": [
             {
                 "id": "wYFxnAOfHu",
@@ -483,8 +482,6 @@
                 }
             }
         ],
-        
-       
         "guides": [
             {
                 "id": "RVkBobazMg",
@@ -682,7 +679,38 @@
         ],
         "clubs": [],
         "misc": [],
-        "archives": [],
+        "archives": [
+            {
+                "id": "LmpweFqLLG",
+                "title": {
+                    "text": "Archives: Armour House",
+                    "size": "big"
+                },
+                "summary": {
+                    "content": "",
+                    "show": false
+                },
+                "author": "Cole Hamilton",
+                "date": "2024-02-26",
+                "length": 1,
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "text": "Completed in May 1914, Armour House originally served as the school infirmary. Comprising two distinct wings, this facility held sick rooms similar to those in Clark House. Armour House also included infectious disease wards and a standalone operating room. Initially, the building utilized only three floors, leaving the fourth floor incomplete, with plans to finish it as necessary in the future."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "In 1996, St. Paul\u2019s School completed renovations, transforming the infirmary into a dormitory capable of housing thirty students and three faculty families. These renovations were modeled on the style of the recently renovated Upper houses. The redesign embraced an open-plan layout, offering an expansive view of the Lower School Pond, and introduced three separate three-story faculty residences."
+                    }
+                ],
+                "image": {
+                    "source": "NZRZnlehXNhTkET.jpg",
+                    "caption": "Image Courtesy of SPS Archives",
+                    "show": true,
+                    "position": "bottom"
+                }
+            }
+        ],
         "theater": [],
         "arts": [],
         "letters": []
