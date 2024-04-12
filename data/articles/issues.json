@@ -1035,8 +1035,8 @@
                 ],
                 "image": {
                     "source": "DllZvajfjQRbAfQ.jpg",
-                    "caption": "Graphic by Julia Koema",
-                    "show": true,
+                    "caption": "Graphic by Julia Koeman",
+                    "show": false,
                     "position": "top"
                 }
             }
