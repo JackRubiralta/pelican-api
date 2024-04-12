@@ -218,7 +218,50 @@
         ],
         "letters": [],
         "voices": [],
-        "styles": [],
+        "styles": [
+            {
+                "id": "kLPziSWbmZ",
+                "title": {
+                    "text": "Style Column: William Snead",
+                    "size": "big"
+                },
+                "summary": {
+                    "content": "",
+                    "show": false
+                },
+                "author": "Lidia ZurMuhlen",
+                "date": "2024-02-26",
+                "length": 2,
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "text": "This year, new teaching fellow in the math department William Snead has taken the SPS campus by storm. Snead has already made a significant impact on the community as a Geometry teacher and as a Cross Country coach, but he has also stood out with his unique and colorful clothing. Perhaps you have already seen Snead on the paths in his iconic cow sweater. \u201cI just like to wear whatever makes me happy,\u201d he says, which is reflected in how he wears fun outfits. "
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Snead believes style is less about the clothes and more about how someone carries themselves in that clothing. \u201cI value being confident and comfortable; my style is part of that,\u201d he says. Some of his favorite style icons who exemplify these qualities include Princess Diana and Don Draper from the television show Mad Men. \u201cThey both had the elegance and confidence to pull off whatever they wanted,\u201d he says, \u201cand that\u2019s something that has to be admired.\u201d "
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Originally from Virginia, Snead says he was exposed there to the louder colors and patterns that \u201care more common in the South.\u201d He has tied that influence into his current style, meshing it with the New England vibe. While he is not sure what the perception of his general style aesthetic is, he says he hopes for it to be \u201cunique, colorful and clean.\u201d "
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Snead says he does not do a lot of accessorizing; he believes in letting certain pieces of clothing speak for themselves. With shoes, he says, \u201cI like rotating between loafers, sneakers, and oxfords. Your footwear choice can change the look and level of an outfit.\u201d Snead says he focuses on keeping his outfits fresh and new, so he typically organizes his closet by how recently he wore a certain item. His outfits typically depend on the mood he\u2019s in that day. But once again, outfits can completely change depending on what you pair together. Going back to the footwear example: a sweater, jeans, and loafers will have a completely different vibe than a sweater, jeans and oxfords. "
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Lastly, Snead wants us to think less about style as materialistic and more about a reflection of what makes us happy. There is no point in wearing something, he says, if it does not make you feel happy and comfortable. However, it\u2019s important to experiment and take some risks to find that perfect balance. \u201cGive yourself some time to figure out what you like and whatever makes you feel good,\u201d he says."
+                    }
+                ],
+                "image": {
+                    "source": "rnmrmGsYkGwUzWG.jpg",
+                    "caption": "Photographed by Temi Johnson",
+                    "show": true,
+                    "position": "top"
+                }
+            }
+        ],
         "people": [
             {
                 "id": "fCZXMYEYVU",
