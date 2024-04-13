@@ -635,10 +635,10 @@
                     "size": "medium"
                 },
                 "summary": {
-                    "content": "Humanities teacher brings wealth of experience, engagement and",
+                    "content": "Humanities teacher brings wealth of experience, engagement and inspiration to the classroom",
                     "show": true
                 },
-                "author": "inspiration to the classroom",
+                "author": "Kyle Gump",
                 "date": "2024-02-26",
                 "length": 2,
                 "content": [
@@ -744,8 +744,8 @@
                 "image": {
                     "source": "GGKcBpAQkVHCvjH.jpg",
                     "caption": "Photo by Temi Johnson",
-                    "show": false,
-                    "position": "bottom"
+                    "show": true,
+                    "position": "side"
                 }
             }
         ],
