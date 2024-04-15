@@ -5,6 +5,7 @@ const cors = require('cors');
 const morgan = require('morgan');
 const sharp = require('sharp'); //
 const { createProxyMiddleware } = require('http-proxy-middleware');
+const CURRENT_ISSUE_NUMBER = 10; // process.env.CURRENT_ISSUE_NUMBER 
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -46,6 +47,8 @@ function shuffleWithRecencyPreference(articles) {
 
 // Enable CORS for all routes
 app.use(cors());
+
+
 app.get('/api/images/:imageName', async (req, res) => {
     const { imageName } = req.params;
     const widthStr = req.query.width;
@@ -80,40 +83,29 @@ app.use(express.json());
 
 
 // Add this block to your existing code
-
+app.get('/api/current_issue_number', (req, res) => {
+  res.json({ currentIssueNumber: CURRENT_ISSUE_NUMBER });
+});
 // API endpoint to get the data for "issue_10" from issues.json
 app.get('/api/current_issue', (req, res) => {
-  // Define the path to the issues JSON file
   const issuesPath = path.join(__dirname, 'data/articles/issues.json');
 
   try {
-    // Check if the issues file exists
     if (fs.existsSync(issuesPath)) {
-      // Read the content of the issues JSON file
       const issuesData = JSON.parse(fs.readFileSync(issuesPath, 'utf8'));
+      const currentIssueKey = `issue${CURRENT_ISSUE_NUMBER}`;
+      const currentIssueData = issuesData[currentIssueKey];
 
-      // Find the issue with the highest number
-      const issueNumbers = Object.keys(issuesData)
-        .map(key => key.match(/^issue(\d+)$/)) // Extract numbers from keys like 'issue10', 'issue20', etc.
-        .filter(result => result !== null) // Remove any keys that do not match
-        .map(result => parseInt(result[1])) // Convert the numbers to integers
-        .sort((a, b) => b - a); // Sort the numbers in descending order
-
-      if (issueNumbers.length > 0) {
-        const currentIssueKey = `issue${issueNumbers[0]}`; // Construct the key for the most recent issue
-        // Send the most recent issue data as JSON
-        res.json(issuesData[currentIssueKey]);
+      if (currentIssueData) {
+        res.json(currentIssueData);
       } else {
-        // If no issues are found in the data, send a 404 response
-        res.status(404).send('No issues found');
+        res.status(404).send('Current issue not found');
       }
     } else {
-      // If the issues file does not exist, send a 404 response
       res.status(404).send('Issues file not found');
     }
   } catch (error) {
     console.error(error);
-    // In case of any server error, send a 500 response
     res.status(500).send('Server error');
   }
 });
@@ -128,20 +120,16 @@ app.get('/api/current_crossword', (req, res) => {
       // Read the content of the crosswords JSON file
       const crosswordsData = JSON.parse(fs.readFileSync(crosswordsPath, 'utf8'));
 
-      // Find the crossword with the highest issue number
-      const issueNumbers = Object.keys(crosswordsData)
-        .map(key => key.match(/^issue(\d+)$/)) // Extract numbers from keys like 'issue10', 'issue20', etc.
-        .filter(result => result !== null) // Remove any keys that do not match
-        .map(result => parseInt(result[1])) // Convert the numbers to integers
-        .sort((a, b) => b - a); // Sort the numbers in descending order
+      // Use the current issue number to access the relevant crossword
+      const currentCrosswordKey = `issue${CURRENT_ISSUE_NUMBER}`;
 
-      if (issueNumbers.length > 0) {
-        const currentCrosswordKey = `issue${issueNumbers[0]}`; // Construct the key for the most recent crossword
-        // Send the most recent crossword data as JSON
+      // Check if the current issue's crossword exists
+      if (crosswordsData[currentCrosswordKey]) {
+        // Send the current crossword data as JSON
         res.json(crosswordsData[currentCrosswordKey]);
       } else {
-        // If no crosswords are found in the data, send a 404 response
-        res.status(404).send('No crosswords found');
+        // If the current issue's crossword is not found, send a 404 response
+        res.status(404).send('Current crossword not found');
       }
     } else {
       // If the crosswords file does not exist, send a 404 response
@@ -153,6 +141,7 @@ app.get('/api/current_crossword', (req, res) => {
     res.status(500).send('Server error');
   }
 });
+
 
 
 app.get('/api/search', async (req, res) => {
