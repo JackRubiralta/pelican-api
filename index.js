@@ -118,6 +118,43 @@ app.get('/api/current_issue', (req, res) => {
   }
 });
 
+app.get('/api/current_crossword', (req, res) => {
+  // Define the path to the crosswords JSON file
+  const crosswordsPath = path.join(__dirname, 'data/crosswords/crosswords.json');
+
+  try {
+    // Check if the crosswords file exists
+    if (fs.existsSync(crosswordsPath)) {
+      // Read the content of the crosswords JSON file
+      const crosswordsData = JSON.parse(fs.readFileSync(crosswordsPath, 'utf8'));
+
+      // Find the crossword with the highest issue number
+      const issueNumbers = Object.keys(crosswordsData)
+        .map(key => key.match(/^issue(\d+)$/)) // Extract numbers from keys like 'issue10', 'issue20', etc.
+        .filter(result => result !== null) // Remove any keys that do not match
+        .map(result => parseInt(result[1])) // Convert the numbers to integers
+        .sort((a, b) => b - a); // Sort the numbers in descending order
+
+      if (issueNumbers.length > 0) {
+        const currentCrosswordKey = `issue${issueNumbers[0]}`; // Construct the key for the most recent crossword
+        // Send the most recent crossword data as JSON
+        res.json(crosswordsData[currentCrosswordKey]);
+      } else {
+        // If no crosswords are found in the data, send a 404 response
+        res.status(404).send('No crosswords found');
+      }
+    } else {
+      // If the crosswords file does not exist, send a 404 response
+      res.status(404).send('Crosswords file not found');
+    }
+  } catch (error) {
+    console.error(error);
+    // In case of any server error, send a 500 response
+    res.status(500).send('Server error');
+  }
+});
+
+
 app.get('/api/search', async (req, res) => {
   // Retrieve the search query parameter
   const { query } = req.query;
