@@ -1,3 +1,5 @@
+const CURRENT_ISSUE_NUMBER = 10; // process.env.CURRENT_ISSUE_NUMBER 
+
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
@@ -5,7 +7,6 @@ const cors = require('cors');
 const morgan = require('morgan');
 const sharp = require('sharp'); //
 const { createProxyMiddleware } = require('http-proxy-middleware');
-const CURRENT_ISSUE_NUMBER = 10; // process.env.CURRENT_ISSUE_NUMBER 
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -106,6 +107,37 @@ app.get('/api/current_issue', (req, res) => {
     }
   } catch (error) {
     console.error(error);
+    res.status(500).send('Server error');
+  }
+});
+app.get('/api/current_connections', (req, res) => {
+  // Define the path to the connections JSON file
+  const connectionsPath = path.join(__dirname, 'data/articles/connections/connections.json');
+
+  try {
+    // Check if the connections file exists
+    if (fs.existsSync(connectionsPath)) {
+      // Read the content of the connections JSON file
+      const connectionsData = JSON.parse(fs.readFileSync(connectionsPath, 'utf8'));
+
+      // Use the current issue number to access the relevant connections
+      const currentConnectionsKey = `issue${CURRENT_ISSUE_NUMBER}`;
+
+      // Check if the current issue's connections exist
+      if (connectionsData[currentConnectionsKey]) {
+        // Send the current connections data as JSON
+        res.json(connectionsData[currentConnectionsKey]);
+      } else {
+        // If the current issue's connections are not found, send a 404 response
+        res.status(404).send('Current connections not found');
+      }
+    } else {
+      // If the connections file does not exist, send a 404 response
+      res.status(404).send('Connections file not found');
+    }
+  } catch (error) {
+    console.error(error);
+    // In case of any server error, send a 500 response
     res.status(500).send('Server error');
   }
 });
