@@ -634,7 +634,7 @@
     },
     "Dn1": {
       "clue": "Charlotte to Nashville dir.",
-      "answer": "wnw",
+      "answer": "WNW",
       "direction": "down",
       "number": 1,
       "boxes": [
@@ -645,92 +645,86 @@
     },
     "Dn2": {
       "clue": "Sound of relief",
-      "answer": "phew",
+      "answer": "AAH",
       "direction": "down",
       "number": 2,
       "boxes": [
         "A2",
         "B2",
-        "C2",
-        "D2"
+        "C2"
       ]
     },
     "Dn3": {
       "clue": "Waiter's recital",
-      "answer": "menu",
+      "answer": "SPECIALS",
       "direction": "down",
       "number": 3,
       "boxes": [
         "A3",
         "B3",
         "C3",
-        "D3"
+        "D3",
+        "E3",
+        "F3",
+        "G3",
+        "H3"
       ]
     },
     "Dn4": {
       "clue": "Gold prospector's task",
-      "answer": "pan",
+      "answer": "PANOFF",
       "direction": "down",
       "number": 4,
       "boxes": [
         "A4",
         "B4",
-        "C4"
+        "C4",
+        "D4",
+        "E4",
+        "F4"
       ]
     },
     "Dn5": {
       "clue": "Go to the mall, say",
-      "answer": "shop",
+      "answer": "SHOP",
       "direction": "down",
       "number": 5,
       "boxes": [
-        "E5",
-        "F5",
-        "G5",
-        "H5"
+        "A6",
+        "B6",
+        "C6",
+        "D6"
       ]
     },
     "Dn6": {
       "clue": "Debtor's note",
-      "answer": "iou",
+      "answer": "IOU",
       "direction": "down",
       "number": 6,
       "boxes": [
-        "A6",
-        "B6",
-        "C6"
+        "A7",
+        "B7",
+        "C7"
       ]
     },
     "Dn7": {
       "clue": "One running the show",
-      "answer": "emcee",
+      "answer": "EMCEE",
       "direction": "down",
       "number": 7,
-      "boxes": [
-        "A7",
-        "B7",
-        "C7",
-        "D7",
-        "E7"
-      ]
-    },
-    "Dn8": {
-      "clue": "Glowing storefront signs",
-      "answer": "neon",
-      "direction": "down",
-      "number": 8,
       "boxes": [
         "A8",
         "B8",
         "C8",
-        "D8"
+        "D8",
+        "E8"
       ]
     },
-    "Dn9": {
-      "clue": "Home of a lion slain by Hercules",
-      "answer": "nemea",
+    "Dn8": {
+      "clue": "Glowing storefront signs",
+      "answer": "NEONS",
       "direction": "down",
-      "number": 9,
+      "number": 8,
       "boxes": [
         "A9",
         "B9",
@@ -739,75 +733,87 @@
         "E9"
       ]
     },
-    "Dn10": {
-      "clue": "Versatile card in blackjack",
-      "answer": "ace",
+    "Dn9": {
+      "clue": "Home of a lion slain by Hercules",
+      "answer": "NEMEA",
       "direction": "down",
-      "number": 10,
+      "number": 9,
       "boxes": [
         "A10",
         "B10",
-        "C10"
+        "C10",
+        "D10",
+        "E10"
+      ]
+    },
+    "Dn10": {
+      "clue": "Versatile card in blackjack",
+      "answer": "ACE",
+      "direction": "down",
+      "number": 10,
+      "boxes": [
+        "A11",
+        "B11",
+        "C11"
       ]
     },
     "Dn11": {
       "clue": "Release, as a fish",
-      "answer": "throwback",
+      "answer": "UNHOOK",
       "direction": "down",
       "number": 11,
-      "boxes": [
-        "A11",
-        "B11",
-        "C11",
-        "D11",
-        "E11",
-        "F11",
-        "G11",
-        "H11",
-        "I11"
-      ]
-    },
-    "Dn12": {
-      "clue": "Old English folklore figure",
-      "answer": "elf",
-      "direction": "down",
-      "number": 12,
-      "boxes": [
-        "A12",
-        "B12",
-        "C12"
-      ]
-    },
-    "Dn13": {
-      "clue": "Kennedy's assassin",
-      "answer": "oswald",
-      "direction": "down",
-      "number": 13,
       "boxes": [
         "A13",
         "B13",
         "C13",
         "D13",
         "E13",
-        "F13",
-        "G13"
+        "F13"
+      ]
+    },
+    "Dn12": {
+      "clue": "Old English folklore figure",
+      "answer": "FAERIE",
+      "direction": "down",
+      "number": 12,
+      "boxes": [
+        "A14",
+        "B14",
+        "C14",
+        "D14",
+        "E14",
+        "F14"
+      ]
+    },
+    "Dn13": {
+      "clue": "Kennedy's assassin",
+      "answer": "OSWALD",
+      "direction": "down",
+      "number": 13,
+      "boxes": [
+        "A15",
+        "B15",
+        "C15",
+        "D15",
+        "E15",
+        "F15"
       ]
     },
     "Dn18": {
       "clue": "Toy on a string",
-      "answer": "yo-yo",
+      "answer": "YOYO",
       "direction": "down",
       "number": 18,
       "boxes": [
-        "C18",
-        "D18",
-        "E18",
-        "F18"
+        "C5",
+        "D5",
+        "E5",
+        "F5"
       ]
     },
     "Dn22": {
       "clue": "Physics Nobelist Enrico",
-      "answer": "fermi",
+      "answer": "FERMI",
       "direction": "down",
       "number": 22,
       "boxes": [
@@ -820,26 +826,323 @@
     },
     "Dn23": {
       "clue": "GPS guess",
-      "answer": "eta",
+      "answer": "ETA",
       "direction": "down",
       "number": 23,
       "boxes": [
-        "D13",
-        "E13",
-        "F13",
-        "G13"
+        "E1",
+        "F1",
+        "G1"
       ]
     },
     "Dn24": {
       "clue": "Ration (out)",
-      "answer": "dole",
+      "answer": "DOLE",
       "direction": "down",
       "number": 24,
       "boxes": [
-        "D14",
-        "E14",
-        "F14",
-        "G14"
+        "E2",
+        "F2",
+        "G2",
+        "H2"
+      ]
+    },
+    "Dn25": {
+      "clue": "S.N.L. bit",
+      "answer": "SKIT",
+      "direction": "down",
+      "number": 25,
+      "boxes": [
+        "E7",
+        "F7",
+        "G7",
+        "H7"
+      ]
+    },
+    "Dn26": {
+      "clue": "Spanish surrealist painter Joan",
+      "answer": "MIRO",
+      "direction": "down",
+      "number": 26,
+      "boxes": [
+        "E11",
+        "F11",
+        "G11",
+        "H11"
+      ]
+    },
+    "Dn28": {
+      "clue": "Position in the standings",
+      "answer": "RANK",
+      "direction": "down",
+      "number": 28,
+      "boxes": [
+        "F6",
+        "G6",
+        "H6",
+        "I6"
+      ]
+    },
+    "Dn32": {
+      "clue": "Day, in Durango",
+      "answer": "DIA",
+      "direction": "down",
+      "number": 32,
+      "boxes": [
+        "G8",
+        "H8",
+        "I8"
+      ]
+    },
+    "Dn33": {
+      "clue": "Additionally",
+      "answer": "ALSO",
+      "direction": "down",
+      "number": 33,
+      "boxes": [
+        "G10",
+        "H10",
+        "I10",
+        "J10"
+      ]
+    },
+    "Dn35": {
+      "clue": "Many Punjabis, religiously",
+      "answer": "SIKHS",
+      "direction": "down",
+      "number": 35,
+      "boxes": [
+        "H4",
+        "I4",
+        "J4",
+        "K4",
+        "L4"
+      ]
+    },
+    "Dn36": {
+      "clue": "If all ____ fails...",
+      "answer": "ELSE",
+      "direction": "down",
+      "number": 36,
+      "boxes": [
+        "H5",
+        "I5",
+        "J5",
+        "K5"
+      ]
+    },
+    "Dn37": {
+      "clue": "Adderall might be prescribed for it",
+      "answer": "ADHD",
+      "direction": "down",
+      "number": 37,
+      "boxes": [
+        "H9",
+        "I9",
+        "J9",
+        "K9"
+      ]
+    },
+    "Dn38": {
+      "clue": "Omit, editorially",
+      "answer": "LEAVEOUT",
+      "direction": "down",
+      "number": 38,
+      "boxes": [
+        "H13",
+        "I13",
+        "J13",
+        "K13",
+        "L13",
+        "M13",
+        "N13",
+        "O13"
+      ]
+    },
+    "Dn39": {
+      "clue": "Like good advice",
+      "answer": "SAGE",
+      "direction": "down",
+      "number": 39,
+      "boxes": [
+        "H14",
+        "I14",
+        "J14",
+        "K14"
+      ]
+    },
+    "Dn43": {
+      "clue": "Vietnamese New Year",
+      "answer": "TET",
+      "direction": "down",
+      "number": 43,
+      "boxes": [
+        "I15",
+        "J15",
+        "K15"
+      ]
+    },
+    "Dn44": {
+      "clue": "It needs frequent changing",
+      "answer": "DIAPER",
+      "direction": "down",
+      "number": 44,
+      "boxes": [
+        "J1",
+        "K1",
+        "L1",
+        "M1",
+        "N1",
+        "O1"
+      ]
+    },
+    "Dn45": {
+      "clue": "Queued up",
+      "answer": "INALINE",
+      "direction": "down",
+      "number": 45,
+      "boxes": [
+        "J2",
+        "K2",
+        "L2",
+        "M2",
+        "N2",
+        "O2"
+      ]
+    },
+    "Dn46": {
+      "clue": "Stadium seating",
+      "answer": "STANDS",
+      "direction": "down",
+      "number": 46,
+      "boxes": [
+        "J3",
+        "K3",
+        "L3",
+        "M3",
+        "N3",
+        "O3"
+      ]
+    },
+    "Dn48": {
+      "clue": "Glaswegian",
+      "answer": "SCOT",
+      "direction": "down",
+      "number": 48,
+      "boxes": [
+        "J11",
+        "K11",
+        "L11",
+        "M11"
+      ]
+    },
+    "Dn49": {
+      "clue": "Subjects of debate",
+      "answer": "TOPICS",
+      "direction": "down",
+      "number": 49,
+      "boxes": [
+        "J12",
+        "K12",
+        "L12",
+        "M12",
+        "N12",
+        "O12"
+      ]
+    },
+    "Dn51": {
+      "clue": "Storm tracking tool",
+      "answer": "RADAR",
+      "direction": "down",
+      "number": 51,
+      "boxes": [
+        "K6",
+        "L6",
+        "M6",
+        "N6",
+        "O6"
+      ]
+    },
+    "Dn52": {
+      "clue": "Japanese industrial center",
+      "answer": "OSAKA",
+      "direction": "down",
+      "number": 52,
+      "boxes": [
+        "K7",
+        "L7",
+        "M7",
+        "N7",
+        "O7"
+      ]
+    },
+    "Dn53": {
+      "clue": "Vail alternative",
+      "answer": "ASPEN",
+      "direction": "down",
+      "number": 53,
+      "boxes": [
+        "K8",
+        "L8",
+        "M8",
+        "N8",
+        "O8"
+      ]
+    },
+    "Dn57": {
+      "clue": "Give three stars, say",
+      "answer": "RATE",
+      "direction": "down",
+      "number": 57,
+      "boxes": [
+        "L10",
+        "M10",
+        "N10",
+        "O10"
+      ]
+    },
+    "Dn59": {
+      "clue": "Cellular respiration product",
+      "answer": "ATP",
+      "direction": "down",
+      "number": 59,
+      "boxes": [
+        "M5",
+        "N5",
+        "O5"
+      ]
+    },
+    "Dn60": {
+      "clue": "Small spasm",
+      "answer": "TIC",
+      "direction": "down",
+      "number": 60,
+      "boxes": [
+        "M9",
+        "N9",
+        "O9"
+      ]
+    },
+    "Dn61": {
+      "clue": "Surveillance org.",
+      "answer": "NSA",
+      "direction": "down",
+      "number": 61,
+      "boxes": [
+        "M14",
+        "N14",
+        "O14"
+      ]
+    },
+    "Dn62": {
+      "clue": "One that may bug you",
+      "answer": "SPY",
+      "direction": "down",
+      "number": 62,
+      "boxes": [
+        "M15",
+        "N15",
+        "O15"
       ]
     }
   }
