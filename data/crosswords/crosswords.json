@@ -7,7 +7,7 @@
         "number": 1,
         "boxes": ["A2", "A3", "A4", "A5", "A6", "A7", "A8", "A9", "A10"]
       },
-      "Dn2": {
+      "Dn1": {
         "clue": "The unchanging nature of 9 Across",
         "answer": "immutable",
         "direction": "down",
