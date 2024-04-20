@@ -159,478 +159,252 @@
       "answer": "wasp",
       "direction": "across",
       "number": 1,
-      "boxes": [
-        "A1",
-        "A2",
-        "A3",
-        "A4"
-      ]
+      "boxes": ["A1", "A2", "A3", "A4"]
     },
     "Ac5": {
       "clue": "Brown shade",
       "answer": "sienna",
       "direction": "across",
       "number": 5,
-      "boxes": [
-        "A6",
-        "A7",
-        "A8",
-        "A9",
-        "A10",
-        "A11"
-      ]
+      "boxes": ["A6", "A7", "A8", "A9", "A10", "A11"]
     },
     "Ac11": {
       "clue": "Flying saucer",
       "answer": "ufo",
       "direction": "across",
       "number": 11,
-      "boxes": [
-        "A13",
-        "A14",
-        "A15"
-      ]
+      "boxes": ["A13", "A14", "A15"]
     },
     "Ac14": {
       "clue": "Golden State wine region",
       "answer": "napa",
       "direction": "across",
       "number": 14,
-      "boxes": [
-        "B1",
-        "B2",
-        "B3",
-        "B4"
-      ]
+      "boxes": ["B1", "B2", "B3", "B4"]
     },
     "Ac15": {
       "clue": "Cooking class, for short",
       "answer": "homeec",
       "direction": "across",
       "number": 15,
-      "boxes": [
-        "B6",
-        "B7",
-        "B8",
-        "B9",
-        "B10",
-        "B11"
-      ]
+      "boxes": ["B6", "B7", "B8", "B9", "B10", "B11"]
     },
     "Ac16": {
       "clue": "\"N.Y. State of Mind\" rapper",
       "answer": "nas",
       "direction": "across",
       "number": 16,
-      "boxes": [
-        "B13",
-        "B14",
-        "B15"
-      ]
+      "boxes": ["B13", "B14", "B15"]
     },
     "Ac17": {
       "clue": "Start of a quote by Yogi Berra",
       "answer": "whenyoucome",
       "direction": "across",
       "number": 17,
-      "boxes": [
-        "C1",
-        "C2",
-        "C3",
-        "C4",
-        "C5",
-        "C6",
-        "C7",
-        "C8",
-        "C9",
-        "C10",
-        "C11"
-      ]
+      "boxes": ["C1", "C2", "C3", "C4", "C5", "C6", "C7", "C8", "C9", "C10", "C11"]
     },
     "Ac19": {
       "clue": "Give the ax?",
       "answer": "edit",
       "direction": "across",
       "number": 19,
-      "boxes": [
-        "D3",
-        "D4",
-        "D5",
-        "D6"
-      ]
+      "boxes": ["D3", "D4", "D5", "D6"]
     },
     "Ac20": {
       "clue": "Hen's den",
       "answer": "coop",
       "direction": "across",
       "number": 20,
-      "boxes": [
-        "D8",
-        "D9",
-        "D10"
-      ]
+      "boxes": ["D8", "D9", "D10"]
     },
     "Ac21": {
       "clue": "Suffix with ethyl",
       "answer": "ene",
       "direction": "across",
       "number": 21,
-      "boxes": [
-        "D12",
-        "D13",
-        "D14"
-      ]
-    },
-    "Ac22": {
-      "clue": "Fit",
-      "answer": "apt",
-      "direction": "across",
-      "number": 22,
-      "boxes": [
-        "D15"
-      ]
+      "boxes": ["D12", "D13", "D14"]
     },
     "Ac23": {
       "clue": "Provide intellectual guidance",
       "answer": "edify",
       "direction": "across",
       "number": 23,
-      "boxes": [
-        "E1",
-        "E2",
-        "E3",
-        "E4",
-        "E5"
-      ]
+      "boxes": ["E1", "E2", "E3", "E4", "E5"]
     },
     "Ac25": {
       "clue": "Cooking agent in many stir fries",
       "answer": "sesameoil",
       "direction": "across",
       "number": 25,
-      "boxes": [
-        "E7",
-        "E8",
-        "E9",
-        "E10",
-        "E11",
-        "E12",
-        "E13",
-        "E14",
-        "E15"
-      ]
+      "boxes": ["E7", "E8", "E9", "E10", "E11", "E12", "E13", "E14", "E15"]
     },
     "Ac27": {
       "clue": "Part 2 of quote",
       "answer": "toafork",
       "direction": "across",
       "number": 27,
-      "boxes": [
-        "F1",
-        "F2",
-        "F3",
-        "F4",
-        "F5",
-        "F6",
-        "F7"
-      ]
+      "boxes": ["F1", "F2", "F3", "F4", "F5", "F6", "F7"]
     },
     "Ac29": {
       "clue": "Ticked off",
       "answer": "irked",
       "direction": "across",
       "number": 29,
-      "boxes": [
-        "F11",
-        "F12",
-        "F13",
-        "F14",
-        "F15"
-      ]
+      "boxes": ["F11", "F12", "F13", "F14", "F15"]
     },
     "Ac30": {
       "clue": "Alternative to nothing",
       "answer": "all",
       "direction": "across",
       "number": 30,
-      "boxes": [
-        "G1",
-        "G2",
-        "G3"
-      ]
+      "boxes": ["G1", "G2", "G3"]
     },
     "Ac31": {
       "clue": "Band—",
       "answer": "aid",
       "direction": "across",
       "number": 31,
-      "boxes": [
-        "G6",
-        "G7",
-        "G8"
-      ]
+      "boxes": ["G6", "G7", "G8"]
     },
     "Ac32": {
       "clue": "Something up one's sleeve?",
       "answer": "arm",
       "direction": "across",
       "number": 32,
-      "boxes": [
-        "G10",
-        "G11",
-        "G12"
-      ]
+      "boxes": ["G10", "G11", "G12"]
     },
     "Ac34": {
       "clue": "Plant compounds used in fragrances",
       "answer": "essentialoils",
       "direction": "across",
       "number": 34,
-      "boxes": [
-        "H2",
-        "H3",
-        "H4",
-        "H5",
-        "H6",
-        "H7",
-        "H8",
-        "H9",
-        "H10",
-        "H11",
-        "H12",
-        "H13",
-        "H14"
-      ]
+      "boxes": ["H2", "H3", "H4", "H5", "H6", "H7", "H8", "H9", "H10", "H11", "H12", "H13", "H14"]
     },
     "Ac40": {
       "clue": "Sort",
       "answer": "ilk",
       "direction": "across",
       "number": 40,
-      "boxes": [
-        "I4",
-        "I5",
-        "I6"
-      ]
+      "boxes": ["I4", "I5", "I6"]
     },
     "Ac41": {
       "clue": "Billboards, e.g.",
       "answer": "ads",
       "direction": "across",
       "number": 41,
-      "boxes": [
-        "I8",
-        "I9",
-        "I10"
-      ]
+      "boxes": ["I8", "I9", "I10"]
     },
     "Ac42": {
       "clue": "Chow down",
       "answer": "eat",
       "direction": "across",
       "number": 42,
-      "boxes": [
-        "I13",
-        "I14",
-        "I15"
-      ]
+      "boxes": ["I13", "I14", "I15"]
     },
     "Ac44": {
       "clue": "Frisbees or poker chips, for example",
       "answer": "disks",
       "direction": "across",
       "number": 44,
-      "boxes": [
-        "J1",
-        "J2",
-        "J3",
-        "J4",
-        "J5"
-      ]
+      "boxes": ["J1", "J2", "J3", "J4", "J5"]
     },
     "Ac47": {
       "clue": "One held for ransom",
       "answer": "hostage",
       "direction": "across",
       "number": 47,
-      "boxes": [
-        "J9",
-        "J10",
-        "J11",
-        "J12",
-        "J13",
-        "J14",
-        "J15"
-      ]
+      "boxes": ["J9", "J10", "J11", "J12", "J13", "J14", "J15"]
     },
     "Ac50": {
       "clue": "Part 3 of quote",
       "answer": "intheroad",
       "direction": "across",
       "number": 50,
-      "boxes": [
-        "K1",
-        "K2",
-        "K3",
-        "K4",
-        "K5",
-        "K6",
-        "K7",
-        "K8",
-        "K9"
-      ]
+      "boxes": ["K1", "K2", "K3", "K4", "K5", "K6", "K7", "K8", "K9"]
     },
     "Ac54": {
       "clue": "Really fancy",
       "answer": "covet",
       "direction": "across",
       "number": 54,
-      "boxes": [
-        "K11",
-        "K12",
-        "K13",
-        "K14",
-        "K15"
-      ]
+      "boxes": ["K11", "K12", "K13", "K14", "K15"]
     },
     "Ac55": {
       "clue": "\"Sadly...\"",
       "answer": "alas",
       "direction": "across",
       "number": 55,
-      "boxes": [
-        "L1",
-        "L2",
-        "L3",
-        "L4"
-      ]
+      "boxes": ["L1", "L2", "L3", "L4"]
     },
     "Ac56": {
       "clue": "Buffoon",
       "answer": "ass",
       "direction": "across",
       "number": 56,
-      "boxes": [
-        "L6",
-        "L7",
-        "L8"
-      ]
+      "boxes": ["L6", "L7", "L8"]
     },
     "Ac57": {
       "clue": "Tug-of-war need",
       "answer": "rope",
       "direction": "across",
       "number": 57,
-      "boxes": [
-        "L10",
-        "L11",
-        "L12",
-        "L13"
-      ]
+      "boxes": ["L10", "L11", "L12", "L13"]
     },
     "Ac58": {
       "clue": "Bowler's target",
       "answer": "pin",
       "direction": "across",
       "number": 58,
-      "boxes": [
-        "M1",
-        "M2",
-        "M3"
-      ]
+      "boxes": ["M1", "M2", "M3"]
     },
     "Ac59": {
       "clue": "An arctic fox's ability to change color in the winter, or a lizard's ability to regrow its tail, for two",
       "answer": "adaptations",
       "direction": "across",
       "number": 59,
-      "boxes": [
-        "M5",
-        "M6",
-        "M7",
-        "M8",
-        "M9",
-        "M10",
-        "M11",
-        "M12",
-        "M13",
-        "M14",
-        "M15"
-      ]
+      "boxes": ["M5", "M6", "M7", "M8", "M9", "M10", "M11", "M12", "M13", "M14", "M15"]
     },
     "Ac63": {
       "clue": "Demise",
       "answer": "end",
       "direction": "across",
       "number": 63,
-      "boxes": [
-        "N1",
-        "N2",
-        "N3"
-      ]
+      "boxes": ["N1", "N2", "N3"]
     },
     "Ac64": {
       "clue": "End of quote",
       "answer": "takeit",
       "direction": "across",
       "number": 64,
-      "boxes": [
-        "N5",
-        "N6",
-        "N7",
-        "N8",
-        "N9",
-        "N10"
-      ]
+      "boxes": ["N5", "N6", "N7", "N8", "N9", "N10"]
     },
     "Ac65": {
       "clue": "Brink",
       "answer": "cusp",
       "direction": "across",
       "number": 65,
-      "boxes": [
-        "N12",
-        "N13",
-        "N14",
-        "N15"
-      ]
+      "boxes": ["N12", "N13", "N14", "N15"]
     },
     "Ac66": {
       "clue": "Hi-___ image",
       "answer": "res",
       "direction": "across",
       "number": 66,
-      "boxes": [
-        "O1",
-        "O2",
-        "O3"
-      ]
+      "boxes": ["O1", "O2", "O3"]
     },
     "Ac67": {
       "clue": "Take springy steps",
       "answer": "prance",
       "direction": "across",
       "number": 67,
-      "boxes": [
-        "O5",
-        "O6",
-        "O7",
-        "O8",
-        "O9",
-        "O10"
-      ]
+      "boxes": ["O5", "O6", "O7", "O8", "O9", "O10"]
     },
     "Ac68": {
       "clue": "\"Don't leave me!\"",
       "answer": "stay",
       "direction": "across",
       "number": 68,
-      "boxes": [
-        "O12",
-        "O13",
-        "O14",
-        "O15"
-      ]
+      "boxes": ["O12", "O13", "O14", "O15"]
     },
     "Dn1": {
       "clue": "Charlotte to Nashville dir.",
