@@ -229,7 +229,7 @@
       "answer": "FORA",
       "direction": "across",
       "number": 21,
-      "boxes": ["D11", "D12", "D13", "D14"]
+      "boxes": ["D12", "D13", "D14", "D15"]
     },
     "Ac23": {
       "clue": "Provide intellectual guidance",
@@ -779,7 +779,7 @@
     },
     "Dn45": {
       "clue": "Queued up",
-      "answer": "INALINE",
+      "answer": "INLINE",
       "direction": "down",
       "number": 45,
       "boxes": [
