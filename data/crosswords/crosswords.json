@@ -205,24 +205,31 @@
     },
     "Ac19": {
       "clue": "Give the ax?",
-      "answer": "edit",
+      "answer": "hew",
       "direction": "across",
       "number": 19,
-      "boxes": ["D3", "D4", "D5", "D6"]
+      "boxes": ["C13", "C14", "C15"]
     },
     "Ac20": {
       "clue": "Hen's den",
       "answer": "coop",
       "direction": "across",
       "number": 20,
-      "boxes": ["D8", "D9", "D10"]
+      "boxes": ["D3", "D4", "D5", "D6"]
     },
     "Ac21": {
       "clue": "Suffix with ethyl",
       "answer": "ene",
       "direction": "across",
       "number": 21,
-      "boxes": ["D12", "D13", "D14"]
+      "boxes": ["D8", "D9", "D10"]
+    },
+    "Ac22": {
+      "clue": "Fit ___ king",
+      "answer": "FORA",
+      "direction": "across",
+      "number": 21,
+      "boxes": ["D11", "D12", "D13", "D14"]
     },
     "Ac23": {
       "clue": "Provide intellectual guidance",
@@ -260,7 +267,7 @@
       "boxes": ["G1", "G2", "G3"]
     },
     "Ac31": {
-      "clue": "Band—",
+      "clue": "Band—___",
       "answer": "aid",
       "direction": "across",
       "number": 31,
