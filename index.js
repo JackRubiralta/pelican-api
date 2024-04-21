@@ -112,7 +112,7 @@ app.get('/api/current_issue', (req, res) => {
 });
 app.get('/api/current_connections', (req, res) => {
   // Define the path to the connections JSON file
-  const connectionsPath = path.join(__dirname, 'data/articles/connections/connections.json');
+  const connectionsPath = path.join(__dirname, 'data/connections/connections.json');
 
   try {
     // Check if the connections file exists
