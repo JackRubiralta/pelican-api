@@ -1,6 +1,6 @@
 {
   "issue13": {
-    "Ac1": {
+    "Ac0": {
       "clue": "You can call these types of methods when components will be or have been mounted, updated, or unmounted",
       "answer": "lifecycle",
       "direction": "across",
