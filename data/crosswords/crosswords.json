@@ -1,6 +1,22 @@
 {
   "issue13": {
-    
+    "Ac1": {
+      "clue": "You can call these types of methods when components will be or have been mounted, updated, or unmounted",
+      "answer": "lifecycle",
+      "direction": "across",
+      "number": 1,
+      "boxes": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10"
+      ]
+    },
     "Dn2": {
       "clue": "The unchanging nature of 9 Across",
       "answer": "immutable",
@@ -138,7 +154,7 @@
     }
   },
   "issue10": {
-    "Ac1": {
+    "Ac0": {
       "clue": "Winged stinger",
       "answer": "wasp",
       "direction": "across",
