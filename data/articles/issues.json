@@ -1457,7 +1457,54 @@
             }
         ],
         "guides": [],
-        "styles": [],
+        "styles": [
+            {
+                "id": "VzqBviBGnE",
+                "title": {
+                    "text": "Style Column: Armaan Arora",
+                    "size": "big"
+                },
+                "summary": {
+                    "content": "",
+                    "show": false
+                },
+                "author": "Lidia ZurMuhlen",
+                "date": "2024-04-24",
+                "length": 2,
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "text": "Have you ever asked yourself: how can I be classy, yet comfortable, or trendy, but original? Well, today Armaan Arora \u201824 will be able to answer questions like these and more. Armaan likes to keep balance in his wardrobe and daily outfits, by switching up his style or mood depending on the day. For example, he says, \u201cIf I have a big Latin test coming up I'll come fully dressed for war in smart clothes. My father calls it: dress smart, think smart.\u201d"
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Armaan says he looks for brands that are able to not just sell clothes, but rather, an image and way of life. He says, \u201cbrands that have timeless style and are elegant and sophisticated always capture my interest.\u201d Armaan looks to reflect this vibe when creating his daily outfits."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "To build and make his outfits more complex through accessories, Armaan believes there are two types of people in the world: gold and silver. Once a person can figure out what type of person they are, they have essentially unlocked a whole new world. He says, \u201cFor the last few years I've worn the same rings, chain, pendant, bracelet, and now recently a watch.\u201d Furthermore he reminds us that, \u201caccessories are supposed to compliment the outfit, not become it.\u201d He believes that adding that hint of gold or silver is for the people who like paying attention to detail: it should not be so obvious that you can see the necklace, bracelet or watch from a mile away."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "And while accessories may stay the same throughout the seasons the clothes will certainly change. As Armaan says, \u201cseasons dictate style.\u201d And particularly in New Hampshire there is such a drastic change in climate that it becomes imperative to experiment with new types of clothing. He says, \u201cColor and flair is appropriate during the spring as the weather reflects your outfit with pretty bright flowers and sunny days. Whereas winter can be more neutral, with earth tones and darker shades.\u201d"
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "His key piece of advice to all of us is to choose our outfits carefully the night before. Reflecting on past experiences, he says, \u201cRunning around to change shoes or pants the morning of has resulted in tardies for Chapel.\u201d And most importantly, always make sure to check the weather because New Hampshire is unpredictable."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Armaan leaves us with some final words to keep us all fashion forward. First he encourages us all to only buy the clothes that we love. There is no point wasting money and fabric if it is not worth it! Next, Armaan believes it is important to be able to differentiate between the various trends, so that the \u201cclothes you wear now will be applicable twenty to thirty years from now.\u201d He says: \u201cthink about the future; play the long game.\u201d"
+                    }
+                ],
+                "image": {
+                    "source": "YVjDeNmiBhHazpZ.jpg",
+                    "caption": "Photo by Temi Johnson",
+                    "show": true,
+                    "position": "top"
+                }
+            }
+        ],
         "clubs": [],
         "teams": [],
         "activities": [],
