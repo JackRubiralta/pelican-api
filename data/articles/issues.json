@@ -1404,6 +1404,56 @@
                     "show": true,
                     "position": "bottom"
                 }
+            },
+            {
+                "id": "MTmjoYqtkg",
+                "title": {
+                    "text": "Meet Mr. Inzer",
+                    "size": "medium"
+                },
+                "summary": {
+                    "content": "",
+                    "show": false
+                },
+                "author": "Rhys Rountree",
+                "date": "2024-04-24",
+                "length": 3,
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "text": "You might have heard rumors surrounding Teacher of Humanities, Mr. Andrew Inzer circulating campus, but find yourself wondering, are they true? I can confirm that, yes, Inzer was in the NFL before teaching at St. Paul\u2019s. Yes, he is a wilderness expert and legendary storyteller. And yes, he is incredibly passionate about humanities, economics, and the bassoon."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Before he became a teacher, Inzer graduated from Brown University. He became an undrafted rookie free agent for the New England Patriots, playing as a backup offensive center and guard. Inzer recounts the Patriot\u2019s longstanding tradition that the rookies would take the veterans out to a fancy dinner. At the end of the night, when the bill came, he strongly suggested that the bill be divided based on signing bonuses. Inzer\u2019s bonus was quite a bit less than the top-round draft picks, so he \u201cpulled out some cash, gave it to his teammates, and didn\u2019t stick around to argue over who would pay for the night!\u201d Inzer even won the Super Bowl playing for coach Bill Belichick during his rookie season."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "After his football career came to an end, Inzer first worked in private business before moving on to teaching. He taught at a public school in New Hampshire and then entered the independent boarding school world shortly after. He taught at several schools before settling his family back in New England. Inzer jumped at the opportunity to work at St. Paul\u2019s because he feels closer to family and connected to the area."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "One of Inzer\u2019s many passions is humanities and economics. He believes that humanities \u201callows us to venture outside normal academic boxes and explore ideas through a multidisciplinary lens.\u201d He describes the variety of subjects from literature, history, and public speaking as refreshing. Furthermore, he loves introducing students to economics because he finds that they often haven\u2019t encountered analytical decision-making before. Inzer is all about cultivating curiosity and creativity in his classes."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Another of Inzer\u2019s long-standing interests is the bassoon, which has been an obsession of his since the age of five. Inzer often practices in the music building and looks forward to playing in a quartet this spring with Director of Music, Mr. Orlando Pandolfi, and other students."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Inzer describes himself as \u201ceasy-going and pragmatic.\u201d He is definitely an outdoors person, spending his whole life trying to find ways to be in the wilderness. He recalls that before having kids, he \u201cused to disappear in the White Mountains for a few days to think about the past year and rejuvenate.\u201d One year, he set up camp in a remote spot in the Wild River Valley. He was reading a book by the campfire when two young women stumbled onto the campsite. They were \u201cclearly lost, soaking wet, and terrified at finding a large human such as himself in the middle of nowhere.\u201d The women were dehydrated and exhausted, so he fed them pre-packed chili and gave them dry clothes and blankets. In the morning, he woke them up before dawn, made them oatmeal and coffee, and then heroically led them out of the forest. When Inzer reached the trailhead, he was surprised to be met with a crowd of search and rescue personnel, state police, local police, and Fish and Game officers, all of whom were preparing to rescue the two women who had been lost. He was on the news that night for his quick thinking and lionhearted actions."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "The anecdotes above speak for themselves. Now that you know a little more about Inzer\u2019s awesome life story, make sure to spark up a conversation next time you see him, and maybe even enroll in one of his classes!"
+                    }
+                ],
+                "image": {
+                    "source": "https://raw.githubusercontent.com/JackRubiralta/pelican-api/master/data/articles/images/dsKgzaRZetkNiPo.jpg",
+                    "caption": "Photo courtesy of the SPS Directory",
+                    "show": true,
+                    "position": "side"
+                }
             }
         ],
         "guides": [],
