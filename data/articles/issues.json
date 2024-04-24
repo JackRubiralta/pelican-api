@@ -194,6 +194,56 @@
                     "show": false,
                     "position": ""
                 }
+            },
+            {
+                "id": "rseRVwMqIn",
+                "title": {
+                    "text": "A Day to Remember: 2024 Total Solar Eclipse",
+                    "size": "big"
+                },
+                "summary": {
+                    "content": "",
+                    "show": false
+                },
+                "author": "Cole Hamilton",
+                "date": "2024-04-24",
+                "length": 3,
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "text": "As over 400 students and teachers began boarding buses to make the trek up to northern Vermont to view the total solar eclipse, there was much buzz in the air, anticipating the sight soon to be viewed up in the sky. Before heading off, the school assembled for Chapel and an information session to teach students about the solar eclipse. Then those staying and those going parted to be reunited soon after a long day."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Many SPS students traveled in caravan style, bringing countless belongings like backpacks, pillows, and a change of clothes. Contrastingly, others opted for a more minimalistic travel style, packing only the necessities. The first few hours on the bus flew by as everyone was excited to see the eclipse, happy to get a day off classes, eager to get a jump on their homework, and satisfied after a delicious meal prepared by FLIK. Finally, the SPS fleet arrived at the Foote Brook Farm in Johnson, Vermont."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "To kickstart the day of activities, everyone stretched their legs and found a place to plop down on the massive field. When everyone settled, the games began with Dr. Morse's challenging puzzle hunt. Safe to say, the puzzle was quite complicated, and everyone struggled to complete the impossible task created by a mastermind himself\u2013 Dr. Chris Morse. Andrew Carroll \u201825 says, \u201cI think the puzzle was a blast and we had some great team bonding moments. Although it was difficult everyone still enjoyed it.\u201d"
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "After the puzzle, everyone restlessly awaited the total solar eclipse. To pass the time, students talked with friends, played Spike Ball, played frisbee, or settled to nap."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "After the long wait, the total eclipse approached. Students and faculty put on their eclipse glasses to watch the magnificent sight above. The moon slowly began piercing the Sun\u2019s bright orange light, leaving darkness in its path. Eventually, the moon fully covered the sun, leaving no speck of light behind. Oohs and ahhs could be heard amongst the SPS crew as the sight was beautiful. The sky went dark and the air grew cold. Everyone observed the bright white light from the Sun\u2019s corona during complete totality and could distinctly make out looping solar prominences emerging from the corona. There was a halo glowing around a black circle of nothing. It was such an incredible sight. \u201cIt was so cool and a sight that was worth the long bus ride,\u201d says Carroll."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Back at school, students and faculty participated in a busy day full of eclipse programming activities. After Chapel, those staying watched a screening of \u201cThe Great American Eclipse.\u201d Before a long lunch, students broke off into assigned groups to debrief the film. They then met again to solve Dr. Morse\u2019s puzzle challenge before witnessing the partial solar eclipse. Caroline Rogers \u201826 mentions, \u201cThough I didn\u2019t go, the day was still super interesting and the partial eclipse was super eerie. I got kind of chilly!\u201d"
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Before heading back on the bus, everyone packed up, ate some more, and mentally prepared for the unknown duration it would take to return to campus. The bus ride back was even longer than expected. The fleet departed around four and did not arrive campus until close to 11. However, the eclipse experience was worth the wait as it was so spectacular and memorable!"
+                    }
+                ],
+                "image": {
+                    "source": "/images/UmjRUaguoSHIDRd.jpg",
+                    "caption": "Photo courtesy of Mr. Seamans",
+                    "show": true,
+                    "position": "bottom"
+                }
             }
         ],
         "opinion": [
@@ -1194,5 +1244,4 @@
         "misc": [],
         "letters": []
     }
-    
 }
