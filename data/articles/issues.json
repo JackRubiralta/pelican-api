@@ -1508,7 +1508,34 @@
         "clubs": [],
         "teams": [],
         "activities": [],
-        "archives": [],
+        "archives": [
+            {
+                "id": "sEBZRpsXkR",
+                "title": {
+                    "text": "Archives Column: The School",
+                    "size": "big"
+                },
+                "summary": {
+                    "content": "",
+                    "show": false
+                },
+                "author": "Marvin Cho",
+                "date": "2024-04-24",
+                "length": 1,
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "text": "With construction concluding in 1880, the School is one of the largest vanished buildings on campus. The School had three main wings jutting off of one common room, one off each side, and one extending off the rear of the building. It was similar in function to the modern-day Coit, as while the second and third floors housed student living, the bottom floor held areas such as the student common room, dining rooms, and common spaces. As for student living, the rooms in the School were known as \u2018alcoves,\u2019 as they were all in one shared space, with three walls per alcove, leading to an open-aired student living area. Of note is that before the School\u2019s destruction, the faculty house attached to the building was moved and preserved, and it still stands today."
+                    }
+                ],
+                "image": {
+                    "source": "XFjFGeoVkCiTRIT.jpg",
+                    "caption": "Photo courtesy of the SPS Archives",
+                    "show": true,
+                    "position": "bottom"
+                }
+            }
+        ],
         "theater": [],
         "arts": [],
         "misc": [],
