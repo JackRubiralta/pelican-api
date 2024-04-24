@@ -1334,7 +1334,78 @@
             }
         ],
         "voices": [],
-        "people": [],
+        "people": [
+            {
+                "id": "HyRrFvasFK",
+                "title": {
+                    "text": "Mr. Michael Seamans: Capturing Snapshots of Life at SPS",
+                    "size": "big"
+                },
+                "summary": {
+                    "content": "",
+                    "show": false
+                },
+                "author": "Sebastion Brigham",
+                "date": "2024-04-24",
+                "length": 3,
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "text": "Growing up in central New York, SPS Photographer Michael Seamans had no idea what profession he would pursue. In his sophomore year of high school, though, he began taking photos independently. Then, he took photo classes. Still, he didn't think about being a professional photographer. Instead, the reason he was drawn to the art form was simple: he was curious and had lots to say but was too shy to share. Taking photos as a teenager, he says, was \u201ca way to communicate without having to talk to people.\u201d"
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "As he became more serious about photography, Seamans made a big decision: he sold his prize cow, Jenny, in order to buy his first \u201creal\u201d camera, an Olympus OM10. However, he still didn\u2019t see photography as a career option."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "By age 15, Seamans had spent time in the classroom studying architecture while working construction in the summer. His original college plan was to study architecture, but financially, that program wasn\u2019t possible."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "After a gap year, he decided to study engineering, but his love for photography lingered. Eventually, he decided to pursue photography and earned an A.A. in advertising and photography and then a B.F.A. in photographic illustration as a first-generation college student at Rochester Institute of Technology."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "For Seamans, photography turned out to be his ideal career path. \u201cI am interested in everything, and photography is the only way I can experience all of those things. [...] A [camera] is my ticket to experience lots of different worlds, just for a moment.\u201d"
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Over the next near-decade, Seamans worked at the Boston Herald, photographing every aspect of a big city: the Boston Ballet, professional sports teams, speeches, and lots of events. Additionally, in 2001, he was chosen to be one of 11 official photographers for the 2002 Olympic Games in Salt Lake City, Utah. After photographing the Patriots Super Bowl XXXVI victory, he traveled to Utah to join ten other photographers and produce the official commemorative book of the Games."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Then, the early 2000s saw a shift in the news industry. The rise of social media and online news meant reporting was more about getting a reader to click on an article than reporting real news, so Seamans sought change."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "When he received a free horse (yes, the animal), he saw an opportunity to begin a new chapter. He and his wife moved up to New Hampshire and bought a place with space for his new horse, Fredd. For several years, he was a freelancer, photographing politicians, the local farm, universities, and several boarding schools. Then, he returned to school and earned his M.F.A. in photography."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "In February 2020, Seamans started at St. Paul\u2019s School. Although it was a new environment, the position was similar to what he had experienced at the Boston Herald. St. Paul\u2019s has its own ballet company, sports teams, keynote speakers, and musical performances. The school is a microcosm of a big, bustling city."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Here at SPS, Seamans works to capture the authentic SPS experience. As he photographs games, performances, and everyday life, he is aware that he catches the occasional awkward photo, but it becomes one of the thousands he deletes every day. By the end of the day, only a small fraction of the photos he takes remain. He then edits them for use in print, on the School website and social media channels, and on any other project that needs photos."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "When he isn\u2019t hurrying around campus taking photos, Seamans likes to ski, trail run, and play tennis. At home, while Fredd the horse has unfortunately passed away, he takes care of his two cats and 20 chickens."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "As he reflects on his life, he offers one bit of advice to his younger self and the students of SPS: \u201cBe open to the opportunities that present themselves, even if sometimes they come after disappointment.\u201d Had Seamans been able to attend architecture school, he would never have discovered photography as a career path, and SPS would be without one of the most integral members of our staff."
+                    }
+                ],
+                "image": {
+                    "source": "/images/VMoACrdIYsosCtI.jpg",
+                    "caption": "Photo by Vin Chutijirawong",
+                    "show": true,
+                    "position": "bottom"
+                }
+            }
+        ],
         "guides": [],
         "styles": [],
         "clubs": [],
