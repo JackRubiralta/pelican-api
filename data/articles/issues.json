@@ -1231,7 +1231,54 @@
             }
         ],
         "opinion": [],
-        "spotlight": [],
+        "spotlight": [
+            {
+                "id": "GPmjeFQXcR",
+                "title": {
+                    "text": "Team Highlight: The Robotics Team",
+                    "size": "big"
+                },
+                "summary": {
+                    "content": "",
+                    "show": false
+                },
+                "author": "Elle Ruminski",
+                "date": "2024-04-24",
+                "length": 2,
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "text": "From March 28 to 30, the Big Red robotics team traveled to the University of New Hampshire for a three-day robotics competition. They competed against 36 teams from all across New Hampshire, Massachusetts and Vermont to test whose robot was the most skilled. While there were hiccups along the way, the SPS brainiacs ended up with an impressive finish in second place."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "Before heading to the competition, the robotics team intensely prepared by building, programming and testing their robot countless times. They stripped down previous competition robots to build their robot and began constructing their new machine. The team members, each with their own skill sets, worked from coding the robot using Java and FRC to wiring the robot to learning how to drive it. Before their latest and greatest competition, the team faced some challenges, which they endeavored to work out before entering the UNH competition."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "The first day at UNH was solely focused on setting up and placing the team\u2019s robot in their pit area, along with adjusting small malfunctions they spotted along the trip. The second day was the first official day of competitions. SPS robotics competed against 36 other schools to qualify for the next round of competition by receiving the most ranking points. However, while the end score was exemplary throughout the competition, the team had slight complications which they had to improve. There were problems with programming and the robot responding to the code, then some other system began to shut down."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "The mechanism that allows the robot to drive broke, and the system that intakes the scoring pieces broke mid-competition. The team persisted by working together to sort out the kinks in their machine and never gave up on all their hard work\u2013a true testament to their resilience and determination. Lily Reid \u201826 competed with the robotics team at the UNH competition. \u201cWe worked really well together, couldn\u2019t have asked for better,\u201d she says."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "By the third and final day, the Big Red robotics team reached smooth sailing. In the morning, they competed in more qualifying rounds until the afternoon, when they were selected to compete in the finals and picked to be in the top alliance (there are three teams in an alliance)."
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": "\u201cEveryone there was willing to help or lend you something,\u201d says Reid. \u201cNo matter if you are on the same team or not, it\u2019s a great environment for everyone.\u201d The team connected and worked with other schools to help them achieve victory. In the final round, the team worked as a defense against other teams to ensure that other robots were slowed down in achieving necessary score pieces. The team crushed their other opponents, even those which they previously lost to, and ultimately earned a second-place finish."
+                    }
+                ],
+                "image": {
+                    "source": "/images/nvXjdwKBZeTiSju.jpg",
+                    "caption": "Photo courtesy of Ella Kim",
+                    "show": true,
+                    "position": "top"
+                }
+            }
+        ],
         "voices": [],
         "people": [],
         "guides": [],
