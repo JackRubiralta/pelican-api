@@ -1449,7 +1449,7 @@
                     }
                 ],
                 "image": {
-                    "source": "https://raw.githubusercontent.com/JackRubiralta/pelican-api/master/data/articles/images/dsKgzaRZetkNiPo.jpg",
+                    "source": "dsKgzaRZetkNiPo.jpg",
                     "caption": "Photo courtesy of the SPS Directory",
                     "show": true,
                     "position": "side"
