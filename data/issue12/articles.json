@@ -369,7 +369,50 @@
         }
     ],
     "clubs": [],
-    "teams": [],
+    "teams": [
+        {
+            "id": "XfDlKzIgeY",
+            "title": {
+                "text": "Season in Review: Girls Varsity Basketball",
+                "size": "big"
+            },
+            "summary": {
+                "content": "",
+                "show": false
+            },
+            "author": "Hunter Morton",
+            "date": "2024-04-24",
+            "length": 2,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "This season for the Girls Varsity Basketball Team was tough record-wise, but the players showed courage and fought till the end. The team finished with a 6-12 record, but these numbers do not truly illustrate the teams spirit and chemistry. Girls Varsity Basketball beat rival teams such as Deerfield, Thayer Academy, and Cushing Academy, all Class A wins, which significantly impacted the team's season."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "At the end of the season, the girls hosted the Eight Schools Tournament. They played five games and beat Cushing and Deerfield while battling hard but losing games to Exeter, Andover, and KUA. I think being on a small team helped us bond together, says Carly Bigelow 25. Whether it was on a small sprinter or on a coach bus, our bond definitely showed since the bus was never quiet. The team was upbeat and positive, and every time the girls hit the court many fans were supporting them."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Senior night was my favorite part says Bigelow, since it helped us close out the season and realize how appreciative we are of everyone on the entire team. The Girls Varsity Team will not be the same next year without their seniors, especially star player and captain Ellie Pingree 24. Pingree and the rest of the seniors kept the energy alive on the buses and on the court."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Pingree led with passion for the game and was a role model to many of the younger players. She even scored her 1,000th SPS career point during the 2023-24 season. This outstanding achievement will never be forgotten. Next year, Pingree will be playing basketball at American University."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Overall, the Girls Varsity Basketball had a season full of fun and energy and they cant wait to get back on the court."
+                }
+            ],
+            "image": {
+                "source": "nLNmqXHYjIxmivq.jpg",
+                "caption": "Photographed Declan Schweizer",
+                "show": true,
+                "position": "bottom"
+            }
+        }
+    ],
     "activities": [],
     "archives": [
         {
