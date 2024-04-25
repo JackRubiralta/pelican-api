@@ -321,7 +321,46 @@
             }
         }
     ],
-    "clubs": [],
+    "clubs": [
+        {
+            "id": "seUIjdrQKJ",
+            "title": {
+                "text": "Upcoming Club Cup Events",
+                "size": "big"
+            },
+            "summary": {
+                "content": "",
+                "show": false
+            },
+            "author": "Carly Bigelow",
+            "date": "2024-04-24",
+            "length": 2,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "The St. Pauls student club system has been a school tradition since the 1880s. Originally a platform for students to compete with one another in athletic competitions, clubs soon evolved into a range of engaging community activities that strengthen core school values, particularly school spirit. Upon enrollment, each student is assigned a clubDelphian, Isthmian, or Old Hundredand has the opportunity to represent their club in competition for the Form of 2011 Club Cup."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "The Harry Potter-esque student tradition follows a particular points system where students have various opportunities to earn those points throughout the school year. If you consider yourself an athlete, you may want to grab a couple of friends and start putting together your Wiffle Ball team roster, as the Wiffle Ball tournament was a huge hit in spring 2022. If you do not wish to run bases to show your school spirit, you may be a good candidate for the annual gingerbread house competition during Winterim. Whether you are an active member of your club or cannot name what club you are in off the top of your head (you find it on Core), spring is the perfect time to either start or continue your journey toward victory for your club."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "As the warmer weather kicks in, our school spirit will continue to thrive as the sports season kicks off and new academic opportunities arise. But what better way than competing in the Club Cup to show your school spirit? St. Paul Schools very own Official Scorekeeper Keeper of Scores Brewster Smyers 24 says that club organizers plan to ramp up the events this term with opportunities across the board for flag football, Wiffle Ball, and Spikeball tournaments, paired with a potential geography bee or spelling bee if that is more your speed."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "In the past few years, Delphian and Isthmian have been the neck-and-neck frontrunners, with Old Hundred trailing closely behind. Delphian is in the lead as of now, but Smyers has not disclosed the exact standings of the competition yet. Whether you are in Delphian, Isthmian, or Old Hundred, you have the opportunity to support your club and be a key contributor to the century-and-a-half-old tradition."
+                }
+            ],
+            "image": {
+                "source": "sfnyOhldTVSJohg.jpg",
+                "caption": "Graphic by Cole Hamilton",
+                "show": false,
+                "position": "top"
+            }
+        }
+    ],
     "teams": [
         {
             "id": "GPmjeFQXcR",
