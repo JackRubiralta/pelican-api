@@ -148,9 +148,7 @@
         }
     ],
     "opinion": [],
-    "spotlight": [
-        
-    ],
+    "spotlight": [],
     "voices": [],
     "people": [
         {
@@ -453,6 +451,60 @@
                 "caption": "Photographed by Hal Johnson",
                 "show": false,
                 "position": "top"
+            }
+        },
+        {
+            "id": "bIbhasjOMk",
+            "title": {
+                "text": "Boys Varsity Baseball and the Season Ahead",
+                "size": "medium"
+            },
+            "summary": {
+                "content": "",
+                "show": false
+            },
+            "author": "Theo Christoffersen",
+            "date": "2024-04-24",
+            "length": 2,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "The Boys Varsity Baseball team is coming into the 2023-24 season strong, with a good showing at their preseason and early scrimmages. After coming off of a great season last year and winning the Lakes Region Championship, the team looked ahead to fill some of the gaps their seniors left behind."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "We lost a few key seniors after last year, but brought in some equally talented new guys. Right now, everyones starting to fall into their roles, and were just figuring out how best to translate the individual talent we have into team success, says Henry Wilson 26. With the guidance of captains Will Ekstrand 24, Daniel Sullivan 24 and Connor Pollard 24, the team has fostered a close-knit bond and look to build on the success of last year."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "The team started with preseason in Florida during the last week of March break. Preseason was a great experience, says Wilson. It was awesome to challenge ourselves against some really tough teams and get some good practice in before we move into our league games. Its always nice to start the season with some nice weather, too."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Theo Schneible 26 agrees. We played 4 games in Florida during spring training against some very good competition, he says."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Besides baseball, players say they also found their team identity at preseason. The team has discovered a shared love for Chick-fil-A Sauce, says Wilson, and youd be hard-pressed to find another team on campus as united around a singular cause."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "The team has high goals for the season. Honestly, I think were just trying to pick up where we left off last year, says Wilson. We lost a few great players, but I think we have the skills and talent to fill those gaps and keep it going. The Lakes Region competition can be a bit unpredictable from season to season, but were hoping to play as well as we know we can and bring another championship home."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Schneible articulated a similar thought. The goals for the season are to do the same thing as last year, he says. Go undefeated and win the Lakes Region tournament. We have a great group of guys with extreme amounts of talent, and Im excited to be a part of this team."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "As the weather warms up, support the team as they work their way through the regular seasons and hopefully towards another Lakes Region Tournament win."
+                }
+            ],
+            "image": {
+                "source": "",
+                "caption": "",
+                "show": false,
+                "position": ""
             }
         }
     ],
