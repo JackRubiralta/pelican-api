@@ -579,5 +579,65 @@
     "theater": [],
     "arts": [],
     "misc": [],
-    "letters": []
+    "letters": [
+        {
+            "id": "GPfkLkJnkO",
+            "title": {
+                "text": "Letter from the Editors: Issue 12",
+                "size": "big"
+            },
+            "summary": {
+                "content": "",
+                "show": false
+            },
+            "author": "Editors-In-Chief",
+            "date": "2024-04-24",
+            "length": 2,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "Dear reader,"
+                },
+                {
+                    "type": "paragraph",
+                    "text": "April is definitely fooling us. We came back ready for our Spring Term, and the next thing we knew, it was snowing. Regardless, we persevere onwards, hoping to get a glimpse of our favorite season when school no longer feels like a crushing weight and we can study outside on Chapel Lawn. But snow is not the only thing that has made this April crazy In fact, it feels like we havent even had a whole week of school yet. In between revisits, the solar eclipse, and college visits, April has been hectic. While the snow is melting and we wait for the tree outside Schoolhouse (fondly named Hum Tree) to grow its blooming flowers, we have an essential message for you all."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "As we write this, stuck in traffic on the bus ride back from Johnson, VT, it only serves as a reminder that our days at school together with this group of people are numbered. Maybe we are getting a bit too emotional, or maybe its just the stench from the bus bathroom getting to our heads, but being stuck on this bus for eight hours has truly been a bonding experience. With no cell service and ample time, we were forced to meet people outside of our close circles. Lesson here: traffic is a blessing and a curse because Ford and Nash now share a special connection from the experience. There are members of Nash who we will now see on the paths and recognize."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "More importantly, we shouldn't have to be stuck in traffic to spend time with people we may not normally see daily. Let's not wait for such moments to appreciate the people around us. We hope that our experience in the Concord Coach will inspire all of you, regardless of your grade, to make the most of this group of people while you are still here with them. Even though the senior class is the only group graduating, the community will be drastically different next year."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "The senior class keeps getting asked what their legacy is and how they want to leave it this spring term. But the answer is simpler than many of you may think: talk with students outside of your close circle. We all have something in common: we are all here in this place at the same time. Take that as you will, but we all have the opportunity to meet and learn from each other because this place brought us together."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Xoxo,"
+                },
+                {
+                    "type": "paragraph",
+                    "text": "The EICs"
+                },
+                {
+                    "type": "image",
+                    "source": "zGYQiphhMZhlElM.jpg",
+                    "caption": "Graphic by Julia Koeman",
+                    "image_info": [
+                        "d.jpg",
+                        "zGYQiphhMZhlElM.jpg"
+                    ]
+                }
+            ],
+            "image": {
+                "source": "",
+                "caption": "",
+                "show": false,
+                "position": ""
+            }
+        }
+    ]
 }
