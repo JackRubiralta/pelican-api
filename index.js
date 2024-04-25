@@ -57,23 +57,23 @@ app.get("/api/images/:imageName", async (req, res) => {
   const { imageName } = req.params;
   const widthStr = req.query.width;
   let width = parseInt(widthStr, 10);
-  width = isNaN(width) ? 500 : width;
+  width = isNaN(width) ? 500 : width; // Default width to 500 if not specified or invalid
 
-  const issueDirectory = `issue${CURRENT_ISSUE_NUMBER}`;
-  const imagePath = path.join(__dirname, "data", issueDirectory, "images", imageName);
+  const imagePath = path.join(__dirname, "data", "images", imageName); // Updated path
 
   try {
     if (fs.existsSync(imagePath)) {
-      res.type(`image/${path.extname(imageName).slice(1)}`);
-      sharp(imagePath).resize(width).pipe(res);
+      res.type(`image/${path.extname(imageName).slice(1)}`); // Set the content type based on file extension
+      sharp(imagePath).resize(width).pipe(res); // Resize image using Sharp and stream to response
     } else {
-      res.status(404).send("Image not found");
+      res.status(404).send("Image not found"); // Image not found
     }
   } catch (error) {
     console.log(error);
-    res.status(500).send("Server error");
+    res.status(500).send("Server error"); // Handle server errors
   }
 });
+
 
 app.get("/api/current_issue_number", (req, res) => {
   res.json({ currentIssueNumber: CURRENT_ISSUE_NUMBER });
