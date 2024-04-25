@@ -148,7 +148,59 @@
         }
     ],
     "opinion": [],
-    "events": [],
+    "events": [
+        {
+            "id": "RAhHNjWfLU",
+            "title": {
+                "text": "House Access Policy Changes",
+                "size": "big"
+            },
+            "summary": {
+                "content": "",
+                "show": false
+            },
+            "author": "Rhys Rountree",
+            "date": "2024-04-24",
+            "length": 2,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "With the latter half of the Fall Term came the realization by SPS students that all but one of the doors in each residential house lock after 7 pm. While this safety policy has slipped into the back of some students minds as they have adjusted, it remains a hot topic among others. As Winter Term beginsbringing with it colder, wintry weathersome students have expressed mounting frustrations with single-door access to their houses."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "According to Head of Armour House Lucinda Muther, the single-door policy has upsides and downsides. On one hand, Muther says she appreciates that the policy makes it impossible for students to enter the dorm in the evening without the adviser on duty seeing them. Throughout the evening I want advisers to be able to greet residents as they return at the end of their day, she says. By limiting access to the house, residents are more likely to connect with the adviser on duty and share some conversation, grab a snack, and say hi to others in the common room. We focus on community building, and this is one way we can care for each other. On the other hand, Muther acknowledges that the unlocked door for students in Armour is probably one of the most inconvenient doors on the planet. As the weather gets colder, she worries that Armour residents may slip on the icy pathway that leads to the accessible door."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Some students living in Kehaya say they have resorted to bushwhacking to their available door when returning from a late practice or game, as there is no path around the back of the dorm. Since their pleas to be let in the back door are often left unanswered on the dorm group chat, Kehaya residents may soon have to climb over snow banks to reach the front door. Kehaya resident Aedyn Kurd 27 argues that the lack of access to the back doorwhich roughly faces in the direction of the AFCis inconvenient and unnecessary. Since both the front and rear doors open into the common room in Kehaya, she believes that the policy is counterintuitive."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Head of Kehaya House Jessica Pine says she can more confidently account for her students thanks to the single-door policy. Pine dislikes what she calls super-secret exits in the dorm and believes the single-door policy maintains students safety. But while Pine says she favors limited-door access from a safety perspective, she is not opposed to unlocking a second door, given Kehayas centralized layout."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "The single-door policy has inconvenienced some students throughout the Fall Term, and some believe the policy may have a more significant impact as temperatures drop. Changing weather has led some students to hope that a policy change in the upcoming term is both compelling and possible."
+                },
+                {
+                    "type": "image",
+                    "source": "bjsNYwOAKZDiftA.jpg",
+                    "caption": "Graphic by Kennedy Hinojosa",
+                    "image_info": [
+                        "3.jpg",
+                        "bjsNYwOAKZDiftA.jpg"
+                    ]
+                }
+            ],
+            "image": {
+                "source": "",
+                "caption": "",
+                "show": false,
+                "position": ""
+            }
+        }
+    ],
     "spotlight": [],
     "voices": [],
     "people": [
