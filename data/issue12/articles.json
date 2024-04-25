@@ -103,6 +103,48 @@
                 "show": false,
                 "position": "top"
             }
+        },
+        {
+            "id": "VrhkjZKzJD",
+            "title": {
+                "text": "Leadership Season at SPS",
+                "size": "medium"
+            },
+            "summary": {
+                "content": "",
+                "show": false
+            },
+            "author": "Parker Hanson",
+            "date": "2024-04-24",
+            "length": 2,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "Every year during the last week of spring break, students frantically check their emails, awaiting the arrival of the leadership application in their inbox. While the leadership application is long and daunting, it is a way for students to reflect on the type of leaders we are and the potential leadership roles we see ourselves succeeding in."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Why do we all need to fill out this long application anyway? It may seem tedious, but leadership selection has a huge impact on the SPS community. One of the attributes that makes St. Pauls unique is that we are fully residential. As a result, student leaders are present in all aspects of our lives. Student leaders help make everyone feel valued and included in the classroom, on the field, and in the dorm."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "The application consists of multiple parts. The general application houses the bulk of the application. This is where you will find all the typical leadership questions ranging from what you think a student leader looks like at SPS to what leadership style suits you best. Once this is completed, you can choose from a long list of leadership roles and fill out their respective applications. There is no limit to how many leadership positions you can apply for."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "It is also important to note that there are numerous leadership roles that conflict with others. For example, if you get selected to be on the student council, you will not be considered for prefect. As a result, ranking your choices is crucial to ensure you have the best shot of receiving the leadership role you want most."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "The Sunday before leadership applications are due is a busy day for many students. But, after a late Sunday night, you turn in your application and relax. The hard part is over. Now you only need to wait and see."
+                }
+            ],
+            "image": {
+                "source": "",
+                "caption": "",
+                "show": false,
+                "position": ""
+            }
         }
     ],
     "opinion": [],
