@@ -3,11 +3,14 @@ const fs = require("fs");
 const path = require("path");
 const cors = require("cors");
 const morgan = require("morgan");
-const sharp = require("sharp"); //
+const sharp = require("sharp");
 const app = express();
 const PORT = process.env.PORT || 3001;
+
 // Enable CORS for all routes
 app.use(cors());
+app.use(express.json());
+app.use(morgan("combined"));
 
 function loadCurrentIssueNumber() {
   try {
@@ -15,11 +18,10 @@ function loadCurrentIssueNumber() {
     return parseInt(fs.readFileSync(filePath, "utf8").trim(), 10);
   } catch (error) {
     console.error("Error reading current issue number from file:", error);
-    return 10; // Default to 10 or another sensible default if the file is not readable
+    return 10; // Default to 10 if the file is not readable
   }
 }
 
-// Set the CURRENT_ISSUE_NUMBER from the file
 const CURRENT_ISSUE_NUMBER = loadCurrentIssueNumber();
 
 function weightedRandomIndex(weights, totalWeight) {
@@ -30,34 +32,24 @@ function weightedRandomIndex(weights, totalWeight) {
       return i;
     }
   }
-  return -1; // Should not be reached if weights and totalWeight are calculated correctly
+  return -1; // Should not be reached if weights are correct
 }
+
 function shuffleWithRecencyPreference(articles) {
-  // Clone the articles array to avoid mutating the original data
   let articlesCopy = [...articles];
-
-  // Sort articles by date to ensure recency
   articlesCopy.sort((a, b) => new Date(b.date) - new Date(a.date));
-
   let shuffledArticles = [];
   while (articlesCopy.length) {
-    // Calculate weights, giving higher weight to more recent articles
     let totalWeight = 0;
     const weights = articlesCopy.map((_, index) => {
-      const weight = Math.pow(
-        (articlesCopy.length - index) / articlesCopy.length,
-        2
-      );
+      const weight = Math.pow((articlesCopy.length - index) / articlesCopy.length, 2);
       totalWeight += weight;
       return weight;
     });
-
-    // Select an article based on weights
     let randomIndex = weightedRandomIndex(weights, totalWeight);
     shuffledArticles.push(articlesCopy[randomIndex]);
     articlesCopy.splice(randomIndex, 1);
   }
-
   return shuffledArticles;
 }
 
@@ -65,19 +57,16 @@ app.get("/api/images/:imageName", async (req, res) => {
   const { imageName } = req.params;
   const widthStr = req.query.width;
   let width = parseInt(widthStr, 10);
-  if (!width || isNaN(width)) {
-    width = 500; // Default width
-  }
+  width = isNaN(width) ? 500 : width;
 
-  const imagePath = path.join(__dirname, "data/articles/images", imageName);
+  const issueDirectory = `issue${CURRENT_ISSUE_NUMBER}`;
+  const imagePath = path.join(__dirname, "data", issueDirectory, "images", imageName);
 
   try {
     if (fs.existsSync(imagePath)) {
-      // Resize image using sharp with either requested or default width
       res.type(`image/${path.extname(imageName).slice(1)}`);
       sharp(imagePath).resize(width).pipe(res);
     } else {
-      // If the image does not exist
       res.status(404).send("Image not found");
     }
   } catch (error) {
@@ -85,30 +74,19 @@ app.get("/api/images/:imageName", async (req, res) => {
     res.status(500).send("Server error");
   }
 });
-// Use morgan for logging
-app.use(morgan("combined"));
 
-app.use(express.json());
-
-// Add this block to your existing code
 app.get("/api/current_issue_number", (req, res) => {
   res.json({ currentIssueNumber: CURRENT_ISSUE_NUMBER });
 });
-// API endpoint to get the data for "issue_10" from issues.json
+
 app.get("/api/current_issue", (req, res) => {
-  const issuesPath = path.join(__dirname, "data/articles/issues.json");
+  const issueDirectory = `issue${CURRENT_ISSUE_NUMBER}`;
+  const issuesPath = path.join(__dirname, "data", issueDirectory, "articles.json");
 
   try {
     if (fs.existsSync(issuesPath)) {
-      const issuesData = JSON.parse(fs.readFileSync(issuesPath, "utf8"));
-      const currentIssueKey = `issue${CURRENT_ISSUE_NUMBER}`;
-      const currentIssueData = issuesData[currentIssueKey];
-
-      if (currentIssueData) {
-        res.json(currentIssueData);
-      } else {
-        res.status(404).send("Current issue not found");
-      }
+      const currentIssueData = JSON.parse(fs.readFileSync(issuesPath, "utf8"));
+      res.json(currentIssueData);
     } else {
       res.status(404).send("Issues file not found");
     }
@@ -117,133 +95,37 @@ app.get("/api/current_issue", (req, res) => {
     res.status(500).send("Server error");
   }
 });
+
 app.get("/api/current_connections", (req, res) => {
-  // Define the path to the connections JSON file
-  const connectionsPath = path.join(
-    __dirname,
-    "data/connections/connections.json"
-  );
+  const issueDirectory = `issue${CURRENT_ISSUE_NUMBER}`;
+  const connectionsPath = path.join(__dirname, "data", issueDirectory, "connections.json");
 
   try {
-    // Check if the connections file exists
     if (fs.existsSync(connectionsPath)) {
-      // Read the content of the connections JSON file
-      const connectionsData = JSON.parse(
-        fs.readFileSync(connectionsPath, "utf8")
-      );
-
-      // Use the current issue number to access the relevant connections
-      const currentConnectionsKey = `issue${CURRENT_ISSUE_NUMBER}`;
-
-      // Check if the current issue's connections exist
-      if (connectionsData[currentConnectionsKey]) {
-        // Send the current connections data as JSON
-        res.json(connectionsData[currentConnectionsKey]);
-      } else {
-        // If the current issue's connections are not found, send a 404 response
-        res.status(404).send("Current connections not found");
-      }
+      const connectionsData = JSON.parse(fs.readFileSync(connectionsPath, "utf8"));
+      res.json(connectionsData);
     } else {
-      // If the connections file does not exist, send a 404 response
       res.status(404).send("Connections file not found");
     }
   } catch (error) {
     console.error(error);
-    // In case of any server error, send a 500 response
     res.status(500).send("Server error");
   }
 });
 
 app.get("/api/current_crossword", (req, res) => {
-  // Define the path to the crosswords JSON file
-  const crosswordsPath = path.join(
-    __dirname,
-    "data/crosswords/crosswords.json"
-  );
+  const issueDirectory = `issue${CURRENT_ISSUE_NUMBER}`;
+  const crosswordsPath = path.join(__dirname, "data", issueDirectory, "crossword.json");
 
   try {
-    // Check if the crosswords file exists
     if (fs.existsSync(crosswordsPath)) {
-      // Read the content of the crosswords JSON file
-      const crosswordsData = JSON.parse(
-        fs.readFileSync(crosswordsPath, "utf8")
-      );
-
-      // Use the current issue number to access the relevant crossword
-      const currentCrosswordKey = `issue${CURRENT_ISSUE_NUMBER}`;
-
-      // Check if the current issue's crossword exists
-      if (crosswordsData[currentCrosswordKey]) {
-        // Send the current crossword data as JSON
-        res.json(crosswordsData[currentCrosswordKey]);
-      } else {
-        // If the current issue's crossword is not found, send a 404 response
-        res.status(404).send("Current crossword not found");
-      }
+      const crosswordData = JSON.parse(fs.readFileSync(crosswordsPath, "utf8"));
+      res.json(crosswordData);
     } else {
-      // If the crosswords file does not exist, send a 404 response
       res.status(404).send("Crosswords file not found");
     }
   } catch (error) {
     console.error(error);
-    // In case of any server error, send a 500 response
-    res.status(500).send("Server error");
-  }
-});
-
-app.get("/api/search", async (req, res) => {
-  // Retrieve the search query parameter
-  const { query } = req.query;
-
-  // Check if the query parameter is provided
-  if (!query) {
-    return res.status(400).send("Search query is required");
-  }
-
-  // Define the path to the issues JSON file
-  const issuesPath = path.join(__dirname, "data/articles/issues.json");
-
-  try {
-    if (fs.existsSync(issuesPath)) {
-      // Read the content of the issues JSON file
-      const issuesData = JSON.parse(fs.readFileSync(issuesPath, "utf8"));
-      let allArticles = [];
-
-      // Iterate through each issue
-      for (const issueKey in issuesData) {
-        // Iterate through each section within the issue
-        for (const sectionKey in issuesData[issueKey]) {
-          const articles = issuesData[issueKey][sectionKey]; // Assuming each section is an array of articles
-          allArticles.push(...articles);
-        }
-      }
-
-      // Log to see if allArticles is populated correctly
-      console.log("allArticles Length:", allArticles.length);
-
-      // Filter articles by checking if the title, summary, or author contains the search query
-      const filteredArticles = allArticles.filter((article) => {
-        const titleText = article.title?.text?.toLowerCase() || ""; // Safely access title.text
-        const summaryContent = article.summary?.content?.toLowerCase() || "";
-        const authorName = article.author?.toLowerCase() || ""; // Safely access the author's name
-        const queryLower = query.toLowerCase();
-
-        return (
-          titleText.includes(queryLower) ||
-          summaryContent.includes(queryLower) ||
-          authorName.includes(queryLower)
-        );
-      });
-
-      // Return the filtered articles as JSON
-      res.json(filteredArticles);
-    } else {
-      // If the issues file does not exist, send a 404 response
-      res.status(404).send("Issues file not found");
-    }
-  } catch (error) {
-    console.error(error);
-    // In case of any server error, send a 500 response
     res.status(500).send("Server error");
   }
 });
