@@ -130,6 +130,45 @@ app.get("/api/current_crossword", (req, res) => {
   }
 });
 
+
+// Helper function to read all articles from all issues
+async function getAllArticles() {
+  const issuesDir = path.join(__dirname, 'data');
+  const directories = fs.readdirSync(issuesDir).filter(file => fs.statSync(path.join(issuesDir, file)).isDirectory());
+
+  let allArticles = [];
+  directories.forEach(dir => {
+      const articlesPath = path.join(issuesDir, dir, 'articles.json');
+      if (fs.existsSync(articlesPath)) {
+          const data = JSON.parse(fs.readFileSync(articlesPath, 'utf8'));
+          Object.values(data).forEach(section => allArticles = allArticles.concat(section));
+      }
+  });
+  return allArticles;
+}
+
+// Search function to filter articles by search terms
+function searchArticles(articles, terms) {
+  const searchTerm = terms.toLowerCase();
+  return articles.filter(article => {
+      return article.title.text.toLowerCase().includes(searchTerm) ||
+             (article.summary && article.summary.content.toLowerCase().includes(searchTerm)) ||
+             article.author.toLowerCase().includes(searchTerm);
+  });
+}
+
+// API endpoint for searching articles
+app.get('/api/search/:searchTerms', async (req, res) => {
+  try {
+      const allArticles = await getAllArticles();
+      const searchResults = searchArticles(allArticles, req.params.searchTerms);
+      res.json(searchResults);
+  } catch (error) {
+      console.error('Error during search:', error);
+      res.status(500).send('Internal Server Error');
+  }
+});
+
 app.listen(PORT, () => {
-  console.log(`Server running on ${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });
