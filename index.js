@@ -158,10 +158,16 @@ function searchArticles(articles, terms) {
 }
 
 // API endpoint for searching articles
-app.get('/api/search/:searchTerms', async (req, res) => {
+app.get('/api/search', async (req, res) => {
+  const query = req.query.query; // Access the query parameter "query"
+  if (!query) {
+      res.status(400).send('Search query is required');
+      return;
+  }
+
   try {
       const allArticles = await getAllArticles();
-      const searchResults = searchArticles(allArticles, req.params.searchTerms);
+      const searchResults = searchArticles(allArticles, query);
       res.json(searchResults);
   } catch (error) {
       console.error('Error during search:', error);
