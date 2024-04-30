@@ -1,1 +1,18 @@
-{"title":{"text":"title3","size":"medium"},"summary":{"content":"","show":false},"author":"jack","date":"2024-04-30","length":3,"content":[{"type":"image","caption":"frog"}],"image":{"source":"","caption":"","show":true,"position":"bottom"}}
+{
+    "news": [],
+    "opinion": [],
+    "spotlight": [],
+    "events": [],
+    "voices": [],
+    "people": [],
+    "guides": [],
+    "styles": [],
+    "clubs": [],
+    "teams": [],
+    "activities": [],
+    "archives": [],
+    "theater": [],
+    "arts": [],
+    "misc": [],
+    "letters": []
+}
