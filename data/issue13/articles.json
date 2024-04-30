@@ -1,18 +1,1 @@
-{
-    "news": [],
-    "opinion": [],
-    "spotlight": [],
-    "events": [],
-    "voices": [],
-    "people": [],
-    "guides": [],
-    "styles": [],
-    "clubs": [],
-    "teams": [],
-    "activities": [],
-    "archives": [],
-    "theater": [],
-    "arts": [],
-    "misc": [],
-    "letters": []
-}
+{"news":[{"title":{"text":"Title","size":"medium"},"summary":{"content":"summary","show":false},"author":"Jack","date":"2024-04-30","length":3,"content":[{"type":"paragraph","text":"33333"}],"image":{"source":"https://raw.githubusercontent.com/JackRubiralta/pelican-api/master/data/images/1714505209923-Glass_Frog.jpg","caption":"frog","show":true,"position":"bottom"}}],"opinion":[],"spotlight":[],"events":[],"voices":[],"people":[],"guides":[],"styles":[],"clubs":[],"teams":[],"activities":[],"archives":[],"theater":[],"arts":[],"misc":[],"letters":[]}
