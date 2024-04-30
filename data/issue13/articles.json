@@ -1,1 +1,18 @@
-{"title":{"text":"ttt1","size":"medium"},"summary":{"content":"","show":false},"author":"","date":"2024-04-30","length":3,"content":[{"type":"image","caption":"s","file":{}}],"image":{"source":"","caption":"","show":true,"position":"bottom"}}
+{
+    "news": [],
+    "opinion": [],
+    "spotlight": [],
+    "events": [],
+    "voices": [],
+    "people": [],
+    "guides": [],
+    "styles": [],
+    "clubs": [],
+    "teams": [],
+    "activities": [],
+    "archives": [],
+    "theater": [],
+    "arts": [],
+    "misc": [],
+    "letters": []
+}
