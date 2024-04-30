@@ -1,18 +1,1 @@
-{
-    "news": [],
-    "opinion": [],
-    "spotlight": [],
-    "events": [],
-    "voices": [],
-    "people": [],
-    "guides": [],
-    "styles": [],
-    "clubs": [],
-    "teams": [],
-    "activities": [],
-    "archives": [],
-    "theater": [],
-    "arts": [],
-    "misc": [],
-    "letters": []
-}
+{"news":[{"title":{"text":"ttt","size":"medium"},"summary":{"content":"ttt","show":false},"author":"ttt","date":"2024-04-30","length":3,"content":[{"type":"image","source":"","caption":"frog","file":{}}],"image":{"source":"blob:http://localhost:3000/56acbd1b-d964-43fc-a217-8fe87f83aa84","caption":"","show":true,"position":"bottom","file":{}}}],"opinion":[],"spotlight":[],"events":[],"voices":[],"people":[],"guides":[],"styles":[],"clubs":[],"teams":[],"activities":[],"archives":[],"theater":[],"arts":[],"misc":[],"letters":[]}
