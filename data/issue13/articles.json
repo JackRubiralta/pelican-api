@@ -1,1 +1,49 @@
-{"news":[{"title":{"text":"ttt","size":"medium"},"summary":{"content":"","show":false},"author":"jack","date":"2024-04-30","length":3,"content":[{"type":"paragraph","text":"ttt"},{"type":"paragraph","text":"ttt"}],"image":{"source":"","caption":"","show":true,"position":"bottom","file":{}}}],"opinion":[],"spotlight":[],"events":[],"voices":[],"people":[],"guides":[],"styles":[],"clubs":[],"teams":[],"activities":[],"archives":[],"theater":[],"arts":[],"misc":[],"letters":[]}
+{
+    "news": [
+        {
+            "title": {
+                "text": "ttt",
+                "size": "medium"
+            },
+            "summary": {
+                "content": "",
+                "show": false
+            },
+            "author": "jack",
+            "date": "2024-04-30",
+            "length": 3,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "ttt"
+                },
+                {
+                    "type": "paragraph",
+                    "text": "ttt"
+                }
+            ],
+            "image": {
+                "source": "",
+                "caption": "",
+                "show": true,
+                "position": "bottom",
+                "file": {}
+            }
+        }
+    ],
+    "opinion": [],
+    "spotlight": [],
+    "events": [],
+    "voices": [],
+    "people": [],
+    "guides": [],
+    "styles": [],
+    "clubs": [],
+    "teams": [],
+    "activities": [],
+    "archives": [],
+    "theater": [],
+    "arts": [],
+    "misc": [],
+    "letters": []
+}
