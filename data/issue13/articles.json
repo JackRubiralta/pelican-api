@@ -1,18 +1,1 @@
-{
-    "news": [],
-    "opinion": [],
-    "spotlight": [],
-    "events": [],
-    "voices": [],
-    "people": [],
-    "guides": [],
-    "styles": [],
-    "clubs": [],
-    "teams": [],
-    "activities": [],
-    "archives": [],
-    "theater": [],
-    "arts": [],
-    "misc": [],
-    "letters": []
-}
+{"title":{"text":"title1","size":"medium"},"summary":{"content":"","show":false},"author":"jack","date":"2024-04-30","length":3,"content":[{"type":"paragraph","text":"t"}],"image":{"source":"blob:http://localhost:3000/02c42205-5305-4496-a489-c436efeae000","caption":"t","show":true,"position":"bottom","file":{}}}
