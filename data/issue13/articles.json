@@ -1,18 +1,1 @@
-{
-    "news": [],
-    "opinion": [],
-    "spotlight": [],
-    "events": [],
-    "voices": [],
-    "people": [],
-    "guides": [],
-    "styles": [],
-    "clubs": [],
-    "teams": [],
-    "activities": [],
-    "archives": [],
-    "theater": [],
-    "arts": [],
-    "misc": [],
-    "letters": []
-}
+{"title":{"text":"titt","size":"medium"},"summary":{"content":"","show":false},"author":"","date":"2024-04-30","length":3,"content":[{"type":"image","source":"https://raw.githubusercontent.com/JackRubiralta/pelican-api/master/data/images/1714503712943-Glass_Frog.jpg","caption":"frog"}],"image":{"source":"","caption":"","show":true,"position":"bottom"}}
