@@ -1,1 +1,18 @@
-{"news":[{"title":{"text":"Test title 1","size":"medium"},"summary":{"content":"Summary for first test article","show":false},"author":"Jack Rubiralta","date":"2024-04-30","length":3,"content":[{"type":"image","source":"1714507363468-Glass_Frog.jpg","caption":"Frog test as image"},{"type":"paragraph","text":"Test 1 "},{"type":"paragraph","text":"\"test 2\" test"},{"type":"list","items":["1","2","3","4","5","test"]}],"image":{"source":"1714507363964-54421_240430074218_1451060.png","caption":"Just a pachage picture","show":true,"position":"bottom"}},{"title":{"text":"Test title 3","size":"medium"},"summary":{"content":"Summary for first test article","show":false},"author":"Jack Rubiralta","date":"2024-04-30","length":3,"content":[{"type":"image","source":"1714507406736-Glass_Frog.jpg","caption":"Frog test as image"},{"type":"paragraph","text":"Test 1 "},{"type":"paragraph","text":"\"test 2\" test"},{"type":"list","items":["1","2","3","4","5","test"]}],"image":{"source":"1714507407292-54421_240430074218_1451060.png","caption":"Just a pachage picture","show":true,"position":"bottom"}}],"opinion":[],"spotlight":[],"events":[],"voices":[],"people":[],"guides":[],"styles":[],"clubs":[],"teams":[],"activities":[],"archives":[],"theater":[],"arts":[],"misc":[],"letters":[]}
+{
+    "news": [],
+    "opinion": [],
+    "spotlight": [],
+    "events": [],
+    "voices": [],
+    "people": [],
+    "guides": [],
+    "styles": [],
+    "clubs": [],
+    "teams": [],
+    "activities": [],
+    "archives": [],
+    "theater": [],
+    "arts": [],
+    "misc": [],
+    "letters": []
+}
