@@ -1,7 +1,26 @@
 {
-    "1": [],
-    "2": [],
-    "3": [],
-    "4": []
-
+    "Car Brands": [
+        "Toyota",
+        "Honda",
+        "Ford",
+        "Chevrolet"
+    ],
+    "Fruits": [
+        "Tomato",
+        "Banana",
+        "Orange",
+        "Grape"
+    ],
+    "European Capitals": [
+        "Paris",
+        "Berlin",
+        "Rome",
+        "Madrid"
+    ],
+    "Tech Giants": [
+        "Google",
+        "Netflix",
+        "Facebook",
+        "Amazon"
+    ]
 }
